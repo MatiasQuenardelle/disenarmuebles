@@ -18,7 +18,7 @@ export default function ProductGallery() {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-800">
+      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-cream-dark">
         <Image
           src={images[selected].src}
           alt={images[selected].alt}
@@ -35,7 +35,7 @@ export default function ProductGallery() {
             onClick={() => setSelected(i)}
             className={`relative aspect-square overflow-hidden rounded-lg transition-all ${
               selected === i
-                ? "ring-2 ring-zinc-900 ring-offset-2 dark:ring-white dark:ring-offset-zinc-950"
+                ? "ring-2 ring-brand ring-offset-2 ring-offset-cream"
                 : "opacity-60 hover:opacity-100"
             }`}
           >

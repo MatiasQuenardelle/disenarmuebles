@@ -1,23 +1,28 @@
 import Image from "next/image";
-import ProductGallery from "./components/ProductGallery";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-white dark:bg-zinc-950">
+    <div className="flex min-h-screen flex-col bg-cream">
       {/* Header */}
-      <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-md dark:border-zinc-800 dark:bg-zinc-950/80">
+      <header className="sticky top-0 z-50 border-b border-brand-light/30 bg-cream/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
-            Diseñar Muebles
-          </h1>
-          <nav className="hidden gap-8 text-sm font-medium text-zinc-600 dark:text-zinc-400 md:flex">
-            <a href="#productos" className="hover:text-zinc-900 dark:hover:text-white">
+          <Link href="/" className="flex flex-col">
+            <span className="font-serif text-2xl italic text-brand">
+              Diseñar
+            </span>
+            <span className="-mt-1 text-xl font-bold tracking-widest text-warm-brown">
+              MUEBLES
+            </span>
+          </Link>
+          <nav className="hidden gap-8 text-sm font-medium text-text-muted md:flex">
+            <a href="#productos" className="transition-colors hover:text-brand">
               Productos
             </a>
-            <a href="#nosotros" className="hover:text-zinc-900 dark:hover:text-white">
+            <a href="#nosotros" className="transition-colors hover:text-brand">
               Nosotros
             </a>
-            <a href="#contacto" className="hover:text-zinc-900 dark:hover:text-white">
+            <a href="#contacto" className="transition-colors hover:text-brand">
               Contacto
             </a>
           </nav>
@@ -25,39 +30,38 @@ export default function Home() {
       </header>
 
       {/* Hero */}
-      <section className="relative overflow-hidden px-6 py-20 sm:py-28">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-12 lg:flex-row lg:gap-16">
+      <section className="relative overflow-hidden px-6 py-24 sm:py-32">
+        <div className="mx-auto flex max-w-7xl flex-col items-center gap-12 lg:flex-row lg:gap-20">
           <div className="flex-1 text-center lg:text-left">
-            <p className="mb-4 text-sm font-medium uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
-              Calidad &amp; Diseño Argentino
+            <p className="mb-6 text-sm font-medium uppercase tracking-[0.2em] text-brand">
+              Fábrica de Muebles
             </p>
-            <h2 className="max-w-2xl text-4xl font-bold leading-tight tracking-tight text-zinc-900 dark:text-white sm:text-5xl lg:text-6xl">
-              Base Box Funcional Génesis
+            <h2 className="max-w-xl text-4xl font-bold leading-tight text-warm-brown sm:text-5xl lg:text-6xl">
+              Muebles con diseño y calidad argentina
             </h2>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-              Dos muebles en uno: base box sommier y cajonera. Diseño minimalista
-              ideal para optimizar el espacio de tu dormitorio con máxima
-              funcionalidad.
+            <p className="mt-6 max-w-lg text-lg leading-relaxed text-text-muted">
+              Fabricamos camas, sommiers y muebles funcionales con los mejores
+              materiales. Diseño pensado para optimizar cada espacio de tu hogar.
             </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
               <a
                 href="#productos"
-                className="rounded-full bg-zinc-900 px-8 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
+                className="rounded-full bg-brand px-8 py-3.5 text-center text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Ver Detalles
+                Ver Productos
               </a>
               <a
                 href="#contacto"
-                className="rounded-full border border-zinc-300 px-8 py-3 text-center text-sm font-semibold text-zinc-900 transition-colors hover:bg-zinc-100 dark:border-zinc-700 dark:text-white dark:hover:bg-zinc-800"
+                className="rounded-full border border-brand/40 px-8 py-3.5 text-center text-sm font-semibold text-warm-brown transition-colors hover:border-brand hover:bg-brand/5"
               >
-                Consultanos
+                Contactanos
               </a>
             </div>
           </div>
-          <div className="relative aspect-[4/3] w-full max-w-lg flex-1 overflow-hidden rounded-2xl shadow-2xl lg:max-w-none">
+          <div className="relative aspect-[4/3] w-full max-w-lg flex-1 overflow-hidden rounded-3xl shadow-xl lg:max-w-none">
             <Image
               src="/products/genesis/hero.jpeg"
-              alt="Base Box Funcional Génesis con colchón y decoración"
+              alt="Muebles Diseñar - Showroom"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -67,212 +71,160 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Product Detail */}
-      <section
-        id="productos"
-        className="border-t border-zinc-200 bg-zinc-50 px-6 py-20 dark:border-zinc-800 dark:bg-zinc-900"
-      >
+      {/* Value Props */}
+      <section className="border-y border-brand-light/30 bg-cream-dark px-6 py-16">
+        <div className="mx-auto grid max-w-7xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { title: "Fabricación Propia", desc: "Producción nacional con control de calidad en cada paso." },
+            { title: "Materiales Premium", desc: "MDF de alta densidad, herrajes metálicos y canto ABS." },
+            { title: "Entrega Armado", desc: "Se entregan armados, sin necesidad de instalación." },
+            { title: "12 Meses Garantía", desc: "Respaldo total con garantía de 12 meses en todos los productos." },
+          ].map((item) => (
+            <div key={item.title} className="text-center">
+              <h4 className="mb-2 text-lg font-semibold text-warm-brown">
+                {item.title}
+              </h4>
+              <p className="text-sm leading-relaxed text-text-muted">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Featured Product */}
+      <section id="productos" className="px-6 py-24">
         <div className="mx-auto max-w-7xl">
-          <h3 className="mb-4 text-center text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">
+          <p className="mb-4 text-center text-sm font-medium uppercase tracking-[0.2em] text-brand">
+            Producto Destacado
+          </p>
+          <h3 className="mb-16 text-center text-3xl font-bold text-warm-brown sm:text-4xl">
             Base Box Funcional Génesis
           </h3>
-          <p className="mx-auto mb-16 max-w-2xl text-center text-zinc-600 dark:text-zinc-400">
-            Optimizá tu espacio con un diseño inteligente que combina descanso y almacenamiento en un solo mueble.
-          </p>
 
           <div className="grid gap-12 lg:grid-cols-2">
-            {/* Image Gallery */}
-            <ProductGallery />
-
-            {/* Product Info */}
+            <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-lg">
+              <Image
+                src="/products/genesis/cajones-abiertos.jpeg"
+                alt="Base Box Funcional Génesis - Vista con cajones abiertos"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
             <div className="flex flex-col justify-center">
-              <div className="mb-8">
-                <h4 className="mb-4 text-2xl font-bold text-zinc-900 dark:text-white">
-                  Almacenamiento Inteligente
-                </h4>
-                <ul className="space-y-3 text-zinc-600 dark:text-zinc-400">
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                    2 cajones clásicos
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                    2 cajones internos
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                    2 cajones amplios
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                    Zapatero doble
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                    Baulera central sin fondo
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                    <span>
-                      Opcional: se puede agregar fondo de baulera
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <a
-                href="#contacto"
-                className="inline-flex w-fit rounded-full bg-zinc-900 px-8 py-3 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
+              <h4 className="mb-4 text-2xl font-bold text-warm-brown">
+                Dos muebles en uno
+              </h4>
+              <p className="mb-6 text-text-muted leading-relaxed">
+                Diseño minimalista que combina base box sommier y cajonera.
+                Ideal para optimizar el espacio de tu dormitorio con máxima
+                funcionalidad y almacenamiento inteligente.
+              </p>
+              <ul className="mb-8 space-y-3 text-warm-brown-light">
+                <li className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+                  6 cajones de distintos tamaños
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+                  Zapatero doble
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+                  Baulera central con pistón neumático
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="h-1.5 w-1.5 rounded-full bg-brand" />
+                  Soporta hasta 600 kg
+                </li>
+              </ul>
+              <Link
+                href="/productos/base-box-genesis"
+                className="inline-flex w-fit rounded-full bg-brand px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Consultar Precio
-              </a>
+                Ver Producto Completo
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Technical Specs */}
-      <section className="px-6 py-20">
-        <div className="mx-auto max-w-7xl">
-          <h3 className="mb-4 text-center text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">
-            Ficha Técnica
-          </h3>
-          <p className="mx-auto mb-16 max-w-2xl text-center text-zinc-600 dark:text-zinc-400">
-            Materiales de primera calidad y construcción robusta para un mueble que dura.
-          </p>
-
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              {
-                title: "MDF 18mm",
-                desc: "Tableros de MDF de alta densidad de 18mm con canto ABS para terminación premium.",
-              },
-              {
-                title: "Guías Telescópicas",
-                desc: "Guías telescópicas reforzadas para apertura suave y duradera de cajones.",
-              },
-              {
-                title: "Pistón Neumático",
-                desc: "Pistón neumático con suspensión para la apertura asistida de la baulera.",
-              },
-              {
-                title: "Herrajes Metálicos",
-                desc: "Herrajes metálicos de alta resistencia y patitas de 2cm para estabilidad.",
-              },
-            ].map((spec) => (
-              <div
-                key={spec.title}
-                className="rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800"
-              >
-                <h4 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-white">
-                  {spec.title}
-                </h4>
-                <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-                  {spec.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          {/* Highlights */}
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                value: "600 kg",
-                label: "Capacidad de carga",
-              },
-              {
-                value: "12 meses",
-                label: "Garantía",
-              },
-              {
-                value: "3 módulos",
-                label: "Se divide para transporte",
-              },
-            ].map((stat) => (
-              <div
-                key={stat.label}
-                className="rounded-2xl border border-zinc-200 bg-zinc-50 p-8 text-center dark:border-zinc-700 dark:bg-zinc-900"
-              >
-                <p className="text-3xl font-bold text-zinc-900 dark:text-white">
-                  {stat.value}
-                </p>
-                <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          {/* Delivery info */}
-          <div className="mt-12 rounded-2xl border border-zinc-200 bg-white p-8 dark:border-zinc-700 dark:bg-zinc-800">
-            <h4 className="mb-4 text-xl font-bold text-zinc-900 dark:text-white">
-              Entrega y Armado
-            </h4>
-            <div className="grid gap-4 text-sm text-zinc-600 dark:text-zinc-400 sm:grid-cols-3">
-              <div className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                Se entregan armados
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                No requiere instalación
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-zinc-900 dark:bg-white" />
-                Solo se apoyan los módulos entre sí
-              </div>
+      {/* Gallery Row */}
+      <section className="bg-cream-dark px-6 py-16">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 gap-4 lg:grid-cols-4">
+          {[
+            { src: "/products/genesis/estructura-frontal.jpeg", alt: "Estructura frontal" },
+            { src: "/products/genesis/baulera-abierta.jpeg", alt: "Baulera abierta" },
+            { src: "/products/genesis/estructura-completa.jpeg", alt: "Estructura completa" },
+            { src: "/products/genesis/baulera-detalle.jpeg", alt: "Detalle baulera" },
+          ].map((img) => (
+            <div key={img.src} className="relative aspect-square overflow-hidden rounded-2xl">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover transition-transform duration-300 hover:scale-105"
+                sizes="(max-width: 1024px) 50vw, 25vw"
+              />
             </div>
-          </div>
+          ))}
         </div>
       </section>
 
       {/* About */}
-      <section
-        id="nosotros"
-        className="border-t border-zinc-200 bg-zinc-50 px-6 py-20 dark:border-zinc-800 dark:bg-zinc-900"
-      >
+      <section id="nosotros" className="px-6 py-24">
         <div className="mx-auto max-w-3xl text-center">
-          <h3 className="mb-6 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">
-            Sobre Diseñar Muebles
+          <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-brand">
+            Sobre Nosotros
+          </p>
+          <h3 className="mb-6 text-3xl font-bold text-warm-brown sm:text-4xl">
+            Diseñar Muebles
           </h3>
-          <p className="text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-            Somos una marca argentina dedicada a la fabricación y venta de camas
-            y muebles de alta calidad. Con años de experiencia en el rubro,
-            ofrecemos productos que combinan diseño, confort y durabilidad para
-            cada rincón de tu hogar.
+          <p className="text-lg leading-relaxed text-text-muted">
+            Somos una fábrica argentina dedicada a la producción de camas y
+            muebles de alta calidad. Con años de experiencia en el rubro,
+            ofrecemos productos que combinan diseño, confort y durabilidad.
+            Cada mueble es fabricado con materiales premium y pensado para
+            optimizar los espacios de tu hogar.
           </p>
         </div>
       </section>
 
       {/* Contact */}
-      <section id="contacto" className="px-6 py-20">
+      <section
+        id="contacto"
+        className="border-t border-brand-light/30 bg-cream-dark px-6 py-24"
+      >
         <div className="mx-auto max-w-xl text-center">
-          <h3 className="mb-6 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">
+          <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-brand">
+            Escribinos
+          </p>
+          <h3 className="mb-4 text-3xl font-bold text-warm-brown sm:text-4xl">
             Contacto
           </h3>
-          <p className="mb-8 text-zinc-600 dark:text-zinc-400">
-            ¿Tenés alguna consulta sobre la Base Box Génesis? Escribinos y te respondemos a la brevedad.
+          <p className="mb-10 text-text-muted">
+            ¿Tenés alguna consulta? Escribinos y te respondemos a la brevedad.
           </p>
           <form className="flex flex-col gap-4 text-left">
             <input
               type="text"
               placeholder="Nombre"
-              className="rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-white dark:focus:border-zinc-500"
+              className="rounded-xl border border-brand-light/40 bg-cream px-4 py-3.5 text-sm text-warm-brown outline-none transition-colors placeholder:text-text-muted focus:border-brand"
             />
             <input
               type="email"
               placeholder="Email"
-              className="rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-white dark:focus:border-zinc-500"
+              className="rounded-xl border border-brand-light/40 bg-cream px-4 py-3.5 text-sm text-warm-brown outline-none transition-colors placeholder:text-text-muted focus:border-brand"
             />
             <textarea
               placeholder="Mensaje"
               rows={4}
-              className="rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 outline-none focus:border-zinc-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-white dark:focus:border-zinc-500"
+              className="rounded-xl border border-brand-light/40 bg-cream px-4 py-3.5 text-sm text-warm-brown outline-none transition-colors placeholder:text-text-muted focus:border-brand"
             />
             <button
               type="submit"
-              className="rounded-full bg-zinc-900 px-8 py-3 text-sm font-semibold text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
+              className="rounded-full bg-brand px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
             >
               Enviar Mensaje
             </button>
@@ -281,8 +233,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-200 px-6 py-8 dark:border-zinc-800">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-zinc-500 dark:text-zinc-400 sm:flex-row">
+      <footer className="border-t border-brand-light/30 px-6 py-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-text-muted sm:flex-row">
           <p>&copy; {new Date().getFullYear()} Diseñar Muebles. Todos los derechos reservados.</p>
           <p>Buenos Aires, Argentina</p>
         </div>
