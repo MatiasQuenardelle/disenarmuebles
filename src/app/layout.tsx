@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SITE_URL } from "@/data/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,9 +14,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Diseñar Muebles | Camas y Muebles en Argentina",
+  title: {
+    default: "Diseñar Muebles | Camas y Muebles en Argentina",
+    template: "%s | Diseñar Muebles",
+  },
   description:
-    "Diseñar Muebles — Venta de camas, sommiers y muebles de calidad en Argentina.",
+    "Diseñar Muebles — Fábrica de camas, base box y muebles de calidad en Buenos Aires. Fabricación propia, materiales premium, entrega con armado.",
+  metadataBase: new URL(SITE_URL),
+  openGraph: {
+    type: "website",
+    locale: "es_AR",
+    siteName: "Diseñar Muebles",
+    title: "Diseñar Muebles | Camas y Muebles en Argentina",
+    description:
+      "Fábrica de camas, base box y muebles de calidad en Buenos Aires. Fabricación propia, materiales premium, entrega con armado.",
+    images: [{ url: "/products/genesis/hero.jpeg", alt: "Diseñar Muebles" }],
+  },
 };
 
 export default function RootLayout({

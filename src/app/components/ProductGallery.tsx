@@ -2,19 +2,12 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import type { ProductImage } from "@/data/types";
 
-const images = [
-  { src: "/products/genesis/hero.jpeg", alt: "Base Box Génesis - Vista completa con colchón" },
-  { src: "/products/genesis/cajones-abiertos.jpeg", alt: "Base Box Génesis - Cajones y zapatero abiertos" },
-  { src: "/products/genesis/baulera-abierta.jpeg", alt: "Base Box Génesis - Baulera central abierta" },
-  { src: "/products/genesis/baulera-detalle.jpeg", alt: "Base Box Génesis - Detalle del pistón neumático" },
-  { src: "/products/genesis/estructura-frontal.jpeg", alt: "Base Box Génesis - Estructura frontal" },
-  { src: "/products/genesis/estructura-superior.jpeg", alt: "Base Box Génesis - Vista superior" },
-  { src: "/products/genesis/estructura-completa.jpeg", alt: "Base Box Génesis - Estructura completa" },
-];
-
-export default function ProductGallery() {
+export default function ProductGallery({ images }: { images: ProductImage[] }) {
   const [selected, setSelected] = useState(0);
+
+  if (images.length === 0) return null;
 
   return (
     <div className="flex flex-col gap-4">
