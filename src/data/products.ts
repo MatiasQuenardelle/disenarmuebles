@@ -5,35 +5,39 @@ export const products: Product[] = [
   {
     slug: "base-box-genesis",
     name: "Base Box Funcional Génesis",
-    subtitle: "Almacenamiento inteligente para tu dormitorio",
+    subtitle: "Diseño minimalista — Dos muebles en uno",
     category: "base-box",
     isHero: true,
     shortDescription:
-      "Base box con 6 espacios de guardado: cajones clásicos, internos, grandes y zapatero doble.",
+      "Base box sommier y cajonera en uno. 2 cajones clásicos, 2 internos, 2 amplios, zapatero doble y baulera central. Ideal para optimizar espacio.",
     longDescription:
-      "La Base Box Funcional Génesis redefine el almacenamiento en tu dormitorio. Con 6 espacios de guardado distribuidos estratégicamente — 2 cajones clásicos, 2 internos con guías telescópicas, 2 cajones grandes laterales y un zapatero doble — maximiza cada centímetro sin sacrificar estética. Fabricada en MDF de 18mm con herrajes metálicos reforzados, soporta hasta 600kg y se entrega armada en 3 módulos para un ingreso sin complicaciones.",
+      "La Base Box Funcional Génesis es la solución definitiva para optimizar tu dormitorio: dos muebles en uno. Combina la función de sommier y cajonera con un diseño minimalista que maximiza cada centímetro. Incluye 2 cajones clásicos, 2 cajones internos, 2 cajones amplios, un zapatero doble y una baulera central sin fondo (con opción de agregar fondo). Fabricada íntegramente en MDF de 18mm con canto ABS, guías telescópicas reforzadas, pistón neumático con suspensión, herrajes metálicos y patitas de 2cm. Soporta hasta 600kg, se divide en 3 módulos que se entregan armados — no requiere instalación, solo se apoyan los módulos entre sí.",
     features: [
-      "2 cajones clásicos con guías telescópicas",
-      "2 cajones internos de gran profundidad",
-      "2 cajones grandes laterales",
-      "Zapatero doble con acceso frontal",
-      "Baulera central con pistón neumático",
-      "Capacidad total de carga: 600kg",
+      "2 cajones clásicos",
+      "2 cajones internos",
+      "2 cajones amplios",
+      "Zapatero doble",
+      "Baulera central sin fondo (opcional: se puede agregar fondo)",
+      "Soporta 600kg",
+      "Se divide en 3 módulos",
+      "Se entregan armados — no requiere instalación",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
-      { title: "Guías Telescópicas", description: "Apertura total y suave en todos los cajones" },
-      { title: "Pistón Neumático", description: "Apertura asistida de baulera central" },
+      { title: "Canto ABS", description: "Terminación resistente en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en todos los cajones" },
+      { title: "Pistón Neumático", description: "Con suspensión para apertura asistida de baulera" },
       { title: "Herrajes Metálicos", description: "Refuerzos de acero en puntos de estrés" },
+      { title: "Patitas 2cm", description: "Elevación del piso para ventilación y limpieza" },
     ],
     stats: [
       { value: "600kg", label: "Capacidad de carga" },
       { value: "12", label: "Meses de garantía" },
-      { value: "3", label: "Módulos de transporte" },
+      { value: "3", label: "Módulos" },
     ],
     delivery: [
-      { title: "Entrega con Armado", description: "Lo llevamos y armamos en tu hogar" },
-      { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
+      { title: "Se Entregan Armados", description: "Los 3 módulos llegan listos, sin necesidad de armado" },
+      { title: "Sin Instalación", description: "Solo se apoyan los módulos entre sí" },
       { title: "3 Módulos", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
@@ -50,7 +54,7 @@ export const products: Product[] = [
     seo: {
       title: "Base Box Funcional Génesis | Diseñar Muebles",
       description:
-        "Base box con 6 espacios de guardado: cajones, baulera y zapatero. MDF premium, 600kg de capacidad. Entrega con armado en Buenos Aires.",
+        "Base box sommier y cajonera en uno. 2 cajones clásicos, 2 internos, 2 amplios, zapatero doble y baulera. MDF 18mm, 600kg de capacidad, garantía 12 meses.",
     },
   },
   {
@@ -186,6 +190,57 @@ export const products: Product[] = [
     },
   },
 
+  // ─── CÓMODAS ───────────────────────────────────────────────
+  {
+    slug: "comoda-cajonera",
+    name: "Cómoda Cajonera",
+    subtitle: "Diseño minimalista con máximo almacenamiento",
+    category: "comodas",
+    isHero: true,
+    shortDescription:
+      "Cómoda de 6 cajones con guías telescópicas reforzadas. Diseño sin tiradores, líneas puras. Disponible en dos medidas.",
+    longDescription:
+      "La Cómoda Cajonera combina un diseño minimalista sin tiradores con una gran capacidad de almacenamiento. Sus 6 cajones amplios con guías telescópicas reforzadas permiten una apertura total y suave. Fabricada íntegramente en MDF de 18mm con terminación en canto ABS resistente a golpes y humedad. Disponible en dos medidas: 120x36x85cm y 150x36x85cm, y en múltiples tonos de melamina para combinar con tu dormitorio.",
+    features: [
+      "6 cajones amplios sin tiradores",
+      "Guías telescópicas reforzadas",
+      "Diseño minimalista de líneas puras",
+      "Disponible en múltiples colores de melamina",
+      "Dos medidas disponibles",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto ABS", description: "Terminación resistente a golpes y humedad en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en los 6 cajones" },
+    ],
+    stats: [
+      { value: "6", label: "Cajones" },
+      { value: "12", label: "Meses de garantía" },
+      { value: "2", label: "Medidas disponibles" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
+    ],
+    images: [
+      { src: "/products/comoda/IMG_7327.jpeg", alt: "Cómoda Cajonera vista frontal showroom" },
+      { src: "/products/comoda/IMG_7320.jpeg", alt: "Cómoda Cajonera cajones abiertos" },
+      { src: "/products/comoda/IMG_8657.jpeg", alt: "Cómoda Cajonera color oscuro" },
+      { src: "/products/comoda/IMG_8662.jpeg", alt: "Cómoda Cajonera color oscuro lateral" },
+      { src: "/products/comoda/IMG_1376.jpeg", alt: "Cómoda Cajonera color claro fábrica" },
+      { src: "/products/comoda/IMG_8813.jpeg", alt: "Cómoda Cajonera color natural en ambiente" },
+      { src: "/products/comoda/IMG_2542.jpeg", alt: "Cómoda Cajonera color claro showroom" },
+      { src: "/products/comoda/IMG_8386.jpeg", alt: "Cómoda Cajonera publicación Instagram" },
+    ],
+    sizes: ["120 x 36 x 85cm (alto)", "150 x 36 x 85cm (alto)"],
+    relatedSlugs: ["base-box-genesis", "mesa-de-luz-flotante", "respaldo-tapizado-recto"],
+    seo: {
+      title: "Cómoda Cajonera 6 Cajones | Diseñar Muebles",
+      description:
+        "Cómoda cajonera de 6 cajones con guías telescópicas reforzadas. MDF 18mm, canto ABS, diseño minimalista sin tiradores. Dos medidas: 120cm y 150cm.",
+    },
+  },
+
   // ─── RESPALDOS (Complementary products) ─────────────────────
   {
     slug: "respaldo-tapizado-recto",
@@ -272,6 +327,52 @@ export const products: Product[] = [
   },
 
   // ─── MESAS DE LUZ (Complementary products) ─────────────────
+  {
+    slug: "mesita-de-luz-desayunadora",
+    name: "Mesita de Luz Desayunadora",
+    subtitle: "Compacta, funcional y con estilo",
+    category: "mesas-de-luz",
+    isHero: true,
+    shortDescription:
+      "Mesita de luz con 2 cajones y nicho abierto. Guías telescópicas reforzadas, diseño minimalista en MDF de 18mm.",
+    longDescription:
+      "La Mesita de Luz Desayunadora combina almacenamiento y practicidad en un formato compacto. Con 2 cajones con guías telescópicas reforzadas y un nicho abierto para tener a mano lo que más usás. Fabricada en MDF de 18mm con terminación en canto ABS, resistente y duradera. Su diseño minimalista sin tiradores se adapta a cualquier dormitorio. Medidas: 39cm de ancho x 36cm de profundidad x 70cm de alto.",
+    features: [
+      "2 cajones con guías telescópicas reforzadas",
+      "Nicho abierto de acceso rápido",
+      "Diseño minimalista sin tiradores",
+      "Compacta: 39 x 36 x 70cm",
+      "Disponible en múltiples colores de melamina",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto ABS", description: "Terminación resistente en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en ambos cajones" },
+    ],
+    stats: [
+      { value: "39cm", label: "Ancho" },
+      { value: "70cm", label: "Alto" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
+    ],
+    images: [
+      { src: "/products/mesita-desayunadora/IMG_8581.jpeg", alt: "Mesita de Luz Desayunadora en showroom" },
+      { src: "/products/mesita-desayunadora/IMG_8926.jpeg", alt: "Mesita de Luz Desayunadora vista frontal" },
+      { src: "/products/mesita-desayunadora/IMG_8927.jpeg", alt: "Mesita de Luz Desayunadora cajón abierto" },
+      { src: "/products/mesita-desayunadora/IMG_8928.jpeg", alt: "Mesita de Luz Desayunadora detalle cajones" },
+      { src: "/products/mesita-desayunadora/IMG_8582.jpeg", alt: "Mesita de Luz Desayunadora vista lateral" },
+    ],
+    sizes: ["39 x 36 x 70cm (alto)"],
+    relatedSlugs: ["mesa-de-luz-flotante", "mesa-de-luz-suspendida", "base-box-genesis"],
+    seo: {
+      title: "Mesita de Luz Desayunadora | Diseñar Muebles",
+      description:
+        "Mesita de luz con 2 cajones y nicho abierto. MDF 18mm, canto ABS, guías telescópicas reforzadas. 39x36x70cm. Fabricación propia.",
+    },
+  },
   {
     slug: "mesa-de-luz-flotante",
     name: "Mesa de Luz Flotante",

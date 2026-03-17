@@ -13,6 +13,17 @@ export const categories: CategoryMeta[] = [
     },
   },
   {
+    slug: "comodas",
+    name: "Cómodas",
+    description:
+      "Cómodas cajoneras de diseño minimalista. 6 cajones con guías telescópicas, fabricadas en MDF con canto ABS.",
+    seo: {
+      title: "Cómodas Cajoneras | Diseñar Muebles",
+      description:
+        "Cómodas cajoneras de 6 cajones con guías telescópicas reforzadas. MDF de 18mm, canto ABS, diseño minimalista. Fabricación propia.",
+    },
+  },
+  {
     slug: "respaldos",
     name: "Respaldos",
     description:
