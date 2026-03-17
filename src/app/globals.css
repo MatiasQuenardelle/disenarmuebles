@@ -26,10 +26,98 @@
   --color-text-muted: var(--color-text-muted);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-playfair);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fade-in animation for sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out both;
+}
+
+/* Staggered delays */
+.animate-delay-100 { animation-delay: 0.1s; }
+.animate-delay-200 { animation-delay: 0.2s; }
+.animate-delay-300 { animation-delay: 0.3s; }
+.animate-delay-400 { animation-delay: 0.4s; }
+
+/* Subtle gradient overlays */
+.hero-gradient {
+  background: radial-gradient(ellipse 80% 60% at 70% 40%, rgba(184, 149, 106, 0.08), transparent),
+              radial-gradient(ellipse 50% 50% at 10% 90%, rgba(184, 149, 106, 0.05), transparent);
+}
+
+/* Premium card hover */
+.card-premium {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -12px rgba(61, 46, 31, 0.12);
+}
+
+/* Gold shimmer on brand buttons */
+.btn-brand {
+  background: linear-gradient(135deg, var(--color-brand) 0%, var(--color-brand-dark) 100%);
+  transition: all 0.3s ease;
+}
+.btn-brand:hover {
+  background: linear-gradient(135deg, var(--color-brand-dark) 0%, var(--color-brand) 100%);
+  box-shadow: 0 8px 24px -4px rgba(184, 149, 106, 0.4);
+}
+
+/* Thin decorative line */
+.line-accent::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 2px;
+  background: var(--color-brand);
+  margin: 12px auto 0;
+}
+
+/* Review card quote styling */
+.review-quote {
+  position: relative;
+}
+.review-quote::before {
+  content: '\201C';
+  position: absolute;
+  top: -8px;
+  left: -4px;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--color-brand-light);
+  opacity: 0.4;
+  font-family: Georgia, serif;
+}
+
+/* Hide scrollbar for complementary products */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
