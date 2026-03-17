@@ -47,11 +47,45 @@ export default function ContactoPage() {
             </a>
           </div>
 
+          {/* Phone */}
+          <div className="rounded-2xl border border-brand-light/30 bg-cream-dark p-8 text-center">
+            <div className="mb-4 text-4xl">📞</div>
+            <h2 className="mb-2 text-xl font-bold text-warm-brown">Teléfono</h2>
+            <a
+              href={`tel:${siteInfo.phone}`}
+              className="text-sm font-medium text-brand transition-colors hover:text-brand-dark"
+            >
+              {siteInfo.phone}
+            </a>
+          </div>
+
+          {/* Map */}
+          <div className="overflow-hidden rounded-2xl border border-brand-light/30">
+            <iframe
+              src={siteInfo.googleMapsEmbedUrl}
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Ubicación de Diseñar Muebles"
+            />
+          </div>
+
           {/* Info cards */}
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="rounded-2xl border border-brand-light/30 bg-cream-dark p-6">
               <h3 className="mb-2 font-semibold text-warm-brown">Ubicación</h3>
               <p className="text-sm text-text-muted">{siteInfo.address}</p>
+              <a
+                href={siteInfo.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-block text-sm font-medium text-brand transition-colors hover:text-brand-dark"
+              >
+                Ver en Google Maps →
+              </a>
             </div>
             <div className="rounded-2xl border border-brand-light/30 bg-cream-dark p-6">
               <h3 className="mb-2 font-semibold text-warm-brown">Horarios</h3>

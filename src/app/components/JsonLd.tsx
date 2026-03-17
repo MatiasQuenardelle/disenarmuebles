@@ -9,7 +9,7 @@ export function LocalBusinessJsonLd() {
     name: siteInfo.name,
     description: siteInfo.tagline,
     url: SITE_URL,
-    telephone: `+${siteInfo.whatsapp}`,
+    telephone: siteInfo.phone,
     address: {
       "@type": "PostalAddress",
       addressLocality: siteInfo.city,

@@ -63,15 +63,28 @@ export interface SEO {
 export interface SiteInfo {
   name: string;
   tagline: string;
+  heroHeading: string;
+  heroDescription: string;
+  heroImage: string;
   whatsapp: string;
   whatsappDisplay: string;
+  phone: string;
   address: string;
   city: string;
+  googleMapsUrl: string;
+  googleMapsEmbedUrl: string;
   hours: string;
   paymentMethods: string[];
   socialMedia: {
     instagram?: string;
   };
+}
+
+export interface GoogleReview {
+  name: string;
+  rating: number;
+  text: string;
+  date: string;
 }
 
 export interface ValueProp {
