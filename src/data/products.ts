@@ -1,7 +1,9 @@
 import type { Product } from "./types";
 
 export const products: Product[] = [
-  // ─── BASE BOX (Hero products) ───────────────────────────────
+  // ═══════════════════════════════════════════════════════════════
+  // BASES BOX SOMMIER — 5 diseños
+  // ═══════════════════════════════════════════════════════════════
   {
     slug: "base-box-genesis",
     name: "Base Box Funcional Génesis",
@@ -41,16 +43,15 @@ export const products: Product[] = [
       { title: "3 Módulos", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
-      { src: "/products/genesis/hero.jpeg", alt: "Base Box Génesis vista principal" },
-      { src: "/products/genesis/cajones-abiertos.jpeg", alt: "Cajones abiertos" },
-      { src: "/products/genesis/baulera-abierta.jpeg", alt: "Baulera abierta" },
-      { src: "/products/genesis/baulera-detalle.jpeg", alt: "Detalle de baulera" },
-      { src: "/products/genesis/estructura-frontal.jpeg", alt: "Vista frontal" },
-      { src: "/products/genesis/estructura-superior.jpeg", alt: "Vista superior" },
-      { src: "/products/genesis/estructura-completa.jpeg", alt: "Estructura completa" },
+      { src: "/products/base-box-genesis/IMG_1048.jpeg", alt: "Base Box Génesis vista general en showroom" },
+      { src: "/products/base-box-genesis/IMG_1053.jpeg", alt: "Base Box Génesis detalle cajones" },
+      { src: "/products/base-box-genesis/IMG_1055.jpeg", alt: "Base Box Génesis vista lateral" },
+      { src: "/products/base-box-genesis/IMG_1056.jpeg", alt: "Base Box Génesis estructura" },
+      { src: "/products/base-box-genesis/IMG_1057.jpeg", alt: "Base Box Génesis baulera" },
+      { src: "/products/base-box-genesis/IMG_1058.jpeg", alt: "Base Box Génesis detalle" },
     ],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
-    relatedSlugs: ["base-box-evo", "respaldo-tapizado-recto", "mesa-de-luz-flotante"],
+    relatedSlugs: ["base-box-luxury", "base-box-premium", "mesita-de-luz-desayunadora"],
     seo: {
       title: "Base Box Funcional Génesis | Diseñar Muebles",
       description:
@@ -58,27 +59,78 @@ export const products: Product[] = [
     },
   },
   {
-    slug: "base-box-evo",
-    name: "Base Box Funcional Evo",
-    subtitle: "Diseño moderno con máximo almacenamiento",
+    slug: "base-box-luxury",
+    name: "Base Box Funcional Luxury",
+    subtitle: "Línea premium con máximo almacenamiento",
     category: "base-box",
     isHero: true,
     shortDescription:
-      "Base box con 4 cajones laterales y baulera frontal. Líneas rectas y terminación premium.",
+      "Base box de línea premium con cajones de gran capacidad y baulera. Diseño moderno con múltiples opciones de color y terminación.",
     longDescription:
-      "La Base Box Funcional Evo combina líneas modernas con funcionalidad extrema. Cuenta con 4 cajones laterales de gran capacidad con guías telescópicas y una baulera frontal con apertura asistida. Su diseño de líneas rectas y terminación en MDF laminado la convierte en la elección perfecta para dormitorios contemporáneos. Soporta hasta 500kg y se entrega armada.",
+      "La Base Box Funcional Luxury es nuestra línea premium de almacenamiento. Con cajones de gran capacidad, guías telescópicas reforzadas y baulera con pistón neumático, ofrece el máximo espacio de guardado. Fabricada en MDF de 18mm con terminación premium, soporta hasta 600kg y se entrega armada.",
     features: [
-      "4 cajones laterales con guías telescópicas",
-      "Baulera frontal con pistón neumático",
-      "Diseño de líneas rectas contemporáneo",
-      "Terminación en MDF laminado",
-      "Capacidad de carga: 500kg",
+      "Cajones de gran capacidad",
+      "Baulera con pistón neumático",
+      "Guías telescópicas reforzadas",
+      "Terminación premium en múltiples colores",
+      "Soporta 600kg",
+      "Se entrega armada",
     ],
     specs: [
-      { title: "MDF 18mm", description: "Estructura en MDF de alta densidad con laminado" },
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto ABS", description: "Terminación resistente en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave" },
+      { title: "Pistón Neumático", description: "Apertura asistida de baulera" },
+      { title: "Herrajes Metálicos", description: "Refuerzos de acero en puntos de estrés" },
+    ],
+    stats: [
+      { value: "600kg", label: "Capacidad de carga" },
+      { value: "12", label: "Meses de garantía" },
+      { value: "3", label: "Módulos" },
+    ],
+    delivery: [
+      { title: "Se Entregan Armados", description: "Los módulos llegan listos, sin necesidad de armado" },
+      { title: "Sin Instalación", description: "Solo se apoyan los módulos entre sí" },
+      { title: "Ingreso Fácil", description: "Módulos pensados para entrar por cualquier puerta" },
+    ],
+    images: [
+      { src: "/products/base-box-luxury/IMG_0104.jpeg", alt: "Base Box Luxury vista general" },
+      { src: "/products/base-box-luxury/IMG_0105.jpeg", alt: "Base Box Luxury cajones abiertos" },
+      { src: "/products/base-box-luxury/IMG_0106.jpeg", alt: "Base Box Luxury detalle lateral" },
+      { src: "/products/base-box-luxury/IMG_0107.jpeg", alt: "Base Box Luxury estructura" },
+      { src: "/products/base-box-luxury/IMG_0108.jpeg", alt: "Base Box Luxury vista superior" },
+      { src: "/products/base-box-luxury/IMG_0111.jpeg", alt: "Base Box Luxury en ambiente" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["base-box-genesis", "base-box-premium", "respaldo-luxury"],
+    seo: {
+      title: "Base Box Funcional Luxury | Diseñar Muebles",
+      description:
+        "Base box línea premium con cajones y baulera. MDF 18mm, 600kg de capacidad, múltiples colores. Fabricación propia.",
+    },
+  },
+  {
+    slug: "base-box-premium",
+    name: "Base Box Premium",
+    subtitle: "Funcionalidad y diseño en madera",
+    category: "base-box",
+    isHero: true,
+    shortDescription:
+      "Base box con terminación símil madera premium. Cajones y baulera con el máximo almacenamiento en un diseño elegante.",
+    longDescription:
+      "La Base Box Premium combina funcionalidad extrema con una terminación símil madera de alta calidad. Con cajones laterales y baulera, ofrece gran capacidad de almacenamiento. Su diseño con terminación premium la hace destacar en cualquier dormitorio. Fabricada en MDF de 18mm con herrajes metálicos.",
+    features: [
+      "Terminación símil madera premium",
+      "Cajones laterales con guías telescópicas",
+      "Baulera con pistón neumático",
+      "Estructura reforzada en MDF 18mm",
+      "Soporta hasta 500kg",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura en MDF de alta densidad" },
+      { title: "Melamina Premium", description: "Terminación símil madera de alta calidad" },
       { title: "Guías Telescópicas", description: "Apertura completa en todos los cajones" },
-      { title: "Pistón Neumático", description: "Baulera frontal con apertura asistida" },
-      { title: "Herrajes Metálicos", description: "Tornillería y refuerzos de acero" },
+      { title: "Pistón Neumático", description: "Baulera con apertura asistida" },
     ],
     stats: [
       { value: "500kg", label: "Capacidad de carga" },
@@ -91,14 +143,19 @@ export const products: Product[] = [
       { title: "2 Módulos", description: "Ingreso sencillo por puertas estándar" },
     ],
     images: [
-      { src: "/products/genesis/hero.jpeg", alt: "Base Box Evo vista principal" },
+      { src: "/products/base-box-premium/IMG_8568.jpeg", alt: "Base Box Premium en showroom" },
+      { src: "/products/base-box-premium/IMG_8569.jpeg", alt: "Base Box Premium detalle terminación" },
+      { src: "/products/base-box-premium/IMG_8570.jpeg", alt: "Base Box Premium cajones" },
+      { src: "/products/base-box-premium/IMG_8572.jpeg", alt: "Base Box Premium vista lateral" },
+      { src: "/products/base-box-premium/IMG_8575.jpeg", alt: "Base Box Premium detalle" },
+      { src: "/products/base-box-premium/IMG_9737.jpeg", alt: "Base Box Premium en ambiente" },
     ],
     sizes: ["2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
-    relatedSlugs: ["base-box-genesis", "respaldo-tapizado-capitone", "mesa-de-luz-flotante"],
+    relatedSlugs: ["base-box-genesis", "base-box-luxury", "mesita-de-luz-grecia"],
     seo: {
-      title: "Base Box Funcional Evo | Diseñar Muebles",
+      title: "Base Box Premium | Diseñar Muebles",
       description:
-        "Base box con 4 cajones y baulera frontal. Diseño moderno, MDF premium, 500kg de capacidad. Entrega con armado en Buenos Aires.",
+        "Base box premium con terminación símil madera. Cajones y baulera, MDF 18mm. Fabricación propia.",
     },
   },
   {
@@ -106,11 +163,11 @@ export const products: Product[] = [
     name: "Base Box Esencial",
     subtitle: "Funcionalidad sin complicaciones",
     category: "base-box",
-    isHero: true,
+    isHero: false,
     shortDescription:
       "Base box con baulera completa de apertura superior. La solución más práctica para ganar espacio.",
     longDescription:
-      "La Base Box Esencial es nuestra opción más accesible sin sacrificar calidad. Con una gran baulera de apertura superior asistida por pistones neumáticos, ofrece un espacio de almacenamiento generoso debajo del colchón. Fabricada en MDF de 18mm con herrajes metálicos, soporta hasta 400kg. Ideal para quienes buscan funcionalidad y precio accesible.",
+      "La Base Box Esencial es nuestra opción más accesible sin sacrificar calidad. Con una gran baulera de apertura superior asistida por pistones neumáticos, ofrece un espacio de almacenamiento generoso debajo del colchón. Fabricada en MDF de 18mm con herrajes metálicos, soporta hasta 400kg.",
     features: [
       "Baulera completa con apertura superior",
       "Pistones neumáticos de alta resistencia",
@@ -134,15 +191,13 @@ export const products: Product[] = [
       { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Fácil ingreso por cualquier acceso" },
     ],
-    images: [
-      { src: "/products/genesis/estructura-completa.jpeg", alt: "Base Box Esencial vista principal" },
-    ],
+    images: [],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
-    relatedSlugs: ["base-box-genesis", "respaldo-tapizado-recto", "protector-colchon-premium"],
+    relatedSlugs: ["base-box-genesis", "base-box-luxury", "mesita-de-luz-desayunadora"],
     seo: {
       title: "Base Box Esencial | Diseñar Muebles",
       description:
-        "Base box con baulera completa. MDF premium, 400kg de capacidad, precio accesible. Entrega con armado en Buenos Aires.",
+        "Base box con baulera completa. MDF premium, 400kg de capacidad, precio accesible. Entrega con armado.",
     },
   },
   {
@@ -150,7 +205,7 @@ export const products: Product[] = [
     name: "Base Box Funcional Dúo",
     subtitle: "Cajones y baulera en perfecta armonía",
     category: "base-box",
-    isHero: true,
+    isHero: false,
     shortDescription:
       "Base box con 2 cajones frontales y baulera lateral. El equilibrio ideal entre acceso rápido y gran almacenamiento.",
     longDescription:
@@ -178,91 +233,39 @@ export const products: Product[] = [
       { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Ingreso sencillo a tu hogar" },
     ],
-    images: [
-      { src: "/products/genesis/cajones-abiertos.jpeg", alt: "Base Box Dúo vista principal" },
-    ],
+    images: [],
     sizes: ["2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
-    relatedSlugs: ["base-box-genesis", "base-box-evo", "mesa-de-luz-flotante"],
+    relatedSlugs: ["base-box-genesis", "base-box-luxury", "mesita-de-luz-desayunadora"],
     seo: {
       title: "Base Box Funcional Dúo | Diseñar Muebles",
       description:
-        "Base box con 2 cajones y baulera lateral. MDF premium, 500kg de capacidad. Entrega con armado en Buenos Aires.",
+        "Base box con 2 cajones y baulera lateral. MDF premium, 500kg de capacidad. Entrega con armado.",
     },
   },
 
-  // ─── CÓMODAS ───────────────────────────────────────────────
+  // ═══════════════════════════════════════════════════════════════
+  // RESPALDOS MADERA — 3 diseños (pendiente fotos)
+  // ═══════════════════════════════════════════════════════════════
   {
-    slug: "comoda-cajonera",
-    name: "Cómoda Cajonera",
-    subtitle: "Diseño minimalista con máximo almacenamiento",
-    category: "comodas",
-    isHero: true,
-    shortDescription:
-      "Cómoda de 6 cajones con guías telescópicas reforzadas. Diseño sin tiradores, líneas puras. Disponible en dos medidas.",
-    longDescription:
-      "La Cómoda Cajonera combina un diseño minimalista sin tiradores con una gran capacidad de almacenamiento. Sus 6 cajones amplios con guías telescópicas reforzadas permiten una apertura total y suave. Fabricada íntegramente en MDF de 18mm con terminación en canto ABS resistente a golpes y humedad. Disponible en dos medidas: 120x36x85cm y 150x36x85cm, y en múltiples tonos de melamina para combinar con tu dormitorio.",
-    features: [
-      "6 cajones amplios sin tiradores",
-      "Guías telescópicas reforzadas",
-      "Diseño minimalista de líneas puras",
-      "Disponible en múltiples colores de melamina",
-      "Dos medidas disponibles",
-    ],
-    specs: [
-      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
-      { title: "Canto ABS", description: "Terminación resistente a golpes y humedad en todos los bordes" },
-      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en los 6 cajones" },
-    ],
-    stats: [
-      { value: "6", label: "Cajones" },
-      { value: "12", label: "Meses de garantía" },
-      { value: "2", label: "Medidas disponibles" },
-    ],
-    delivery: [
-      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
-    ],
-    images: [
-      { src: "/products/comoda/IMG_7327.jpeg", alt: "Cómoda Cajonera vista frontal showroom" },
-      { src: "/products/comoda/IMG_7320.jpeg", alt: "Cómoda Cajonera cajones abiertos" },
-      { src: "/products/comoda/IMG_8657.jpeg", alt: "Cómoda Cajonera color oscuro" },
-      { src: "/products/comoda/IMG_8662.jpeg", alt: "Cómoda Cajonera color oscuro lateral" },
-      { src: "/products/comoda/IMG_1376.jpeg", alt: "Cómoda Cajonera color claro fábrica" },
-      { src: "/products/comoda/IMG_8813.jpeg", alt: "Cómoda Cajonera color natural en ambiente" },
-      { src: "/products/comoda/IMG_2542.jpeg", alt: "Cómoda Cajonera color claro showroom" },
-      { src: "/products/comoda/IMG_8386.jpeg", alt: "Cómoda Cajonera publicación Instagram" },
-    ],
-    sizes: ["120 x 36 x 85cm (alto)", "150 x 36 x 85cm (alto)"],
-    relatedSlugs: ["base-box-genesis", "mesa-de-luz-flotante", "respaldo-tapizado-recto"],
-    seo: {
-      title: "Cómoda Cajonera 6 Cajones | Diseñar Muebles",
-      description:
-        "Cómoda cajonera de 6 cajones con guías telescópicas reforzadas. MDF 18mm, canto ABS, diseño minimalista sin tiradores. Dos medidas: 120cm y 150cm.",
-    },
-  },
-
-  // ─── RESPALDOS (Complementary products) ─────────────────────
-  {
-    slug: "respaldo-tapizado-recto",
-    name: "Respaldo Tapizado Recto",
-    subtitle: "Elegancia simple para tu dormitorio",
-    category: "respaldos",
+    slug: "respaldo-madera-recto",
+    name: "Respaldo Madera Recto",
+    subtitle: "Líneas puras en madera natural",
+    category: "respaldos-madera",
     isHero: false,
     shortDescription:
-      "Respaldo tapizado de líneas rectas con tela de alta resistencia. Complemento ideal para base box.",
+      "Respaldo de madera con diseño recto y minimalista. Terminación natural que aporta calidez al dormitorio.",
     longDescription:
-      "El Respaldo Tapizado Recto aporta un toque de elegancia a tu dormitorio con sus líneas limpias y minimalistas. Tapizado en tela de alta resistencia sobre estructura de MDF, se fija fácilmente a la pared. Disponible en varios colores para combinar con tu decoración.",
+      "El Respaldo Madera Recto combina la calidez de la madera con un diseño de líneas rectas y minimalistas. Fabricado en MDF de 18mm con terminación en melamina símil madera, aporta un toque natural y moderno a tu dormitorio.",
     features: [
-      "Tapizado en tela de alta resistencia",
-      "Estructura interna de MDF reforzado",
+      "Diseño recto minimalista",
+      "Terminación símil madera premium",
+      "Estructura de MDF 18mm",
       "Fijación a pared incluida",
-      "Disponible en varios colores",
-      "Altura: 60cm desde el colchón",
+      "Disponible en varios tonos de madera",
     ],
     specs: [
-      { title: "Tela Premium", description: "Tapizado antimancha de alta durabilidad" },
-      { title: "Espuma D28", description: "Relleno de espuma de densidad media para confort" },
-      { title: "MDF Interno", description: "Estructura interna rígida de MDF" },
+      { title: "MDF 18mm", description: "Estructura sólida con terminación melamínica" },
+      { title: "Melamina", description: "Terminación símil madera de alta resistencia" },
     ],
     stats: [
       { value: "60cm", label: "Altura visible" },
@@ -272,39 +275,34 @@ export const products: Product[] = [
       { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
       { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
     ],
-    images: [
-      { src: "/products/genesis/hero.jpeg", alt: "Respaldo Tapizado Recto" },
-    ],
+    images: [],
     sizes: ["1 Plaza (080)", "1½ Plaza (100)", "2 Plazas (140)", "Queen (160)", "King (180)"],
-    relatedSlugs: ["base-box-genesis", "base-box-esencial", "mesa-de-luz-flotante"],
+    relatedSlugs: ["respaldo-madera-listones", "respaldo-madera-paneles", "base-box-genesis"],
     seo: {
-      title: "Respaldo Tapizado Recto | Diseñar Muebles",
-      description:
-        "Respaldo tapizado de líneas rectas. Tela premium, fijación a pared incluida. Diseñar Muebles, Buenos Aires.",
+      title: "Respaldo Madera Recto | Diseñar Muebles",
+      description: "Respaldo de madera con diseño recto. MDF 18mm, terminación premium. Fabricación propia.",
     },
   },
   {
-    slug: "respaldo-tapizado-capitone",
-    name: "Respaldo Tapizado Capitoné",
-    subtitle: "Confort y sofisticación para tu cama",
-    category: "respaldos",
+    slug: "respaldo-madera-listones",
+    name: "Respaldo Madera Listones",
+    subtitle: "Textura y profundidad en madera",
+    category: "respaldos-madera",
     isHero: false,
     shortDescription:
-      "Respaldo con tapizado capitoné clásico. Espuma de alta densidad y tela premium antimancha.",
+      "Respaldo de madera con diseño de listones verticales. Textura visual que le da carácter a tu dormitorio.",
     longDescription:
-      "El Respaldo Tapizado Capitoné lleva tu dormitorio a otro nivel con su diseño clásico de botones hundidos. Relleno con espuma de alta densidad D33 y tapizado en tela premium antimancha. Su presencia visual transforma cualquier cama en una pieza central del dormitorio.",
+      "El Respaldo Madera Listones presenta un diseño de listones verticales que aporta textura y profundidad visual. Cada listón está fabricado en MDF con terminación melamínica, creando un juego de luces y sombras.",
     features: [
-      "Diseño capitoné con botones forrados",
-      "Espuma de alta densidad D33",
-      "Tela premium antimancha",
-      "Estructura reforzada de MDF",
+      "Diseño de listones verticales",
+      "Efecto visual de profundidad",
+      "Terminación melamínica resistente",
+      "Estructura de MDF reforzado",
       "Fijación a pared incluida",
-      "Altura: 70cm desde el colchón",
     ],
     specs: [
-      { title: "Capitoné", description: "Botones forrados en la misma tela" },
-      { title: "Espuma D33", description: "Alta densidad para mayor confort y durabilidad" },
-      { title: "Tela Antimancha", description: "Tratamiento especial repelente de líquidos" },
+      { title: "MDF 18mm", description: "Listones individuales en MDF de primera" },
+      { title: "Melamina", description: "Terminación resistente a golpes y humedad" },
     ],
     stats: [
       { value: "70cm", label: "Altura visible" },
@@ -314,29 +312,65 @@ export const products: Product[] = [
       { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
       { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
     ],
-    images: [
-      { src: "/products/genesis/hero.jpeg", alt: "Respaldo Tapizado Capitoné" },
-    ],
+    images: [],
     sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
-    relatedSlugs: ["base-box-evo", "base-box-duo", "mesa-de-luz-suspendida"],
+    relatedSlugs: ["respaldo-madera-recto", "respaldo-madera-paneles", "base-box-premium"],
     seo: {
-      title: "Respaldo Tapizado Capitoné | Diseñar Muebles",
-      description:
-        "Respaldo capitoné con espuma D33 y tela antimancha. Diseño clásico para tu dormitorio. Diseñar Muebles, Buenos Aires.",
+      title: "Respaldo Madera Listones | Diseñar Muebles",
+      description: "Respaldo de madera con listones verticales. Diseño moderno, fabricación propia.",
+    },
+  },
+  {
+    slug: "respaldo-madera-paneles",
+    name: "Respaldo Madera Paneles",
+    subtitle: "Elegancia geométrica en madera",
+    category: "respaldos-madera",
+    isHero: false,
+    shortDescription:
+      "Respaldo de madera con diseño de paneles geométricos. Presencia visual imponente para tu dormitorio.",
+    longDescription:
+      "El Respaldo Madera Paneles combina paneles geométricos para crear un cabecero con presencia. Su diseño moderno en MDF con terminación melamínica de alta calidad transforma la estética de cualquier dormitorio.",
+    features: [
+      "Diseño de paneles geométricos",
+      "Presencia visual destacada",
+      "Terminación melamínica premium",
+      "Estructura reforzada de MDF",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Paneles en MDF de primera calidad" },
+      { title: "Melamina", description: "Terminación premium resistente" },
+    ],
+    stats: [
+      { value: "80cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-madera-recto", "respaldo-madera-listones", "base-box-genesis"],
+    seo: {
+      title: "Respaldo Madera Paneles | Diseñar Muebles",
+      description: "Respaldo de madera con paneles geométricos. Diseño moderno, fabricación propia.",
     },
   },
 
-  // ─── MESAS DE LUZ (Complementary products) ─────────────────
+  // ═══════════════════════════════════════════════════════════════
+  // MESITAS DE LUZ — 5 diseños
+  // ═══════════════════════════════════════════════════════════════
   {
     slug: "mesita-de-luz-desayunadora",
     name: "Mesita de Luz Desayunadora",
     subtitle: "Compacta, funcional y con estilo",
-    category: "mesas-de-luz",
+    category: "mesitas-de-luz",
     isHero: true,
     shortDescription:
       "Mesita de luz con 2 cajones y nicho abierto. Guías telescópicas reforzadas, diseño minimalista en MDF de 18mm.",
     longDescription:
-      "La Mesita de Luz Desayunadora combina almacenamiento y practicidad en un formato compacto. Con 2 cajones con guías telescópicas reforzadas y un nicho abierto para tener a mano lo que más usás. Fabricada en MDF de 18mm con terminación en canto ABS, resistente y duradera. Su diseño minimalista sin tiradores se adapta a cualquier dormitorio. Medidas: 39cm de ancho x 36cm de profundidad x 70cm de alto.",
+      "La Mesita de Luz Desayunadora combina almacenamiento y practicidad en un formato compacto. Con 2 cajones con guías telescópicas reforzadas y un nicho abierto para tener a mano lo que más usás. Fabricada en MDF de 18mm con terminación en canto ABS. Su diseño minimalista sin tiradores se adapta a cualquier dormitorio.",
     features: [
       "2 cajones con guías telescópicas reforzadas",
       "Nicho abierto de acceso rápido",
@@ -359,30 +393,75 @@ export const products: Product[] = [
       { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
     ],
     images: [
-      { src: "/products/mesita-desayunadora/IMG_8581.jpeg", alt: "Mesita de Luz Desayunadora en showroom" },
-      { src: "/products/mesita-desayunadora/IMG_8926.jpeg", alt: "Mesita de Luz Desayunadora vista frontal" },
-      { src: "/products/mesita-desayunadora/IMG_8927.jpeg", alt: "Mesita de Luz Desayunadora cajón abierto" },
-      { src: "/products/mesita-desayunadora/IMG_8928.jpeg", alt: "Mesita de Luz Desayunadora detalle cajones" },
-      { src: "/products/mesita-desayunadora/IMG_8582.jpeg", alt: "Mesita de Luz Desayunadora vista lateral" },
+      { src: "/products/mesita-desayunadora-new/IMG_2546.jpeg", alt: "Mesita de Luz Desayunadora vista frontal" },
+      { src: "/products/mesita-desayunadora-new/IMG_2547.jpeg", alt: "Mesita de Luz Desayunadora lateral" },
+      { src: "/products/mesita-desayunadora-new/IMG_2549.jpeg", alt: "Mesita de Luz Desayunadora cajones" },
+      { src: "/products/mesita-desayunadora-new/IMG_2550.jpeg", alt: "Mesita de Luz Desayunadora detalle" },
+      { src: "/products/mesita-desayunadora-new/IMG_4885.jpeg", alt: "Mesita de Luz Desayunadora en ambiente" },
+      { src: "/products/mesita-desayunadora-new/IMG_4886.jpeg", alt: "Mesita de Luz Desayunadora showroom" },
     ],
     sizes: ["39 x 36 x 70cm (alto)"],
-    relatedSlugs: ["mesa-de-luz-flotante", "mesa-de-luz-suspendida", "base-box-genesis"],
+    relatedSlugs: ["mesa-de-luz-clasica", "mesa-de-luz-flotante", "base-box-genesis"],
     seo: {
       title: "Mesita de Luz Desayunadora | Diseñar Muebles",
       description:
-        "Mesita de luz con 2 cajones y nicho abierto. MDF 18mm, canto ABS, guías telescópicas reforzadas. 39x36x70cm. Fabricación propia.",
+        "Mesita de luz con 2 cajones y nicho abierto. MDF 18mm, canto ABS, guías telescópicas reforzadas. Fabricación propia.",
+    },
+  },
+  {
+    slug: "mesa-de-luz-clasica",
+    name: "Mesa de Luz Clásica",
+    subtitle: "Funcionalidad atemporal",
+    category: "mesitas-de-luz",
+    isHero: false,
+    shortDescription:
+      "Mesa de luz con cajón y estante abierto. Diseño clásico que combina con cualquier decoración.",
+    longDescription:
+      "La Mesa de Luz Clásica ofrece un diseño atemporal con un cajón amplio y un estante abierto inferior. Fabricada en MDF de 18mm con terminación melamínica, es resistente y práctica para el uso diario.",
+    features: [
+      "Cajón amplio con guía telescópica",
+      "Estante abierto inferior",
+      "Diseño clásico atemporal",
+      "Terminación melamínica resistente",
+      "Múltiples colores disponibles",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura completa en MDF" },
+      { title: "Guía Telescópica", description: "Cajón con apertura suave" },
+      { title: "Melamina", description: "Terminación resistente a golpes" },
+    ],
+    stats: [
+      { value: "45cm", label: "Ancho" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada" },
+    ],
+    images: [
+      { src: "/products/mesa-de-luz-clasica/IMG_2551.jpeg", alt: "Mesa de Luz Clásica vista frontal" },
+      { src: "/products/mesa-de-luz-clasica/IMG_2552.jpeg", alt: "Mesa de Luz Clásica cajón abierto" },
+      { src: "/products/mesa-de-luz-clasica/IMG_2553.jpeg", alt: "Mesa de Luz Clásica detalle" },
+      { src: "/products/mesa-de-luz-clasica/IMG_2554.jpeg", alt: "Mesa de Luz Clásica lateral" },
+      { src: "/products/mesa-de-luz-clasica/IMG_2555.jpeg", alt: "Mesa de Luz Clásica en ambiente" },
+      { src: "/products/mesa-de-luz-clasica/IMG_8461.jpeg", alt: "Mesa de Luz Clásica showroom" },
+    ],
+    relatedSlugs: ["mesita-de-luz-desayunadora", "mesa-de-luz-flotante", "mesa-de-luz-grecia"],
+    seo: {
+      title: "Mesa de Luz Clásica | Diseñar Muebles",
+      description: "Mesa de luz clásica con cajón y estante. MDF premium, fabricación propia.",
     },
   },
   {
     slug: "mesa-de-luz-flotante",
     name: "Mesa de Luz Flotante",
     subtitle: "Diseño suspendido y minimalista",
-    category: "mesas-de-luz",
+    category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
       "Mesa de luz flotante con cajón y estante. Se fija a la pared, ideal para espacios reducidos.",
     longDescription:
-      "La Mesa de Luz Flotante combina diseño minimalista con funcionalidad. Con un cajón con guía telescópica y un estante inferior abierto, ofrece almacenamiento sin ocupar espacio en el piso. Fabricada en MDF de 18mm con terminación laminada, se fija a la pared con sistema de fijación oculto.",
+      "La Mesa de Luz Flotante combina diseño minimalista con funcionalidad. Con un cajón con guía telescópica y un estante inferior abierto, ofrece almacenamiento sin ocupar espacio en el piso. Fabricada en MDF de 18mm, se fija a la pared con sistema de fijación oculto.",
     features: [
       "Diseño flotante fijado a pared",
       "1 cajón con guía telescópica",
@@ -404,29 +483,77 @@ export const products: Product[] = [
       { title: "Fijación Incluida", description: "Kit de instalación y tacos incluidos" },
     ],
     images: [
-      { src: "/products/genesis/baulera-detalle.jpeg", alt: "Mesa de Luz Flotante" },
+      { src: "/products/mesa-de-luz-flotante/IMG_1045.jpeg", alt: "Mesa de Luz Flotante vista frontal" },
+      { src: "/products/mesa-de-luz-flotante/IMG_1046.jpeg", alt: "Mesa de Luz Flotante lateral" },
+      { src: "/products/mesa-de-luz-flotante/IMG_8936.jpeg", alt: "Mesa de Luz Flotante en ambiente" },
+      { src: "/products/mesa-de-luz-flotante/IMG_8937.jpeg", alt: "Mesa de Luz Flotante detalle cajón" },
+      { src: "/products/mesa-de-luz-flotante/IMG_8938.jpeg", alt: "Mesa de Luz Flotante showroom" },
     ],
-    relatedSlugs: ["mesa-de-luz-suspendida", "base-box-genesis", "respaldo-tapizado-recto"],
+    relatedSlugs: ["mesa-de-luz-grecia", "mesita-de-luz-desayunadora", "base-box-genesis"],
     seo: {
       title: "Mesa de Luz Flotante | Diseñar Muebles",
-      description:
-        "Mesa de luz flotante con cajón y estante. Diseño minimalista, MDF premium. Diseñar Muebles, Buenos Aires.",
+      description: "Mesa de luz flotante con cajón y estante. Diseño minimalista, MDF premium.",
+    },
+  },
+  {
+    slug: "mesa-de-luz-grecia",
+    name: "Mesa de Luz Grecia",
+    subtitle: "Elegancia y funcionalidad",
+    category: "mesitas-de-luz",
+    isHero: false,
+    shortDescription:
+      "Mesa de luz línea Grecia con cajón deslizante y estante. Diseño moderno en múltiples colores.",
+    longDescription:
+      "La Mesa de Luz Grecia presenta un diseño moderno y funcional con cajón deslizante y estante abierto. Fabricada en MDF de 18mm con terminación melamínica de alta calidad, combina perfectamente con la Cómoda Grecia para un dormitorio coordinado.",
+    features: [
+      "Cajón deslizante con guía telescópica",
+      "Estante abierto",
+      "Línea Grecia — combina con Cómoda Grecia",
+      "Terminación melamínica premium",
+      "Múltiples colores disponibles",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura en MDF de primera calidad" },
+      { title: "Guía Telescópica", description: "Cajón con apertura suave" },
+      { title: "Melamina", description: "Terminación resistente y duradera" },
+    ],
+    stats: [
+      { value: "66cm", label: "Ancho" },
+      { value: "40cm", label: "Profundidad" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada" },
+    ],
+    images: [
+      { src: "/products/mesa-de-luz-grecia/IMG_4687.jpeg", alt: "Mesa de Luz Grecia vista frontal" },
+      { src: "/products/mesa-de-luz-grecia/IMG_4688.jpeg", alt: "Mesa de Luz Grecia lateral" },
+      { src: "/products/mesa-de-luz-grecia/IMG_4689.jpeg", alt: "Mesa de Luz Grecia detalle" },
+      { src: "/products/mesa-de-luz-grecia/IMG_5677.jpeg", alt: "Mesa de Luz Grecia en ambiente" },
+      { src: "/products/mesa-de-luz-grecia/IMG_5678.jpeg", alt: "Mesa de Luz Grecia showroom" },
+    ],
+    sizes: ["66 x 40 x 38cm"],
+    relatedSlugs: ["mesa-de-luz-clasica", "comoda-grecia", "mesita-de-luz-desayunadora"],
+    seo: {
+      title: "Mesa de Luz Grecia | Diseñar Muebles",
+      description: "Mesa de luz línea Grecia. Cajón deslizante y estante, MDF premium, múltiples colores.",
     },
   },
   {
     slug: "mesa-de-luz-suspendida",
     name: "Mesa de Luz Suspendida",
     subtitle: "Funcionalidad elevada",
-    category: "mesas-de-luz",
+    category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
       "Mesa de luz suspendida con dos cajones. Mayor capacidad de almacenamiento en diseño compacto.",
     longDescription:
-      "La Mesa de Luz Suspendida eleva el almacenamiento junto a tu cama con dos cajones amplios con guías telescópicas. Su diseño suspendido facilita la limpieza y da sensación de amplitud. Fabricada en MDF de 18mm con herrajes metálicos de calidad.",
+      "La Mesa de Luz Suspendida eleva el almacenamiento junto a tu cama con dos cajones amplios con guías telescópicas. Su diseño suspendido facilita la limpieza y da sensación de amplitud. Fabricada en MDF de 18mm.",
     features: [
       "2 cajones con guías telescópicas",
       "Diseño suspendido con fijación a pared",
-      "Mayor capacidad que modelo flotante",
+      "Mayor capacidad de almacenamiento",
       "Terminación en MDF laminado",
       "Sistema de fijación reforzado",
     ],
@@ -443,95 +570,921 @@ export const products: Product[] = [
       { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
       { title: "Fijación Incluida", description: "Kit de instalación reforzado incluido" },
     ],
-    images: [
-      { src: "/products/genesis/baulera-detalle.jpeg", alt: "Mesa de Luz Suspendida" },
-    ],
-    relatedSlugs: ["mesa-de-luz-flotante", "base-box-evo", "respaldo-tapizado-capitone"],
+    images: [],
+    relatedSlugs: ["mesa-de-luz-flotante", "mesa-de-luz-grecia", "base-box-luxury"],
     seo: {
       title: "Mesa de Luz Suspendida | Diseñar Muebles",
-      description:
-        "Mesa de luz suspendida con 2 cajones. Diseño moderno, MDF premium. Diseñar Muebles, Buenos Aires.",
+      description: "Mesa de luz suspendida con 2 cajones. Diseño moderno, MDF premium.",
     },
   },
 
-  // ─── ACCESORIOS (Complementary products) ────────────────────
+  // ═══════════════════════════════════════════════════════════════
+  // RESPALDOS TAPIZADOS — 7 diseños
+  // ═══════════════════════════════════════════════════════════════
   {
-    slug: "protector-colchon-premium",
-    name: "Protector de Colchón Premium",
-    subtitle: "Protección total para tu colchón",
-    category: "accesorios",
+    slug: "respaldo-tapizado-capitone",
+    name: "Respaldo Tapizado Capitoné",
+    subtitle: "Confort y sofisticación para tu cama",
+    category: "respaldos-tapizados",
     isHero: false,
     shortDescription:
-      "Protector impermeable y transpirable. Protege tu colchón de líquidos, ácaros y manchas.",
+      "Respaldo con tapizado capitoné clásico y tachas decorativas. Espuma de alta densidad y tela premium antimancha.",
     longDescription:
-      "El Protector de Colchón Premium es la barrera invisible que tu colchón necesita. Con membrana impermeable y transpirable, protege contra líquidos, ácaros, bacterias y manchas sin alterar la sensación del colchón. Su ajuste elástico se adapta a colchones de hasta 35cm de alto.",
+      "El Respaldo Tapizado Capitoné lleva tu dormitorio a otro nivel con su diseño clásico de botones hundidos y tachas decorativas en el borde. Relleno con espuma de alta densidad D33 y tapizado en tela premium antimancha. Disponible en múltiples colores.",
     features: [
-      "Membrana impermeable y transpirable",
-      "Protección contra ácaros y bacterias",
-      "Ajuste elástico hasta 35cm de alto",
-      "Lavable en lavarropas",
-      "No altera la sensación del colchón",
+      "Diseño capitoné con botones forrados",
+      "Tachas decorativas en el borde",
+      "Espuma de alta densidad D33",
+      "Tela premium antimancha",
+      "Estructura reforzada de MDF",
+      "Fijación a pared incluida",
     ],
     specs: [
-      { title: "Membrana TPU", description: "Impermeable y transpirable de alta calidad" },
-      { title: "Tela Microfibra", description: "Suave al tacto, silenciosa" },
-      { title: "Elástico Perimetral", description: "Ajuste seguro en todos los tamaños" },
+      { title: "Capitoné", description: "Botones forrados en la misma tela" },
+      { title: "Espuma D33", description: "Alta densidad para mayor confort y durabilidad" },
+      { title: "Tela Antimancha", description: "Tratamiento especial repelente de líquidos" },
     ],
     stats: [
-      { value: "35cm", label: "Altura máxima de colchón" },
-      { value: "6", label: "Meses de garantía" },
+      { value: "70cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
-      { title: "Envío a Domicilio", description: "Entrega en packaging sellado" },
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
     ],
     images: [
-      { src: "/products/genesis/estructura-frontal.jpeg", alt: "Protector de Colchón Premium" },
+      { src: "/products/respaldo-capitone/IMG_2056.jpeg", alt: "Respaldo Capitoné en showroom" },
+      { src: "/products/respaldo-capitone/IMG_2057.jpeg", alt: "Respaldo Capitoné detalle capitoné" },
+      { src: "/products/respaldo-capitone/IMG_2363.jpeg", alt: "Respaldo Capitoné vista completa" },
+      { src: "/products/respaldo-capitone/IMG_2364.jpeg", alt: "Respaldo Capitoné lateral" },
+      { src: "/products/respaldo-capitone/IMG_2365.jpeg", alt: "Respaldo Capitoné detalle tachas" },
+      { src: "/products/respaldo-capitone/IMG_2919.jpeg", alt: "Respaldo Capitoné en ambiente" },
     ],
-    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
-    relatedSlugs: ["almohada-viscoelastica", "base-box-genesis"],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-isola", "respaldo-tapizado-luxury", "base-box-luxury"],
     seo: {
-      title: "Protector de Colchón Premium | Diseñar Muebles",
-      description:
-        "Protector impermeable y transpirable para colchón. Protección total, lavable. Diseñar Muebles, Buenos Aires.",
+      title: "Respaldo Tapizado Capitoné | Diseñar Muebles",
+      description: "Respaldo capitoné con tachas decorativas, espuma D33 y tela antimancha.",
     },
   },
   {
-    slug: "almohada-viscoelastica",
-    name: "Almohada Viscoelástica",
-    subtitle: "Descanso cervical óptimo",
-    category: "accesorios",
+    slug: "respaldo-tapizado-isola",
+    name: "Respaldo Tapizado Isola",
+    subtitle: "Marco decorativo con tachas",
+    category: "respaldos-tapizados",
     isHero: false,
     shortDescription:
-      "Almohada de espuma viscoelástica con funda removible. Adaptación cervical para un descanso superior.",
+      "Respaldo tapizado con diseño de marco interior delineado con tachas. Elegancia y presencia para tu dormitorio.",
     longDescription:
-      "La Almohada Viscoelástica se adapta a la forma de tu cabeza y cuello para ofrecer el soporte cervical ideal. Su espuma de memoria de alta densidad mantiene la forma y recupera lentamente, distribuyendo la presión de manera uniforme. Incluye funda removible y lavable.",
+      "El Respaldo Tapizado Isola presenta un diseño único con un marco interior delineado por tachas decorativas. Su superficie tapizada en tela premium antimancha con espuma de alta densidad ofrece confort y un look sofisticado. Disponible en múltiples colores.",
     features: [
-      "Espuma viscoelástica de alta densidad",
-      "Adaptación cervical personalizada",
-      "Funda removible y lavable",
-      "Hipoalergénica",
-      "Recuperación lenta de forma",
+      "Diseño con marco de tachas decorativas",
+      "Tela premium antimancha",
+      "Espuma de alta densidad D28",
+      "Look sofisticado y moderno",
+      "Estructura de MDF reforzado",
+      "Fijación a pared incluida",
     ],
     specs: [
-      { title: "Memory Foam", description: "Espuma viscoelástica de 50kg/m³" },
-      { title: "Funda Removible", description: "Tela de algodón con cierre" },
-      { title: "Hipoalergénica", description: "Libre de ácaros y bacterias" },
+      { title: "Tachas Decorativas", description: "Marco interior con tachas de acabado metálico" },
+      { title: "Espuma D28", description: "Densidad media para confort" },
+      { title: "Tela Premium", description: "Antimancha de alta durabilidad" },
     ],
     stats: [
-      { value: "70x40", label: "Medida (cm)" },
-      { value: "6", label: "Meses de garantía" },
+      { value: "65cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
-      { title: "Envío a Domicilio", description: "Entrega en packaging sellado" },
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
     ],
     images: [
-      { src: "/products/genesis/estructura-frontal.jpeg", alt: "Almohada Viscoelástica" },
+      { src: "/products/respaldo-isola/IMG_2921.jpeg", alt: "Respaldo Isola detalle tachas" },
+      { src: "/products/respaldo-isola/IMG_2922.jpeg", alt: "Respaldo Isola vista frontal" },
+      { src: "/products/respaldo-isola/IMG_2926.jpeg", alt: "Respaldo Isola en cama" },
+      { src: "/products/respaldo-isola/IMG_2928.jpeg", alt: "Respaldo Isola lateral" },
+      { src: "/products/respaldo-isola/IMG_2929.jpeg", alt: "Respaldo Isola detalle" },
+      { src: "/products/respaldo-isola/IMG_4166.jpeg", alt: "Respaldo Isola en ambiente" },
     ],
-    relatedSlugs: ["protector-colchon-premium"],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-capitone", "respaldo-tapizado-luxury", "base-box-genesis"],
     seo: {
-      title: "Almohada Viscoelástica | Diseñar Muebles",
-      description:
-        "Almohada viscoelástica con adaptación cervical. Espuma de memoria, funda lavable. Diseñar Muebles, Buenos Aires.",
+      title: "Respaldo Tapizado Isola | Diseñar Muebles",
+      description: "Respaldo tapizado Isola con marco de tachas decorativas. Tela premium, fabricación propia.",
     },
   },
+  {
+    slug: "respaldo-tapizado-luxury",
+    name: "Respaldo Tapizado Luxury",
+    subtitle: "Capitoné premium con máximo confort",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo tapizado de línea Luxury con capitoné profundo y tachas. El más elegante de nuestra línea.",
+    longDescription:
+      "El Respaldo Tapizado Luxury es el tope de línea en respaldos tapizados. Con un capitoné profundo de botones forrados y tachas decorativas perimetrales, ofrece la máxima elegancia. Tapizado en tela premium antimancha con espuma de alta densidad D33.",
+    features: [
+      "Capitoné profundo con botones forrados",
+      "Tachas decorativas perimetrales",
+      "Espuma de alta densidad D33",
+      "Tela premium antimancha",
+      "Estructura reforzada de MDF",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "Capitoné Profundo", description: "Botones hundidos con mayor relieve" },
+      { title: "Espuma D33", description: "Alta densidad para máximo confort" },
+      { title: "Tela Premium", description: "Antimancha, múltiples colores" },
+    ],
+    stats: [
+      { value: "75cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [
+      { src: "/products/respaldo-luxury/IMG_0116.jpeg", alt: "Respaldo Luxury capitoné detalle" },
+      { src: "/products/respaldo-luxury/IMG_0117.jpeg", alt: "Respaldo Luxury vista frontal" },
+      { src: "/products/respaldo-luxury/IMG_0123.jpeg", alt: "Respaldo Luxury en cama" },
+      { src: "/products/respaldo-luxury/IMG_0125.jpeg", alt: "Respaldo Luxury lateral" },
+      { src: "/products/respaldo-luxury/IMG_0131.jpeg", alt: "Respaldo Luxury en ambiente" },
+      { src: "/products/respaldo-luxury/IMG_0134.jpeg", alt: "Respaldo Luxury showroom" },
+    ],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-capitone", "respaldo-tapizado-isola", "base-box-luxury"],
+    seo: {
+      title: "Respaldo Tapizado Luxury | Diseñar Muebles",
+      description: "Respaldo tapizado Luxury con capitoné profundo y tachas. Tope de línea, fabricación propia.",
+    },
+  },
+  {
+    slug: "respaldo-tapizado-malaga",
+    name: "Respaldo Tapizado Málaga",
+    subtitle: "Diseño mediterráneo moderno",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo tapizado línea Málaga. Diseño moderno con líneas suaves y tela premium.",
+    longDescription:
+      "El Respaldo Tapizado Málaga presenta un diseño inspirado en la elegancia mediterránea con líneas suaves y armoniosas. Tapizado en tela premium antimancha con espuma de alta densidad.",
+    features: [
+      "Diseño de líneas suaves",
+      "Tela premium antimancha",
+      "Espuma de alta densidad",
+      "Estructura de MDF reforzado",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "Espuma D28", description: "Densidad media para confort" },
+      { title: "Tela Premium", description: "Antimancha de alta durabilidad" },
+      { title: "MDF", description: "Estructura interna reforzada" },
+    ],
+    stats: [
+      { value: "65cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-capitone", "respaldo-tapizado-isola", "respaldo-tapizado-luxury"],
+    seo: {
+      title: "Respaldo Tapizado Málaga | Diseñar Muebles",
+      description: "Respaldo tapizado Málaga. Diseño mediterráneo, tela premium, fabricación propia.",
+    },
+  },
+  {
+    slug: "respaldo-tapizado-recto",
+    name: "Respaldo Tapizado Recto",
+    subtitle: "Elegancia simple para tu dormitorio",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo tapizado de líneas rectas. Diseño minimalista con tela premium.",
+    longDescription:
+      "El Respaldo Tapizado Recto aporta elegancia con sus líneas limpias y minimalistas. Tapizado en tela de alta resistencia sobre estructura de MDF, se fija fácilmente a la pared.",
+    features: [
+      "Tapizado en tela de alta resistencia",
+      "Estructura interna de MDF reforzado",
+      "Fijación a pared incluida",
+      "Disponible en varios colores",
+      "Altura: 60cm desde el colchón",
+    ],
+    specs: [
+      { title: "Tela Premium", description: "Tapizado antimancha de alta durabilidad" },
+      { title: "Espuma D28", description: "Relleno de espuma de densidad media" },
+      { title: "MDF Interno", description: "Estructura interna rígida" },
+    ],
+    stats: [
+      { value: "60cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [],
+    sizes: ["1 Plaza (080)", "1½ Plaza (100)", "2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-capitone", "respaldo-tapizado-isola", "base-box-genesis"],
+    seo: {
+      title: "Respaldo Tapizado Recto | Diseñar Muebles",
+      description: "Respaldo tapizado de líneas rectas. Tela premium, fabricación propia.",
+    },
+  },
+  {
+    slug: "respaldo-tapizado-paneles",
+    name: "Respaldo Tapizado Paneles",
+    subtitle: "Diseño moderno con paneles tapizados",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo con paneles tapizados verticales. Diseño contemporáneo con textura visual única.",
+    longDescription:
+      "El Respaldo Tapizado Paneles presenta un diseño de paneles verticales tapizados que crea un efecto visual moderno. Cada panel está relleno con espuma de alta densidad y tapizado en tela premium.",
+    features: [
+      "Paneles verticales tapizados",
+      "Espuma de alta densidad D28",
+      "Tela premium antimancha",
+      "Efecto visual de profundidad",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "Paneles", description: "Tapizado individual por panel" },
+      { title: "Espuma D28", description: "Densidad media para confort" },
+      { title: "Tela Premium", description: "Antimancha de alta durabilidad" },
+    ],
+    stats: [
+      { value: "65cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-recto", "respaldo-tapizado-capitone", "base-box-genesis"],
+    seo: {
+      title: "Respaldo Tapizado Paneles | Diseñar Muebles",
+      description: "Respaldo con paneles tapizados verticales. Diseño moderno, tela premium.",
+    },
+  },
+  {
+    slug: "respaldo-tapizado-curvo",
+    name: "Respaldo Tapizado Curvo",
+    subtitle: "Formas suaves para tu descanso",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo tapizado con forma curva envolvente. Ideal para leer y descansar en la cama.",
+    longDescription:
+      "El Respaldo Tapizado Curvo presenta una forma envolvente con espuma de alta densidad que ofrece el soporte perfecto para leer o ver televisión en la cama. Tapizado en tela premium antimancha.",
+    features: [
+      "Diseño curvo envolvente",
+      "Espuma de alta densidad D33",
+      "Tela premium antimancha",
+      "Soporte ideal para lectura",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "Curva Ergonómica", description: "Diseño pensado para el confort" },
+      { title: "Espuma D33", description: "Alta densidad, máximo confort" },
+      { title: "Tela Premium", description: "Antimancha, alta durabilidad" },
+    ],
+    stats: [
+      { value: "75cm", label: "Altura visible" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [],
+    sizes: ["2 Plazas (140)", "Queen (160)", "King (180)"],
+    relatedSlugs: ["respaldo-tapizado-luxury", "respaldo-tapizado-paneles", "base-box-luxury"],
+    seo: {
+      title: "Respaldo Tapizado Curvo | Diseñar Muebles",
+      description: "Respaldo tapizado curvo envolvente. Espuma D33, tela premium.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // PRODUCTOS LAQUEADOS — productos con terminación laqueada
+  // ═══════════════════════════════════════════════════════════════
+  {
+    slug: "cama-triple-nido",
+    name: "Cama Triple Nido",
+    subtitle: "Tres camas en una — solución para espacios compartidos",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cama nido triple con terminación laqueada. Tres camas en el espacio de una, ideal para dormitorios infantiles.",
+    longDescription:
+      "La Cama Triple Nido permite alojar tres camas en el espacio de una sola. Con terminación laqueada de alta calidad, su diseño compacto es ideal para dormitorios infantiles o de huéspedes. Las camas inferiores se deslizan suavemente para usar y guardar.",
+    features: [
+      "3 camas en el espacio de 1",
+      "Terminación laqueada premium",
+      "Camas inferiores deslizantes",
+      "Estructura reforzada",
+      "Ideal para dormitorios infantiles",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación laqueada de alta calidad" },
+      { title: "Estructura", description: "Madera y MDF reforzado" },
+      { title: "Deslizante", description: "Sistema de rieles para camas inferiores" },
+    ],
+    stats: [
+      { value: "3", label: "Camas" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Se entrega armada y lista para usar" },
+    ],
+    images: [
+      { src: "/products/cama-triple-nido/IMG_0912.jpeg", alt: "Cama Triple Nido vista lateral" },
+      { src: "/products/cama-triple-nido/IMG_0913.jpeg", alt: "Cama Triple Nido camas desplegadas" },
+      { src: "/products/cama-triple-nido/IMG_0914.jpeg", alt: "Cama Triple Nido detalle" },
+      { src: "/products/cama-triple-nido/IMG_0915.jpeg", alt: "Cama Triple Nido estructura" },
+      { src: "/products/cama-triple-nido/IMG_0916.jpeg", alt: "Cama Triple Nido frontal" },
+      { src: "/products/cama-triple-nido/IMG_0917.jpeg", alt: "Cama Triple Nido en ambiente" },
+    ],
+    sizes: ["1 Plaza (080x190)"],
+    relatedSlugs: ["cama-vigo", "cucheta-entera", "cucheta-puente"],
+    seo: {
+      title: "Cama Triple Nido Laqueada | Diseñar Muebles",
+      description: "Cama nido triple laqueada. 3 camas en 1, ideal para dormitorios infantiles. Fabricación propia.",
+    },
+  },
+  {
+    slug: "cama-vigo",
+    name: "Cama Vigo",
+    subtitle: "Diseño clásico laqueado para niños",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cama infantil línea Vigo con terminación laqueada. Diseño seguro y duradero con baranda lateral.",
+    longDescription:
+      "La Cama Vigo es una cama infantil con terminación laqueada de alta calidad. Su diseño incluye baranda lateral de seguridad y estructura reforzada. Perfecta para la transición de cuna a cama.",
+    features: [
+      "Terminación laqueada premium",
+      "Baranda lateral de seguridad",
+      "Estructura reforzada",
+      "Diseño infantil seguro",
+      "Combina con Cuna Vigo Funcional",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación laqueada atóxica" },
+      { title: "Estructura", description: "Madera y MDF reforzado" },
+      { title: "Baranda", description: "Lateral de seguridad removible" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Se entrega armada" },
+    ],
+    images: [
+      { src: "/products/cama-vigo/IMG_4858.jpeg", alt: "Cama Vigo en showroom" },
+      { src: "/products/cama-vigo/IMG_5081.jpeg", alt: "Cama Vigo vista lateral" },
+      { src: "/products/cama-vigo/IMG_5084.jpeg", alt: "Cama Vigo detalle" },
+      { src: "/products/cama-vigo/IMG_5085.jpeg", alt: "Cama Vigo estructura" },
+      { src: "/products/cama-vigo/IMG_5453.jpeg", alt: "Cama Vigo frontal" },
+      { src: "/products/cama-vigo/IMG_6700.jpeg", alt: "Cama Vigo en ambiente" },
+    ],
+    sizes: ["1 Plaza (080x190)"],
+    relatedSlugs: ["cuna-vigo-funcional", "cama-triple-nido", "cucheta-entera"],
+    seo: {
+      title: "Cama Vigo Laqueada | Diseñar Muebles",
+      description: "Cama infantil Vigo laqueada con baranda de seguridad. Fabricación propia.",
+    },
+  },
+  {
+    slug: "cucheta-entera",
+    name: "Cucheta Entera",
+    subtitle: "Dos camas en altura — máximo aprovechamiento",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cucheta entera laqueada con escalera lateral. Estructura reforzada para máxima seguridad.",
+    longDescription:
+      "La Cucheta Entera ofrece dos camas superpuestas con terminación laqueada de alta calidad. Su estructura reforzada y escalera lateral integrada garantizan seguridad y durabilidad. Ideal para dormitorios infantiles o juveniles.",
+    features: [
+      "2 camas superpuestas",
+      "Terminación laqueada premium",
+      "Escalera lateral integrada",
+      "Barandas de seguridad superiores",
+      "Estructura extra reforzada",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación laqueada de alta calidad" },
+      { title: "Estructura", description: "Madera maciza y MDF reforzado" },
+      { title: "Seguridad", description: "Barandas y escalera con antideslizante" },
+    ],
+    stats: [
+      { value: "2", label: "Camas" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Armado profesional en el lugar" },
+    ],
+    images: [
+      { src: "/products/cucheta-entera/IMG_4713.jpeg", alt: "Cucheta Entera en showroom" },
+      { src: "/products/cucheta-entera/IMG_4714.jpeg", alt: "Cucheta Entera vista lateral" },
+      { src: "/products/cucheta-entera/IMG_4716.jpeg", alt: "Cucheta Entera escalera" },
+      { src: "/products/cucheta-entera/IMG_4717.jpeg", alt: "Cucheta Entera detalle" },
+      { src: "/products/cucheta-entera/IMG_5625.jpeg", alt: "Cucheta Entera estructura" },
+      { src: "/products/cucheta-entera/IMG_5626.jpeg", alt: "Cucheta Entera en ambiente" },
+    ],
+    sizes: ["1 Plaza (080x190)"],
+    relatedSlugs: ["cucheta-puente", "cama-triple-nido", "cama-vigo"],
+    seo: {
+      title: "Cucheta Entera Laqueada | Diseñar Muebles",
+      description: "Cucheta entera laqueada con escalera lateral. Estructura reforzada, fabricación propia.",
+    },
+  },
+  {
+    slug: "cucheta-puente",
+    name: "Cucheta Puente",
+    subtitle: "Diseño abierto con espacio debajo",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cucheta puente laqueada con amplio espacio debajo. Diseño abierto ideal para escritorio o juego.",
+    longDescription:
+      "La Cucheta Puente eleva la cama dejando un amplio espacio debajo que se puede usar como zona de estudio, juego o almacenamiento. Con terminación laqueada premium y estructura reforzada con barandas de seguridad.",
+    features: [
+      "Cama elevada tipo puente",
+      "Amplio espacio inferior aprovechable",
+      "Terminación laqueada premium",
+      "Escalera lateral integrada",
+      "Barandas de seguridad",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación laqueada de alta calidad" },
+      { title: "Estructura", description: "Reforzada para máxima seguridad" },
+      { title: "Espacio Inferior", description: "Libre para escritorio o almacenamiento" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Armado profesional en el lugar" },
+    ],
+    images: [
+      { src: "/products/cucheta-puente/IMG_4347.jpeg", alt: "Cucheta Puente en showroom" },
+      { src: "/products/cucheta-puente/IMG_4357.jpeg", alt: "Cucheta Puente vista lateral" },
+      { src: "/products/cucheta-puente/IMG_4671.jpeg", alt: "Cucheta Puente espacio inferior" },
+      { src: "/products/cucheta-puente/IMG_4672.jpeg", alt: "Cucheta Puente escalera" },
+      { src: "/products/cucheta-puente/IMG_4673.jpeg", alt: "Cucheta Puente detalle" },
+      { src: "/products/cucheta-puente/IMG_6903.jpeg", alt: "Cucheta Puente en ambiente" },
+    ],
+    sizes: ["1 Plaza (080x190)"],
+    relatedSlugs: ["cucheta-entera", "cama-triple-nido", "cama-vigo"],
+    seo: {
+      title: "Cucheta Puente Laqueada | Diseñar Muebles",
+      description: "Cucheta puente laqueada con espacio inferior libre. Estructura reforzada, fabricación propia.",
+    },
+  },
+  {
+    slug: "cuna-colecho",
+    name: "Cuna Colecho",
+    subtitle: "Dormí cerca de tu bebé con seguridad",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cuna colecho laqueada con lateral abatible. Se acopla a la cama de los padres para colecho seguro.",
+    longDescription:
+      "La Cuna Colecho permite dormir junto a tu bebé de forma segura. Su lateral abatible se acopla a la cama de los padres, y cuando crece se convierte en cuna independiente. Terminación laqueada atóxica y estructura reforzada.",
+    features: [
+      "Lateral abatible para colecho",
+      "Se acopla a la cama de los padres",
+      "Convertible en cuna independiente",
+      "Terminación laqueada atóxica",
+      "Estructura reforzada",
+    ],
+    specs: [
+      { title: "Laqueado Atóxico", description: "Pintura segura para bebés" },
+      { title: "Lateral Abatible", description: "Sistema de acople a cama adulta" },
+      { title: "Estructura", description: "Madera reforzada" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Se entrega armada" },
+    ],
+    images: [
+      { src: "/products/cuna-colecho/IMG_7336.jpeg", alt: "Cuna Colecho en showroom" },
+      { src: "/products/cuna-colecho/IMG_7337.jpeg", alt: "Cuna Colecho lateral abierto" },
+      { src: "/products/cuna-colecho/IMG_7340.jpeg", alt: "Cuna Colecho detalle" },
+      { src: "/products/cuna-colecho/IMG_7341.jpeg", alt: "Cuna Colecho vista completa" },
+    ],
+    relatedSlugs: ["cuna-vigo-funcional", "cama-vigo", "cama-triple-nido"],
+    seo: {
+      title: "Cuna Colecho Laqueada | Diseñar Muebles",
+      description: "Cuna colecho laqueada con lateral abatible. Laqueado atóxico, fabricación propia.",
+    },
+  },
+  {
+    slug: "cuna-vigo-funcional",
+    name: "Cuna Vigo Funcional",
+    subtitle: "Crece con tu bebé",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cuna funcional línea Vigo con cajones y cambiador. Se transforma en cama infantil cuando crece.",
+    longDescription:
+      "La Cuna Vigo Funcional es una cuna que crece con tu bebé. Incluye cajones inferiores de almacenamiento y cambiador integrado. Cuando tu hijo crece, se transforma en cama infantil. Terminación laqueada atóxica de alta calidad.",
+    features: [
+      "Cuna convertible en cama infantil",
+      "Cajones inferiores de almacenamiento",
+      "Cambiador integrado",
+      "Terminación laqueada atóxica",
+      "Estructura reforzada",
+      "Combina con Cama Vigo",
+    ],
+    specs: [
+      { title: "Laqueado Atóxico", description: "Pintura segura certificada para bebés" },
+      { title: "Convertible", description: "De cuna a cama infantil" },
+      { title: "Cajones", description: "Almacenamiento inferior integrado" },
+    ],
+    stats: [
+      { value: "2 en 1", label: "Cuna + Cama" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Se entrega armada y lista" },
+    ],
+    images: [
+      { src: "/products/cuna-vigo-funcional/IMG_0902.jpeg", alt: "Cuna Vigo Funcional en showroom" },
+      { src: "/products/cuna-vigo-funcional/IMG_0903.jpeg", alt: "Cuna Vigo Funcional lateral" },
+      { src: "/products/cuna-vigo-funcional/IMG_0908.jpeg", alt: "Cuna Vigo Funcional cajones" },
+      { src: "/products/cuna-vigo-funcional/IMG_0909.jpeg", alt: "Cuna Vigo Funcional cambiador" },
+      { src: "/products/cuna-vigo-funcional/IMG_0919.jpeg", alt: "Cuna Vigo Funcional detalle" },
+      { src: "/products/cuna-vigo-funcional/IMG_0920.jpeg", alt: "Cuna Vigo Funcional en ambiente" },
+    ],
+    relatedSlugs: ["cuna-colecho", "cama-vigo", "cama-triple-nido"],
+    seo: {
+      title: "Cuna Vigo Funcional Laqueada | Diseñar Muebles",
+      description: "Cuna funcional convertible en cama. Cajones y cambiador, laqueado atóxico. Fabricación propia.",
+    },
+  },
+  {
+    slug: "comoda-laqueada",
+    name: "Cómoda Laqueada",
+    subtitle: "Elegancia en acabado laqueado",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Cómoda con terminación laqueada de alta calidad. Cajones amplios con guías telescópicas.",
+    longDescription:
+      "La Cómoda Laqueada ofrece almacenamiento con un acabado laqueado de alta calidad. Sus cajones amplios con guías telescópicas y diseño elegante la hacen ideal para dormitorios que buscan un estilo refinado. Disponible en múltiples colores.",
+    features: [
+      "Terminación laqueada premium",
+      "Cajones con guías telescópicas",
+      "Diseño elegante y funcional",
+      "Múltiples colores disponibles",
+      "Estructura reforzada",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación multi-capa de alta calidad" },
+      { title: "Guías Telescópicas", description: "Apertura total en todos los cajones" },
+      { title: "MDF", description: "Estructura en MDF de primera" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada" },
+    ],
+    images: [
+      { src: "/products/comoda-laqueada/IMG_4670.jpeg", alt: "Cómoda Laqueada vista frontal" },
+      { src: "/products/comoda-laqueada/IMG_5615.jpeg", alt: "Cómoda Laqueada cajones" },
+      { src: "/products/comoda-laqueada/IMG_5621.jpeg", alt: "Cómoda Laqueada lateral" },
+      { src: "/products/comoda-laqueada/IMG_5622.jpeg", alt: "Cómoda Laqueada detalle" },
+      { src: "/products/comoda-laqueada/IMG_6663.jpeg", alt: "Cómoda Laqueada en ambiente" },
+      { src: "/products/comoda-laqueada/IMG_6804.jpeg", alt: "Cómoda Laqueada showroom" },
+    ],
+    relatedSlugs: ["mesa-de-luz-laqueada", "rack-laqueado", "vajillero-monterrey"],
+    seo: {
+      title: "Cómoda Laqueada | Diseñar Muebles",
+      description: "Cómoda laqueada con cajones telescópicos. Acabado premium, fabricación propia.",
+    },
+  },
+  {
+    slug: "mesa-de-luz-laqueada",
+    name: "Mesa de Luz Laqueada",
+    subtitle: "Compacta y elegante en laqueado",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Mesa de luz con terminación laqueada. Cajón deslizante y estante, diseño compacto y elegante.",
+    longDescription:
+      "La Mesa de Luz Laqueada ofrece funcionalidad en un acabado laqueado refinado. Con cajón deslizante y estante abierto, es el complemento perfecto para la Cómoda Laqueada y otros muebles de la línea laqueada.",
+    features: [
+      "Terminación laqueada premium",
+      "Cajón deslizante",
+      "Estante abierto",
+      "Diseño compacto",
+      "Combina con la línea laqueada",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación de alta calidad" },
+      { title: "Cajón", description: "Deslizante con guía" },
+      { title: "Medidas", description: "66 x 40 x 38cm" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada" },
+    ],
+    images: [
+      { src: "/products/mesa-de-luz-laqueada/IMG_1749.jpeg", alt: "Mesa de Luz Laqueada frontal" },
+      { src: "/products/mesa-de-luz-laqueada/IMG_1750.jpeg", alt: "Mesa de Luz Laqueada lateral" },
+      { src: "/products/mesa-de-luz-laqueada/IMG_1751.jpeg", alt: "Mesa de Luz Laqueada detalle" },
+      { src: "/products/mesa-de-luz-laqueada/IMG_5623.jpeg", alt: "Mesa de Luz Laqueada en ambiente" },
+      { src: "/products/mesa-de-luz-laqueada/IMG_5624.jpeg", alt: "Mesa de Luz Laqueada showroom" },
+    ],
+    relatedSlugs: ["comoda-laqueada", "rack-laqueado", "cama-vigo"],
+    seo: {
+      title: "Mesa de Luz Laqueada | Diseñar Muebles",
+      description: "Mesa de luz laqueada con cajón y estante. Acabado premium, fabricación propia.",
+    },
+  },
+  {
+    slug: "rack-laqueado",
+    name: "Rack TV Laqueado",
+    subtitle: "Centro de entretenimiento con estilo",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Rack para TV con terminación laqueada. Diseño moderno con almacenamiento integrado para tu living.",
+    longDescription:
+      "El Rack TV Laqueado es el centro de entretenimiento ideal para tu living. Con terminación laqueada de alta calidad, ofrece espacio para TV, equipos electrónicos y almacenamiento en compartimentos con puertas. Su diseño moderno y funcional complementa cualquier ambiente.",
+    features: [
+      "Terminación laqueada premium",
+      "Espacio para TV y equipos",
+      "Compartimentos con puertas",
+      "Pasacables integrados",
+      "Diseño moderno y funcional",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación multi-capa resistente" },
+      { title: "Estructura", description: "MDF reforzado" },
+      { title: "Pasacables", description: "Orificios para cables integrados" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Listo para Usar", description: "Se entrega armado" },
+    ],
+    images: [
+      { src: "/products/rack-laqueado/IMG_6997.jpeg", alt: "Rack TV Laqueado vista frontal" },
+      { src: "/products/rack-laqueado/IMG_7007.jpeg", alt: "Rack TV Laqueado puertas abiertas" },
+      { src: "/products/rack-laqueado/IMG_7011.jpeg", alt: "Rack TV Laqueado lateral" },
+      { src: "/products/rack-laqueado/IMG_7012.jpeg", alt: "Rack TV Laqueado detalle" },
+      { src: "/products/rack-laqueado/IMG_7013.jpeg", alt: "Rack TV Laqueado estructura" },
+      { src: "/products/rack-laqueado/IMG_7014.jpeg", alt: "Rack TV Laqueado en ambiente" },
+    ],
+    relatedSlugs: ["comoda-laqueada", "mesa-de-luz-laqueada", "vajillero-monterrey"],
+    seo: {
+      title: "Rack TV Laqueado | Diseñar Muebles",
+      description: "Rack para TV laqueado con almacenamiento. Diseño moderno, fabricación propia.",
+    },
+  },
+  {
+    slug: "vajillero-monterrey",
+    name: "Vajillero Monterrey",
+    subtitle: "Exhibí y guardá con elegancia",
+    category: "productos-laqueados",
+    isHero: false,
+    shortDescription:
+      "Vajillero Monterrey con terminación laqueada. Estantes de exhibición con puertas de vidrio y almacenamiento inferior.",
+    longDescription:
+      "El Vajillero Monterrey combina exhibición y almacenamiento con una terminación laqueada de alta calidad. Su parte superior con puertas de vidrio permite exhibir vajilla y objetos decorativos, mientras que la parte inferior ofrece almacenamiento cerrado. Un mueble de gran presencia para tu comedor o living.",
+    features: [
+      "Terminación laqueada premium",
+      "Puertas de vidrio superiores",
+      "Almacenamiento inferior cerrado",
+      "Estantes regulables",
+      "Gran presencia visual",
+    ],
+    specs: [
+      { title: "Laqueado", description: "Terminación de alta calidad multi-capa" },
+      { title: "Vidrio", description: "Puertas superiores con vidrio templado" },
+      { title: "Estantes", description: "Regulables en altura" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Armado Incluido", description: "Armado profesional en el lugar" },
+    ],
+    images: [
+      { src: "/products/vajillero-monterrey/IMG_4852.jpeg", alt: "Vajillero Monterrey vista frontal" },
+      { src: "/products/vajillero-monterrey/IMG_4854.jpeg", alt: "Vajillero Monterrey puertas abiertas" },
+      { src: "/products/vajillero-monterrey/IMG_4856.jpeg", alt: "Vajillero Monterrey detalle" },
+      { src: "/products/vajillero-monterrey/IMG_4857.jpeg", alt: "Vajillero Monterrey lateral" },
+      { src: "/products/vajillero-monterrey/IMG_9908.jpeg", alt: "Vajillero Monterrey en ambiente" },
+    ],
+    relatedSlugs: ["rack-laqueado", "comoda-laqueada", "mesa-de-luz-laqueada"],
+    seo: {
+      title: "Vajillero Monterrey Laqueado | Diseñar Muebles",
+      description: "Vajillero Monterrey laqueado con puertas de vidrio. Gran presencia, fabricación propia.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // CÓMODAS — 1 diseño (Grecia) en 3 medidas
+  // ═══════════════════════════════════════════════════════════════
+  {
+    slug: "comoda-grecia",
+    name: "Cómoda Grecia",
+    subtitle: "Diseño minimalista con máximo almacenamiento",
+    category: "comodas",
+    isHero: true,
+    shortDescription:
+      "Cómoda de 6 cajones con guías telescópicas reforzadas. Diseño sin tiradores, líneas puras. Disponible en tres medidas.",
+    longDescription:
+      "La Cómoda Grecia combina un diseño minimalista sin tiradores con una gran capacidad de almacenamiento. Sus 6 cajones amplios con guías telescópicas reforzadas permiten una apertura total y suave. Fabricada íntegramente en MDF de 18mm con terminación en canto ABS resistente a golpes y humedad. Disponible en tres medidas y en múltiples tonos de melamina.",
+    features: [
+      "6 cajones amplios sin tiradores",
+      "Guías telescópicas reforzadas",
+      "Diseño minimalista de líneas puras",
+      "Disponible en múltiples colores de melamina",
+      "Tres medidas disponibles",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto ABS", description: "Terminación resistente a golpes y humedad en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en los 6 cajones" },
+    ],
+    stats: [
+      { value: "6", label: "Cajones" },
+      { value: "12", label: "Meses de garantía" },
+      { value: "3", label: "Medidas disponibles" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
+    ],
+    images: [
+      { src: "/products/comoda-grecia/IMG_1103.jpeg", alt: "Cómoda Grecia vista frontal" },
+      { src: "/products/comoda-grecia/IMG_1549.jpeg", alt: "Cómoda Grecia cajones abiertos" },
+      { src: "/products/comoda-grecia/IMG_1550.jpeg", alt: "Cómoda Grecia lateral" },
+      { src: "/products/comoda-grecia/IMG_1552.jpeg", alt: "Cómoda Grecia detalle" },
+      { src: "/products/comoda-grecia/IMG_1654.jpeg", alt: "Cómoda Grecia en ambiente" },
+      { src: "/products/comoda-grecia/IMG_1656.jpeg", alt: "Cómoda Grecia showroom" },
+    ],
+    sizes: ["100 x 36 x 85cm (alto)", "120 x 36 x 85cm (alto)", "150 x 36 x 85cm (alto)"],
+    relatedSlugs: ["mesa-de-luz-grecia", "base-box-genesis", "mesita-de-luz-desayunadora"],
+    seo: {
+      title: "Cómoda Grecia 6 Cajones | Diseñar Muebles",
+      description:
+        "Cómoda Grecia de 6 cajones con guías telescópicas reforzadas. MDF 18mm, canto ABS, diseño minimalista. Tres medidas.",
+    },
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // SILLONES — 6 diseños (3 sofá cama + 3 comunes) — pendiente fotos
+  // ═══════════════════════════════════════════════════════════════
+  ...generateSillonesPlaceholders(),
+
+  // ═══════════════════════════════════════════════════════════════
+  // COLCHONES — por marca (Taurus, Elegante, Deseo, Canon) y tipo (Espuma, Resorte)
+  // ═══════════════════════════════════════════════════════════════
+  ...generateColchonesProducts(),
 ];
+
+// ─── Helper: Generate sillones placeholder products ───────────────
+function generateSillonesPlaceholders(): Product[] {
+  const models = [
+    { slug: "sofa-cama-1", name: "Sofá Cama Modelo 1", subtype: "sofa-cama", desc: "Sofá cama con apertura fácil. Doble función: living de día, cama de noche." },
+    { slug: "sofa-cama-2", name: "Sofá Cama Modelo 2", subtype: "sofa-cama", desc: "Sofá cama de diseño moderno con mecanismo reforzado." },
+    { slug: "sofa-cama-3", name: "Sofá Cama Modelo 3", subtype: "sofa-cama", desc: "Sofá cama de gran tamaño con almacenamiento integrado." },
+    { slug: "sillon-comun-1", name: "Sillón Modelo 1", subtype: "comun", desc: "Sillón de 2 cuerpos con tapizado premium." },
+    { slug: "sillon-comun-2", name: "Sillón Modelo 2", subtype: "comun", desc: "Sillón de 3 cuerpos con diseño moderno." },
+    { slug: "sillon-comun-3", name: "Sillón Modelo 3", subtype: "comun", desc: "Sillón compacto ideal para espacios reducidos." },
+  ];
+
+  return models.map((m, i) => ({
+    slug: m.slug,
+    name: m.name,
+    subtitle: m.subtype === "sofa-cama" ? "Versatilidad para tu living" : "Confort para tu hogar",
+    category: "sillones",
+    subtype: m.subtype,
+    isHero: false,
+    shortDescription: m.desc,
+    longDescription: `${m.name}: ${m.desc} Tapizado en tela premium de alta resistencia con estructura reforzada. Disponible en múltiples colores.`,
+    features: [
+      m.subtype === "sofa-cama" ? "Mecanismo de apertura fácil" : "Diseño confortable",
+      "Tapizado en tela premium",
+      "Estructura reforzada",
+      "Múltiples colores disponibles",
+      m.subtype === "sofa-cama" ? "Doble función: sillón y cama" : "Espuma de alta densidad",
+    ],
+    specs: [
+      { title: "Tapizado", description: "Tela premium de alta resistencia" },
+      { title: "Estructura", description: "Reforzada para uso diario" },
+    ],
+    stats: [
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
+      { title: "Listo para Usar", description: "Se entrega armado" },
+    ],
+    images: [],
+    relatedSlugs: models.filter((_, j) => j !== i).slice(0, 3).map((r) => r.slug),
+    seo: {
+      title: `${m.name} | Diseñar Muebles`,
+      description: `${m.name}. ${m.desc} Fabricación propia.`,
+    },
+  }));
+}
+
+// ─── Helper: Generate colchones products ──────────────────────────
+function generateColchonesProducts(): Product[] {
+  const brands = [
+    { key: "taurus", name: "Taurus" },
+    { key: "elegante", name: "Elegante" },
+    { key: "deseo", name: "Deseo" },
+    { key: "canon", name: "Canon" },
+  ];
+  const types = [
+    { key: "espuma", name: "Espuma" },
+    { key: "resorte", name: "Resorte" },
+  ];
+  const sizes = [
+    "1 Plaza (080x190)",
+    "1½ Plaza (100x190)",
+    "2 Plazas (140x190)",
+    "Queen (160x200)",
+    "King (180x200)",
+  ];
+
+  const all: Product[] = [];
+
+  for (const brand of brands) {
+    for (const type of types) {
+      const slug = `colchon-${brand.key}-${type.key}`;
+      all.push({
+        slug,
+        name: `Colchón ${brand.name} ${type.name}`,
+        subtitle: `${brand.name} — Línea ${type.name}`,
+        category: "colchones",
+        brand: brand.name,
+        variant: type.name,
+        isHero: false,
+        shortDescription: `Colchón de ${type.key === "espuma" ? "espuma de alta densidad" : "resortes"} marca ${brand.name}. Confort y durabilidad garantizados.`,
+        longDescription: `El Colchón ${brand.name} ${type.name} ofrece ${type.key === "espuma" ? "espuma de alta densidad que se adapta al cuerpo para un descanso óptimo" : "un sistema de resortes que brinda soporte firme y ventilación superior"}. Marca ${brand.name}, reconocida por su calidad y durabilidad. Disponible en todas las medidas estándar.`,
+        features: [
+          type.key === "espuma" ? "Espuma de alta densidad" : "Sistema de resortes",
+          `Marca ${brand.name}`,
+          "Disponible en todas las medidas",
+          "Tela de alta calidad",
+          type.key === "espuma" ? "Adaptación al cuerpo" : "Ventilación superior",
+        ],
+        specs: [
+          { title: type.name, description: type.key === "espuma" ? "Espuma de alta densidad certificada" : "Sistema de resortes de acero" },
+          { title: "Tela", description: "Jacquard de alta calidad" },
+        ],
+        stats: [
+          { value: brand.name, label: "Marca" },
+          { value: type.name, label: "Tipo" },
+        ],
+        delivery: [
+          { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+        ],
+        images: [],
+        sizes,
+        relatedSlugs: brands
+          .filter((b) => b.key !== brand.key)
+          .slice(0, 2)
+          .map((b) => `colchon-${b.key}-${type.key}`),
+        seo: {
+          title: `Colchón ${brand.name} ${type.name} | Diseñar Muebles`,
+          description: `Colchón ${brand.name} de ${type.key}. Todas las medidas disponibles, envío a domicilio.`,
+        },
+      });
+    }
+  }
+
+  return all;
+}

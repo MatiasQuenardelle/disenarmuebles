@@ -7,7 +7,7 @@ import CatalogGrid from "@/app/components/CatalogGrid";
 export const metadata: Metadata = {
   title: "Productos | Diseñar Muebles",
   description:
-    "Explorá nuestro catálogo completo de camas, base box, respaldos, mesas de luz y accesorios. Fabricación propia, materiales premium.",
+    "Explorá nuestro catálogo completo: bases box, respaldos, mesitas de luz, cómodas, sillones, colchones y productos laqueados. Fabricación propia, materiales premium.",
 };
 
 export default function ProductosPage() {

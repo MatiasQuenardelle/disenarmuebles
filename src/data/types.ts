@@ -13,6 +13,9 @@ export interface Product {
   images: ProductImage[];
   price?: string;
   sizes?: string[];
+  brand?: string;
+  variant?: string;
+  subtype?: string;
   relatedSlugs: string[];
   seo: SEO;
 }

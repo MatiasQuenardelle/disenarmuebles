@@ -3,13 +3,57 @@ import type { CategoryMeta } from "./types";
 export const categories: CategoryMeta[] = [
   {
     slug: "base-box",
-    name: "Base Box",
+    name: "Bases Box Sommier",
     description:
       "Bases box con almacenamiento integrado. Cajones, bauleras y espacio inteligente para tu dormitorio.",
     seo: {
-      title: "Base Box con Almacenamiento | Diseñar Muebles",
+      title: "Bases Box Sommier | Diseñar Muebles",
       description:
-        "Bases box funcionales con cajones y bauleras. Fabricación propia, materiales premium y entrega con armado en Buenos Aires.",
+        "Bases box funcionales con cajones y bauleras. 5 diseños, fabricación propia, materiales premium y entrega con armado.",
+    },
+  },
+  {
+    slug: "respaldos-madera",
+    name: "Respaldos Madera",
+    description:
+      "Respaldos de madera para tu cama. Diseños modernos y naturales que complementan cualquier dormitorio.",
+    seo: {
+      title: "Respaldos de Madera | Diseñar Muebles",
+      description:
+        "Respaldos de madera para camas. 3 diseños modernos, fabricación propia. Diseñar Muebles.",
+    },
+  },
+  {
+    slug: "mesitas-de-luz",
+    name: "Mesitas de Luz",
+    description:
+      "Mesitas de luz modernas y funcionales. El complemento perfecto para tu dormitorio.",
+    seo: {
+      title: "Mesitas de Luz | Diseñar Muebles",
+      description:
+        "Mesitas de luz modernas y funcionales. 5 diseños, fabricación propia, entrega con armado.",
+    },
+  },
+  {
+    slug: "respaldos-tapizados",
+    name: "Respaldos Tapizados",
+    description:
+      "Respaldos tapizados en tela premium para tu cama. Confort y elegancia en múltiples diseños y colores.",
+    seo: {
+      title: "Respaldos Tapizados | Diseñar Muebles",
+      description:
+        "Respaldos tapizados para camas. 7 diseños, tela premium antimancha, fabricación propia.",
+    },
+  },
+  {
+    slug: "productos-laqueados",
+    name: "Productos Laqueados",
+    description:
+      "Muebles con terminación laqueada de alta calidad. Cunas, cuchetas, camas, racks y más con acabado premium.",
+    seo: {
+      title: "Productos Laqueados | Diseñar Muebles",
+      description:
+        "Muebles laqueados: cunas, cuchetas, camas, racks, cómodas y más. Acabado premium, fabricación propia.",
     },
   },
   {
@@ -20,40 +64,29 @@ export const categories: CategoryMeta[] = [
     seo: {
       title: "Cómodas Cajoneras | Diseñar Muebles",
       description:
-        "Cómodas cajoneras de 6 cajones con guías telescópicas reforzadas. MDF de 18mm, canto ABS, diseño minimalista. Fabricación propia.",
+        "Cómodas cajoneras de 6 cajones con guías telescópicas reforzadas. 1 diseño en 3 medidas. Fabricación propia.",
     },
   },
   {
-    slug: "respaldos",
-    name: "Respaldos",
+    slug: "sillones",
+    name: "Sillones",
     description:
-      "Respaldos tapizados y de madera para complementar tu cama. Diseños modernos y clásicos.",
+      "Sillones comunes y sofá cama. Diseños modernos con estructura reforzada y tapizado premium.",
     seo: {
-      title: "Respaldos para Camas | Diseñar Muebles",
+      title: "Sillones y Sofá Cama | Diseñar Muebles",
       description:
-        "Respaldos tapizados y de madera para tu dormitorio. Diseños modernos, fabricación propia en Buenos Aires.",
+        "Sillones comunes y sofá cama. 6 diseños, tapizado premium, fabricación propia.",
     },
   },
   {
-    slug: "mesas-de-luz",
-    name: "Mesas de Luz",
+    slug: "colchones",
+    name: "Colchones",
     description:
-      "Mesas de luz modernas y funcionales. El complemento perfecto para tu dormitorio.",
+      "Colchones de espuma y resorte de las mejores marcas: Taurus, Elegante, Deseo y Canon. Todas las medidas disponibles.",
     seo: {
-      title: "Mesas de Luz | Diseñar Muebles",
+      title: "Colchones | Diseñar Muebles",
       description:
-        "Mesas de luz modernas y funcionales. Fabricación propia, entrega con armado en Buenos Aires.",
-    },
-  },
-  {
-    slug: "accesorios",
-    name: "Accesorios",
-    description:
-      "Protectores de colchón, almohadas y accesorios para completar tu descanso.",
-    seo: {
-      title: "Accesorios para Dormitorio | Diseñar Muebles",
-      description:
-        "Protectores de colchón, almohadas y accesorios de calidad. Complementá tu dormitorio con Diseñar Muebles.",
+        "Colchones de espuma y resorte. Marcas: Taurus, Elegante, Deseo, Canon. Todas las medidas, envío a domicilio.",
     },
   },
 ];
