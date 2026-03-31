@@ -2,7 +2,7 @@ import type { GoogleReview } from "./types";
 
 export const googleReviewsStats = {
   averageRating: 5.0,
-  totalReviews: 127,
+  totalReviews: 114,
 };
 
 export const googleReviews: GoogleReview[] = [
