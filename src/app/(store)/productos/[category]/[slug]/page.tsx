@@ -49,7 +49,7 @@ export default async function ProductPage({
 
   const cat = getCategoryBySlug(category);
   const related = getRelatedProducts(product);
-  const complementary = product.isHero ? getComplementaryProducts() : [];
+  const complementary = product.isHero ? getComplementaryProducts(product) : [];
 
   return (
     <>
