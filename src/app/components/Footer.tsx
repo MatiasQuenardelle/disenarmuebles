@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteInfo } from "@/data/site";
 import { categories } from "@/data/categories";
 
@@ -9,11 +10,14 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <div className="mb-5 flex flex-col leading-none">
-              <span className="font-heading text-2xl italic text-brand-light">Diseñar</span>
-              <span className="-mt-0.5 text-[0.7rem] font-bold tracking-[0.3em] text-cream/80">
-                MUEBLES
-              </span>
+            <div className="mb-5">
+              <Image
+                src="/logo.jpeg"
+                alt="Diseñar Muebles — Fábrica de Muebles"
+                width={140}
+                height={70}
+                className="h-auto w-[130px] brightness-0 invert"
+              />
             </div>
             <p className="text-sm leading-relaxed text-cream/50">
               Fábrica argentina de camas y muebles de calidad.

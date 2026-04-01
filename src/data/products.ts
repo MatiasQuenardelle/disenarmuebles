@@ -67,14 +67,15 @@ export const products: Product[] = [
     shortDescription:
       "Base box de línea premium con cajones de gran capacidad y baulera. Diseño moderno con múltiples opciones de color y terminación.",
     longDescription:
-      "La Base Box Funcional Luxury es nuestra línea premium de almacenamiento. Con cajones de gran capacidad, guías telescópicas reforzadas y baulera con pistón neumático, ofrece el máximo espacio de guardado. Fabricada en MDF de 18mm con terminación premium, soporta hasta 600kg y se entrega armada.",
+      "La Base Box Funcional Luxury es nuestra línea premium de almacenamiento. Con cajones de gran capacidad, guías telescópicas reforzadas y baulera con pistón neumático, ofrece el máximo espacio de guardado. Fabricada en MDF de 18mm con terminación premium, soporta hasta 600kg. Se divide en 4 módulos + tapa que se entregan armados — no requiere instalación, solo se apoyan los módulos entre sí.",
     features: [
       "Cajones de gran capacidad",
       "Baulera con pistón neumático",
       "Guías telescópicas reforzadas",
       "Terminación premium en múltiples colores",
       "Soporta 600kg",
-      "Se entrega armada",
+      "Se divide en 4 módulos + tapa",
+      "Se entregan armados — no requiere instalación",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
@@ -86,12 +87,12 @@ export const products: Product[] = [
     stats: [
       { value: "600kg", label: "Capacidad de carga" },
       { value: "12", label: "Meses de garantía" },
-      { value: "3", label: "Módulos" },
+      { value: "4+1", label: "Módulos + tapa" },
     ],
     delivery: [
-      { title: "Se Entregan Armados", description: "Los módulos llegan listos, sin necesidad de armado" },
+      { title: "Se Entregan Armados", description: "Los 4 módulos y la tapa llegan listos, sin necesidad de armado" },
       { title: "Sin Instalación", description: "Solo se apoyan los módulos entre sí" },
-      { title: "Ingreso Fácil", description: "Módulos pensados para entrar por cualquier puerta" },
+      { title: "4 Módulos + Tapa", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
       { src: "/products/base-box-luxury/IMG_0104.jpeg", alt: "Base Box Luxury vista general" },
