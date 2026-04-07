@@ -41,8 +41,8 @@ export const valueProps: ValueProp[] = [
     icon: "✨",
   },
   {
-    title: "Entrega con Armado",
-    description: "Lo llevamos y armamos en tu hogar",
+    title: "Entrega a Domicilio",
+    description: "Lo llevamos directo a tu hogar",
     icon: "🚚",
   },
   {

@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# drive downloads & loose photos
+drive-download-*/
+photo_*.jpeg
+r[0-9].png
+public/product[0-9]/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

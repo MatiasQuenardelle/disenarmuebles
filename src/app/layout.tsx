@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | Diseñar Muebles",
   },
   description:
-    "Diseñar Muebles — Fábrica de camas, base box y muebles de calidad en Buenos Aires. Fabricación propia, materiales premium, entrega con armado.",
+    "Diseñar Muebles — Fábrica de camas, base box y muebles de calidad en Buenos Aires. Fabricación propia, materiales premium, entrega a domicilio.",
   metadataBase: new URL(SITE_URL),
   openGraph: {
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "Diseñar Muebles",
     title: "Diseñar Muebles | Camas y Muebles en Argentina",
     description:
-      "Fábrica de camas, base box y muebles de calidad en Buenos Aires. Fabricación propia, materiales premium, entrega con armado.",
+      "Fábrica de camas, base box y muebles de calidad en Buenos Aires. Fabricación propia, materiales premium, entrega a domicilio.",
     images: [{ url: "/products/genesis/hero.jpeg", alt: "Diseñar Muebles" }],
   },
 };

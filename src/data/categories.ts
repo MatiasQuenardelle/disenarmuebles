@@ -9,7 +9,7 @@ export const categories: CategoryMeta[] = [
     seo: {
       title: "Bases Box Sommier | Diseñar Muebles",
       description:
-        "Bases box funcionales con cajones y bauleras. 5 diseños, fabricación propia, materiales premium y entrega con armado.",
+        "Bases box funcionales con cajones y bauleras. 5 diseños, fabricación propia, materiales premium y entrega a domicilio.",
     },
   },
   {
@@ -31,7 +31,7 @@ export const categories: CategoryMeta[] = [
     seo: {
       title: "Mesitas de Luz | Diseñar Muebles",
       description:
-        "Mesitas de luz modernas y funcionales. 5 diseños, fabricación propia, entrega con armado.",
+        "Mesitas de luz modernas y funcionales. 5 diseños, fabricación propia, entrega a domicilio.",
     },
   },
   {
@@ -64,7 +64,7 @@ export const categories: CategoryMeta[] = [
     seo: {
       title: "Cómodas Cajoneras | Diseñar Muebles",
       description:
-        "Cómodas cajoneras de 6 cajones con guías telescópicas reforzadas. 1 diseño en 3 medidas. Fabricación propia.",
+        "Cómodas cajoneras de 6 cajones con guías telescópicas reforzadas. Disponibles en 120, 140 y 160cm de ancho. Fabricación propia.",
     },
   },
   {

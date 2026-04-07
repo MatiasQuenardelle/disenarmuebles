@@ -139,7 +139,7 @@ export const products: Product[] = [
       { value: "2", label: "Módulos de transporte" },
     ],
     delivery: [
-      { title: "Entrega con Armado", description: "Lo llevamos y armamos en tu hogar" },
+      { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
       { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Ingreso sencillo por puertas estándar" },
     ],
@@ -188,7 +188,7 @@ export const products: Product[] = [
       { value: "2", label: "Módulos de transporte" },
     ],
     delivery: [
-      { title: "Entrega con Armado", description: "Lo llevamos y armamos en tu hogar" },
+      { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
       { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Fácil ingreso por cualquier acceso" },
     ],
@@ -198,7 +198,7 @@ export const products: Product[] = [
     seo: {
       title: "Base Box Esencial | Diseñar Muebles",
       description:
-        "Base box con baulera completa. MDF premium, 400kg de capacidad, precio accesible. Entrega con armado.",
+        "Base box con baulera completa. MDF premium, 400kg de capacidad, precio accesible. Entrega a domicilio.",
     },
   },
   {
@@ -230,7 +230,7 @@ export const products: Product[] = [
       { value: "2", label: "Módulos de transporte" },
     ],
     delivery: [
-      { title: "Entrega con Armado", description: "Lo llevamos y armamos en tu hogar" },
+      { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
       { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Ingreso sencillo a tu hogar" },
     ],
@@ -240,7 +240,7 @@ export const products: Product[] = [
     seo: {
       title: "Base Box Funcional Dúo | Diseñar Muebles",
       description:
-        "Base box con 2 cajones y baulera lateral. MDF premium, 500kg de capacidad. Entrega con armado.",
+        "Base box con 2 cajones y baulera lateral. MDF premium, 500kg de capacidad. Entrega a domicilio.",
     },
   },
 
@@ -446,6 +446,8 @@ export const products: Product[] = [
       { src: "/products/mesa-de-luz-clasica/IMG_2554.jpeg", alt: "Mesa de Luz Clásica lateral" },
       { src: "/products/mesa-de-luz-clasica/IMG_2555.jpeg", alt: "Mesa de Luz Clásica en ambiente" },
       { src: "/products/mesa-de-luz-clasica/IMG_8461.jpeg", alt: "Mesa de Luz Clásica showroom" },
+      { src: "/products/mesa-de-luz-clasica/clasica.png", alt: "Mesa de Luz Clásica producto" },
+      { src: "/products/mesa-de-luz-clasica/clasica-2.jpeg", alt: "Mesa de Luz Clásica detalle acabado" },
     ],
     relatedSlugs: ["mesita-de-luz-desayunadora", "mesa-de-luz-flotante", "mesa-de-luz-grecia"],
     seo: {
@@ -484,11 +486,10 @@ export const products: Product[] = [
       { title: "Fijación Incluida", description: "Kit de instalación y tacos incluidos" },
     ],
     images: [
-      { src: "/products/mesa-de-luz-flotante/IMG_1045.jpeg", alt: "Mesa de Luz Flotante vista frontal" },
-      { src: "/products/mesa-de-luz-flotante/IMG_1046.jpeg", alt: "Mesa de Luz Flotante lateral" },
-      { src: "/products/mesa-de-luz-flotante/IMG_8936.jpeg", alt: "Mesa de Luz Flotante en ambiente" },
-      { src: "/products/mesa-de-luz-flotante/IMG_8937.jpeg", alt: "Mesa de Luz Flotante detalle cajón" },
-      { src: "/products/mesa-de-luz-flotante/IMG_8938.jpeg", alt: "Mesa de Luz Flotante showroom" },
+      { src: "/products/mesa-de-luz-flotante/IMG_1045.jpeg", alt: "Mesa de Luz Flotante con cajón abierto" },
+      { src: "/products/mesa-de-luz-flotante/IMG_1046.jpeg", alt: "Mesa de Luz Flotante montada en pared" },
+      { src: "/products/mesa-de-luz-flotante/flotante-3.jpeg", alt: "Mesa de Luz Flotante con cajón y estante" },
+      { src: "/products/mesa-de-luz-flotante/flotante-4.jpeg", alt: "Mesa de Luz Flotante detalles de construcción" },
     ],
     relatedSlugs: ["mesa-de-luz-grecia", "mesita-de-luz-desayunadora", "base-box-genesis"],
     seo: {
@@ -542,40 +543,43 @@ export const products: Product[] = [
     },
   },
   {
-    slug: "mesa-de-luz-suspendida",
-    name: "Mesa de Luz Suspendida",
-    subtitle: "Funcionalidad elevada",
+    slug: "mesa-de-luz-moscu",
+    name: "Mesa de Luz Moscú",
+    subtitle: "Compacta y funcional con pasacables",
     category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
-      "Mesa de luz suspendida con dos cajones. Mayor capacidad de almacenamiento en diseño compacto.",
+      "Mesa de luz compacta con nicho abierto superior con pasacables y 2 cajones sin tiradores. Ideal para espacios reducidos.",
     longDescription:
-      "La Mesa de Luz Suspendida eleva el almacenamiento junto a tu cama con dos cajones amplios con guías telescópicas. Su diseño suspendido facilita la limpieza y da sensación de amplitud. Fabricada en MDF de 18mm.",
+      "La Mesa de Luz Moscú ofrece un diseño compacto y funcional con un nicho abierto superior con pasacables integrado para cargar dispositivos, y 2 cajones amplios sin tiradores con apertura push. Montada sobre rueditas para fácil desplazamiento. Fabricada en MDF de 18mm con terminación en melamina de alta calidad.",
     features: [
-      "2 cajones con guías telescópicas",
-      "Diseño suspendido con fijación a pared",
-      "Mayor capacidad de almacenamiento",
-      "Terminación en MDF laminado",
-      "Sistema de fijación reforzado",
+      "Nicho abierto con pasacables integrado",
+      "2 cajones sin tiradores (apertura push)",
+      "Rueditas para fácil desplazamiento",
+      "Diseño compacto ideal para espacios reducidos",
+      "Fabricada en MDF 18mm",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF laminado" },
-      { title: "Guías Telescópicas", description: "Doble cajón con apertura total" },
-      { title: "Fijación Reforzada", description: "Sistema de anclaje para mayor peso" },
+      { title: "Pasacables", description: "Orificio integrado para carga de dispositivos" },
+      { title: "Ruedas", description: "Rueditas de desplazamiento suave" },
     ],
     stats: [
-      { value: "50cm", label: "Ancho" },
+      { value: "2", label: "Cajones" },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
-      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
-      { title: "Fijación Incluida", description: "Kit de instalación reforzado incluido" },
+      { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
+      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
     ],
-    images: [],
-    relatedSlugs: ["mesa-de-luz-flotante", "mesa-de-luz-grecia", "base-box-luxury"],
+    images: [
+      { src: "/products/mesa-de-luz-moscu/moscu-1.jpeg", alt: "Mesa de Luz Moscú junto a cama" },
+      { src: "/products/mesa-de-luz-moscu/moscu-2.jpeg", alt: "Mesa de Luz Moscú par vista frontal" },
+    ],
+    relatedSlugs: ["mesa-de-luz-flotante", "mesa-de-luz-grecia", "base-box-genesis"],
     seo: {
-      title: "Mesa de Luz Suspendida | Diseñar Muebles",
-      description: "Mesa de luz suspendida con 2 cajones. Diseño moderno, MDF premium.",
+      title: "Mesa de Luz Moscú | Diseñar Muebles",
+      description: "Mesa de luz Moscú compacta con pasacables y 2 cajones. Diseño funcional, MDF premium.",
     },
   },
 
@@ -1147,22 +1151,24 @@ export const products: Product[] = [
     category: "productos-laqueados",
     isHero: false,
     shortDescription:
-      "Cómoda con terminación laqueada de alta calidad. Cajones amplios con guías telescópicas.",
+      "Cómoda con terminación laqueada de alta calidad. Cajones amplios con guías telescópicas reforzadas. Disponible en 120, 140 y 160cm de ancho.",
     longDescription:
-      "La Cómoda Laqueada ofrece almacenamiento con un acabado laqueado de alta calidad. Sus cajones amplios con guías telescópicas y diseño elegante la hacen ideal para dormitorios que buscan un estilo refinado. Disponible en múltiples colores.",
+      "La Cómoda Laqueada ofrece almacenamiento con un acabado laqueado de alta calidad. Sus cajones amplios con guías telescópicas reforzadas y diseño elegante la hacen ideal para dormitorios que buscan un estilo refinado. Disponible en 120, 140 y 160cm de ancho. Misma calidad en todas las medidas.",
     features: [
       "Terminación laqueada premium",
-      "Cajones con guías telescópicas",
+      "Cajones con guías telescópicas reforzadas",
       "Diseño elegante y funcional",
       "Múltiples colores disponibles",
       "Estructura reforzada",
+      "Disponible en 120, 140 y 160cm de ancho",
     ],
     specs: [
       { title: "Laqueado", description: "Terminación multi-capa de alta calidad" },
-      { title: "Guías Telescópicas", description: "Apertura total en todos los cajones" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total en todos los cajones" },
       { title: "MDF", description: "Estructura en MDF de primera" },
     ],
     stats: [
+      { value: "120/140/160", label: "Ancho disponible (cm)" },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
@@ -1177,10 +1183,11 @@ export const products: Product[] = [
       { src: "/products/comoda-laqueada/IMG_6663.jpeg", alt: "Cómoda Laqueada en ambiente" },
       { src: "/products/comoda-laqueada/IMG_6804.jpeg", alt: "Cómoda Laqueada showroom" },
     ],
+    sizes: ["120cm de ancho", "140cm de ancho", "160cm de ancho"],
     relatedSlugs: ["mesa-de-luz-laqueada", "rack-laqueado", "vajillero-monterrey"],
     seo: {
       title: "Cómoda Laqueada | Diseñar Muebles",
-      description: "Cómoda laqueada con cajones telescópicos. Acabado premium, fabricación propia.",
+      description: "Cómoda laqueada con cajones telescópicos reforzados. Acabado premium, disponible en 120, 140 y 160cm.",
     },
   },
   {
@@ -1321,15 +1328,15 @@ export const products: Product[] = [
     category: "comodas",
     isHero: true,
     shortDescription:
-      "Cómoda de 6 cajones con guías telescópicas reforzadas. Diseño sin tiradores, líneas puras. Disponible en tres medidas.",
+      "Cómoda de 6 cajones con guías telescópicas reforzadas. Diseño sin tiradores, líneas puras. Disponible en 120, 140 y 160cm de ancho.",
     longDescription:
-      "La Cómoda Grecia combina un diseño minimalista sin tiradores con una gran capacidad de almacenamiento. Sus 6 cajones amplios con guías telescópicas reforzadas permiten una apertura total y suave. Fabricada íntegramente en MDF de 18mm con terminación en canto ABS resistente a golpes y humedad. Disponible en tres medidas y en múltiples tonos de melamina.",
+      "La Cómoda Grecia combina un diseño minimalista sin tiradores con una gran capacidad de almacenamiento. Sus 6 cajones amplios con guías telescópicas reforzadas permiten una apertura total y suave. Fabricada íntegramente en MDF de 18mm con terminación en canto ABS resistente a golpes y humedad. Disponible en 120, 140 y 160cm de ancho, y en múltiples tonos de melamina. Misma calidad y guías telescópicas reforzadas en todas las medidas.",
     features: [
       "6 cajones amplios sin tiradores",
       "Guías telescópicas reforzadas",
       "Diseño minimalista de líneas puras",
       "Disponible en múltiples colores de melamina",
-      "Tres medidas disponibles",
+      "Disponible en 120, 140 y 160cm de ancho",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
@@ -1339,7 +1346,7 @@ export const products: Product[] = [
     stats: [
       { value: "6", label: "Cajones" },
       { value: "12", label: "Meses de garantía" },
-      { value: "3", label: "Medidas disponibles" },
+      { value: "120/140/160", label: "Ancho disponible (cm)" },
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
@@ -1353,12 +1360,12 @@ export const products: Product[] = [
       { src: "/products/comoda-grecia/IMG_1654.jpeg", alt: "Cómoda Grecia en ambiente" },
       { src: "/products/comoda-grecia/IMG_1656.jpeg", alt: "Cómoda Grecia showroom" },
     ],
-    sizes: ["100 x 36 x 85cm (alto)", "120 x 36 x 85cm (alto)", "150 x 36 x 85cm (alto)"],
+    sizes: ["120cm de ancho", "140cm de ancho", "160cm de ancho"],
     relatedSlugs: ["mesa-de-luz-grecia", "base-box-genesis", "mesita-de-luz-desayunadora"],
     seo: {
       title: "Cómoda Grecia 6 Cajones | Diseñar Muebles",
       description:
-        "Cómoda Grecia de 6 cajones con guías telescópicas reforzadas. MDF 18mm, canto ABS, diseño minimalista. Tres medidas.",
+        "Cómoda Grecia de 6 cajones con guías telescópicas reforzadas. MDF 18mm, canto ABS, diseño minimalista. Disponible en 120, 140 y 160cm.",
     },
   },
 
