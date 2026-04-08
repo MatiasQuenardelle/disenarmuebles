@@ -175,7 +175,7 @@ export default async function ProductPage({
                 Sin complicaciones
               </p>
               <h2 className="mb-8 text-3xl font-bold text-warm-brown sm:text-4xl">
-                Entrega y Armado
+                Entrega Simple
               </h2>
               <div className="grid gap-6 sm:grid-cols-3">
                 {product.delivery.map((item) => (

@@ -39,7 +39,6 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Se Entregan Armados", description: "Los 3 módulos llegan listos, sin necesidad de armado" },
-      { title: "Sin Instalación", description: "Solo se apoyan los módulos entre sí" },
       { title: "3 Módulos", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
@@ -91,7 +90,6 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Se Entregan Armados", description: "Los 4 módulos y la tapa llegan listos, sin necesidad de armado" },
-      { title: "Sin Instalación", description: "Solo se apoyan los módulos entre sí" },
       { title: "4 Módulos + Tapa", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
@@ -140,7 +138,6 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
-      { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Ingreso sencillo por puertas estándar" },
     ],
     images: [
@@ -188,7 +185,6 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
-      { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Fácil ingreso por cualquier acceso" },
     ],
     images: [],
@@ -230,7 +226,6 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
-      { title: "Sin Instalación", description: "Listo para usar desde el primer día" },
       { title: "2 Módulos", description: "Ingreso sencillo a tu hogar" },
     ],
     images: [],
@@ -392,7 +387,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
-      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
+      { title: "Lista para Usar", description: "Se entrega armada y lista para usar" },
     ],
     images: [
       { src: "/products/mesita-desayunadora-new/IMG_2546.jpeg", alt: "Mesa de Luz Desayunadora vista frontal" },
@@ -597,7 +592,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos directo a tu hogar" },
-      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
+      { title: "Lista para Usar", description: "Se entrega armada y lista para usar" },
     ],
     images: [
       { src: "/products/mesa-de-luz-moscu/moscu-1.jpeg", alt: "Mesa de Luz Moscú junto a cama" },
@@ -1382,7 +1377,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
+      { title: "Lista para Usar", description: "Se entrega armada y lista para usar" },
     ],
     images: [
       { src: "/products/comoda-grecia/IMG_1103.jpeg", alt: "Cómoda Grecia vista frontal" },
