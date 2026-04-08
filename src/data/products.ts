@@ -13,7 +13,7 @@ export const products: Product[] = [
     shortDescription:
       "Base box sommier y cajonera en uno. 2 cajones clásicos, 2 internos, 2 amplios, zapatero doble y baulera central. Ideal para optimizar espacio.",
     longDescription:
-      "La Base Box Funcional Génesis es la solución definitiva para optimizar tu dormitorio: dos muebles en uno. Combina la función de sommier y cajonera con un diseño minimalista que maximiza cada centímetro. Incluye 2 cajones clásicos, 2 cajones internos, 2 cajones amplios, un zapatero doble y una baulera central sin fondo (con opción de agregar fondo). Fabricada íntegramente en MDF de 18mm con canto ABS, guías telescópicas reforzadas, pistón neumático con suspensión, herrajes metálicos y patitas de 2cm. Soporta hasta 600kg, se divide en 3 módulos que se entregan armados — no requiere instalación, solo se apoyan los módulos entre sí.",
+      "La Base Box Funcional Génesis es la solución definitiva para optimizar tu dormitorio: dos muebles en uno. Combina la función de sommier y cajonera con un diseño minimalista que maximiza cada centímetro. Incluye 2 cajones clásicos, 2 cajones internos, 2 cajones amplios, un zapatero doble y una baulera central sin fondo (con opción de agregar fondo). Fabricada íntegramente en MDF de 18mm con canto ABS, guías telescópicas reforzadas, pistón neumático con suspensión, herrajes metálicos y patitas de 2cm. Soporta hasta 600kg, se divide en 3 módulos que los módulos llegan listos, solo se apoyan entre sí.",
     features: [
       "2 cajones clásicos",
       "2 cajones internos",
@@ -22,7 +22,7 @@ export const products: Product[] = [
       "Baulera central sin fondo (opcional: se puede agregar fondo)",
       "Soporta 600kg",
       "Se divide en 3 módulos",
-      "Se entregan armados — no requiere instalación",
+      "Los módulos llegan listos — solo se apoyan entre sí",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
@@ -38,7 +38,7 @@ export const products: Product[] = [
       { value: "3", label: "Módulos" },
     ],
     delivery: [
-      { title: "Se Entregan Armados", description: "Los 3 módulos llegan listos, sin necesidad de armado" },
+      { title: "Módulos Listos", description: "Los 3 módulos llegan listos para colocar" },
       { title: "3 Módulos", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
@@ -66,7 +66,7 @@ export const products: Product[] = [
     shortDescription:
       "Base box de línea premium con cajones de gran capacidad y baulera. Diseño moderno con múltiples opciones de color y terminación.",
     longDescription:
-      "La Base Box Funcional Luxury es nuestra línea premium de almacenamiento. Con cajones de gran capacidad, guías telescópicas reforzadas y baulera con pistón neumático, ofrece el máximo espacio de guardado. Fabricada en MDF de 18mm con terminación premium, soporta hasta 600kg. Se divide en 4 módulos + tapa que se entregan armados — no requiere instalación, solo se apoyan los módulos entre sí.",
+      "La Base Box Funcional Luxury es nuestra línea premium de almacenamiento. Con cajones de gran capacidad, guías telescópicas reforzadas y baulera con pistón neumático, ofrece el máximo espacio de guardado. Fabricada en MDF de 18mm con terminación premium, soporta hasta 600kg. Se divide en 4 módulos + tapa que los módulos llegan listos, solo se apoyan entre sí.",
     features: [
       "Cajones de gran capacidad",
       "Baulera con pistón neumático",
@@ -74,7 +74,7 @@ export const products: Product[] = [
       "Terminación premium en múltiples colores",
       "Soporta 600kg",
       "Se divide en 4 módulos + tapa",
-      "Se entregan armados — no requiere instalación",
+      "Los módulos llegan listos — solo se apoyan entre sí",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
@@ -89,7 +89,7 @@ export const products: Product[] = [
       { value: "4+1", label: "Módulos + tapa" },
     ],
     delivery: [
-      { title: "Se Entregan Armados", description: "Los 4 módulos y la tapa llegan listos, sin necesidad de armado" },
+      { title: "Módulos Listos", description: "Los 4 módulos y la tapa llegan listos para colocar" },
       { title: "4 Módulos + Tapa", description: "Ingreso fácil por cualquier puerta o ascensor" },
     ],
     images: [
@@ -933,7 +933,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Se entrega armada y lista para usar" },
+      { title: "Lista para Usar", description: "Se entrega lista, sin complicaciones" },
     ],
     images: [
       { src: "/products/cama-triple-nido/IMG_0912.jpeg", alt: "Cama Triple Nido vista lateral" },
@@ -977,7 +977,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Se entrega armada" },
+      { title: "Lista para Usar", description: "Llega lista, sin complicaciones" },
     ],
     images: [
       { src: "/products/cama-vigo/IMG_4858.jpeg", alt: "Cama Vigo en showroom" },
@@ -1022,7 +1022,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Armado profesional en el lugar" },
+      { title: "Lista para Usar", description: "Llega lista, sin complicaciones" },
     ],
     images: [
       { src: "/products/cucheta-entera/IMG_4713.jpeg", alt: "Cucheta Entera en showroom" },
@@ -1066,7 +1066,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Armado profesional en el lugar" },
+      { title: "Lista para Usar", description: "Llega lista, sin complicaciones" },
     ],
     images: [
       { src: "/products/cucheta-puente/IMG_4347.jpeg", alt: "Cucheta Puente en showroom" },
@@ -1110,7 +1110,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Se entrega armada" },
+      { title: "Lista para Usar", description: "Llega lista, sin complicaciones" },
     ],
     images: [
       { src: "/products/cuna-colecho/IMG_7336.jpeg", alt: "Cuna Colecho en showroom" },
@@ -1153,7 +1153,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Se entrega armada y lista" },
+      { title: "Lista para Usar", description: "Llega lista, sin complicaciones" },
     ],
     images: [
       { src: "/products/cuna-vigo-funcional/IMG_0902.jpeg", alt: "Cuna Vigo Funcional en showroom" },
@@ -1287,7 +1287,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Listo para Usar", description: "Se entrega armado" },
+      { title: "Listo para Usar", description: "Llega listo, sin complicaciones" },
     ],
     images: [
       { src: "/products/rack-laqueado/IMG_6997.jpeg", alt: "Rack TV Laqueado vista frontal" },
@@ -1329,7 +1329,7 @@ export const products: Product[] = [
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Armado Incluido", description: "Armado profesional en el lugar" },
+      { title: "Listo para Usar", description: "Llega listo, sin complicaciones" },
     ],
     images: [
       { src: "/products/vajillero-monterrey/IMG_4852.jpeg", alt: "Vajillero Monterrey vista frontal" },
@@ -1736,7 +1736,7 @@ function generateSillonesPlaceholders(): Product[] {
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Lo llevamos hasta tu hogar" },
-      { title: "Listo para Usar", description: "Se entrega armado" },
+      { title: "Listo para Usar", description: "Llega listo, sin complicaciones" },
     ],
     images: [],
     relatedSlugs: models.filter((_, j) => j !== i).slice(0, 3).map((r) => r.slug),

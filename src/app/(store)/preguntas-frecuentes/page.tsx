@@ -6,7 +6,7 @@ import { FAQPageJsonLd } from "@/app/components/JsonLd";
 export const metadata: Metadata = {
   title: "Preguntas Frecuentes | Diseñar Muebles",
   description:
-    "Respondemos tus dudas sobre entrega, armado, garantía, medios de pago y envíos. Diseñar Muebles, Buenos Aires.",
+    "Respondemos tus dudas sobre entrega, garantía, medios de pago y envíos. Diseñar Muebles, Córdoba Capital.",
 };
 
 export default function PreguntasFrecuentesPage() {

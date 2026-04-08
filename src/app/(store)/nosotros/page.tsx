@@ -4,7 +4,7 @@ import { siteInfo, valueProps } from "@/data/site";
 export const metadata: Metadata = {
   title: "Nosotros | Diseñar Muebles",
   description:
-    "Conocé Diseñar Muebles. Fábrica argentina de camas y muebles de alta calidad en Buenos Aires.",
+    "Conocé Diseñar Muebles. Fábrica argentina de camas y muebles de alta calidad en Córdoba Capital.",
 };
 
 export default function NosotrosPage() {
@@ -53,18 +53,18 @@ export default function NosotrosPage() {
             <p>
               En Diseñar Muebles trabajamos con un solo objetivo: que cada
               producto que sale de nuestra fábrica supere las expectativas de
-              nuestros clientes. Desde la selección de materiales hasta el
-              armado final en tu hogar, cuidamos cada detalle.
+              nuestros clientes. Desde la selección de materiales hasta la
+              entrega en tu hogar, cuidamos cada detalle.
             </p>
             <p>
               Utilizamos MDF de primera calidad, herrajes metálicos reforzados
-              y terminaciones premium. Nuestros productos se entregan armados
-              y listos para usar, sin necesidad de instalación.
+              y terminaciones premium. Nuestros productos se entregan listos
+              para usar.
             </p>
             <p>
-              Estamos ubicados en {siteInfo.address} y realizamos entregas con
-              armado incluido. Todos nuestros productos cuentan con 12 meses
-              de garantía en estructura y mecanismos.
+              Estamos ubicados en {siteInfo.address} y realizamos entregas a
+              domicilio. Todos nuestros productos cuentan con 12 meses de
+              garantía en estructura y mecanismos.
             </p>
           </div>
         </div>

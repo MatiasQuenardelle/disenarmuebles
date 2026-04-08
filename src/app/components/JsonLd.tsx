@@ -12,7 +12,9 @@ export function LocalBusinessJsonLd() {
     telephone: siteInfo.phone,
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Av. Castro Barros 931",
       addressLocality: siteInfo.city,
+      addressRegion: "Córdoba",
       addressCountry: "AR",
     },
     openingHours: "Mo-Fr 09:00-18:00, Sa 09:00-13:00",

@@ -8,7 +8,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Carlos R.",
-    text: "Excelente atención y el armado fue impecable. Llegaron en el horario pactado y en menos de una hora estaba todo listo.",
+    text: "Excelente atención y la entrega fue impecable. Llegaron en el horario pactado y todo perfecto.",
   },
   {
     name: "Luciana M.",

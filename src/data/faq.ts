@@ -7,9 +7,9 @@ export const faqs: FAQ[] = [
       "El plazo de entrega es de 10 a 15 días hábiles desde la confirmación del pedido. Coordinamos día y horario de entrega para tu comodidad.",
   },
   {
-    question: "¿La entrega incluye armado?",
+    question: "¿Cómo es la entrega?",
     answer:
-      "Sí, todas nuestras entregas incluyen armado sin costo adicional. Nuestro equipo se encarga de dejar el mueble listo para usar.",
+      "Coordinamos día y horario para llevar el producto hasta tu domicilio. La entrega es rápida y cuidada.",
   },
   {
     question: "¿Qué medios de pago aceptan?",
