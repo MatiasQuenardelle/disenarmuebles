@@ -363,29 +363,31 @@ export const products: Product[] = [
   // ═══════════════════════════════════════════════════════════════
   {
     slug: "mesita-de-luz-desayunadora",
-    name: "Mesita de Luz Desayunadora",
-    subtitle: "Compacta, funcional y con estilo",
+    name: "Mesa de Luz Desayunadora",
+    subtitle: "Con bandeja desayunadora deslizante",
     category: "mesitas-de-luz",
     isHero: true,
     shortDescription:
-      "Mesita de luz con 2 cajones y nicho abierto. Guías telescópicas reforzadas, diseño minimalista en MDF de 18mm.",
+      "Mesa de luz con 2 cajones y bandeja desayunadora. Guías telescópicas, diseño minimalista en MDF de 18mm con canto PVC.",
     longDescription:
-      "La Mesita de Luz Desayunadora combina almacenamiento y practicidad en un formato compacto. Con 2 cajones con guías telescópicas reforzadas y un nicho abierto para tener a mano lo que más usás. Fabricada en MDF de 18mm con terminación en canto ABS. Su diseño minimalista sin tiradores se adapta a cualquier dormitorio.",
+      "La Mesa de Luz Desayunadora combina almacenamiento y practicidad con su bandeja desayunadora deslizante única. Con 2 cajones con guías telescópicas y una bandeja extraíble ideal para desayunar en la cama o apoyar dispositivos. Fabricada en MDF de 18mm con terminación en canto PVC para las terminaciones y patitas de 2cm. Su diseño minimalista se adapta a cualquier dormitorio. Color a elección.",
     features: [
-      "2 cajones con guías telescópicas reforzadas",
-      "Nicho abierto de acceso rápido",
-      "Diseño minimalista sin tiradores",
-      "Compacta: 39 x 36 x 70cm",
-      "Disponible en múltiples colores de melamina",
+      "2 cajones con guías telescópicas",
+      "Bandeja desayunadora deslizante",
+      "Diseño minimalista",
+      "Canto PVC en terminaciones",
+      "Patitas de 2cm",
+      "Color a elección",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
-      { title: "Canto ABS", description: "Terminación resistente en todos los bordes" },
-      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en ambos cajones" },
+      { title: "Canto PVC", description: "Terminación resistente en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Apertura total y suave en cajones y bandeja" },
+      { title: "Patitas 2cm", description: "Elevación del piso para ventilación y limpieza" },
     ],
     stats: [
-      { value: "39cm", label: "Ancho" },
-      { value: "70cm", label: "Alto" },
+      { value: "66cm", label: "Alto" },
+      { value: "36cm", label: "Ancho / Prof." },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
@@ -393,18 +395,21 @@ export const products: Product[] = [
       { title: "Lista para Usar", description: "Se entrega armada, sin instalación" },
     ],
     images: [
-      { src: "/products/mesita-desayunadora-new/IMG_2546.jpeg", alt: "Mesita de Luz Desayunadora vista frontal" },
-      { src: "/products/mesita-desayunadora-new/IMG_4885.jpeg", alt: "Mesita de Luz Desayunadora en ambiente" },
-      { src: "/products/mesita-desayunadora-new/IMG_4886.jpeg", alt: "Mesita de Luz Desayunadora showroom" },
-      { src: "/products/mesita-desayunadora-new/IMG_8926.jpeg", alt: "Mesita de Luz Desayunadora en dormitorio" },
-      { src: "/products/mesita-desayunadora-new/IMG_8928.jpeg", alt: "Mesita de Luz Desayunadora detalle acabado" },
+      { src: "/products/mesita-desayunadora-new/IMG_2546.jpeg", alt: "Mesa de Luz Desayunadora vista frontal" },
+      { src: "/products/mesita-desayunadora-new/IMG_4885.jpeg", alt: "Mesa de Luz Desayunadora en ambiente" },
+      { src: "/products/mesita-desayunadora-new/IMG_4886.jpeg", alt: "Mesa de Luz Desayunadora showroom" },
+      { src: "/products/mesita-desayunadora-new/IMG_4887.jpeg", alt: "Mesa de Luz Desayunadora detalle bandeja" },
+      { src: "/products/mesita-desayunadora-new/IMG_4888.jpeg", alt: "Mesa de Luz Desayunadora vista lateral" },
+      { src: "/products/mesita-desayunadora-new/IMG_8926.jpeg", alt: "Mesa de Luz Desayunadora en dormitorio" },
+      { src: "/products/mesita-desayunadora-new/IMG_8927.jpeg", alt: "Mesa de Luz Desayunadora detalle cajones" },
+      { src: "/products/mesita-desayunadora-new/IMG_8928.jpeg", alt: "Mesa de Luz Desayunadora detalle acabado" },
     ],
-    sizes: ["39 x 36 x 70cm (alto)"],
-    relatedSlugs: ["mesa-de-luz-clasica", "mesa-de-luz-flotante", "base-box-genesis"],
+    sizes: ["66 x 36 x 36cm"],
+    relatedSlugs: ["mesa-de-luz-clasica", "mesa-de-luz-moscu", "base-box-genesis"],
     seo: {
-      title: "Mesita de Luz Desayunadora | Diseñar Muebles",
+      title: "Mesa de Luz Desayunadora | Diseñar Muebles",
       description:
-        "Mesita de luz con 2 cajones y nicho abierto. MDF 18mm, canto ABS, guías telescópicas reforzadas. Fabricación propia.",
+        "Mesa de luz con 2 cajones y bandeja desayunadora. MDF 18mm, canto PVC, guías telescópicas. Fabricación propia.",
     },
   },
   {
@@ -414,23 +419,26 @@ export const products: Product[] = [
     category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
-      "Mesa de luz con cajón y estante abierto. Diseño clásico que combina con cualquier decoración.",
+      "Mesa de luz con 1 cajón con guía telescópica y estante. Diseño minimalista en MDF de 18mm con canto PVC.",
     longDescription:
-      "La Mesa de Luz Clásica ofrece un diseño atemporal con un cajón amplio y un estante abierto inferior. Fabricada en MDF de 18mm con terminación melamínica, es resistente y práctica para el uso diario.",
+      "La Mesa de Luz Clásica ofrece un diseño minimalista y atemporal con un cajón con guía telescópica y un estante abierto inferior. Fabricada en MDF de 18mm con canto PVC para las terminaciones y patitas de 2cm. Color a elección.",
     features: [
-      "Cajón amplio con guía telescópica",
-      "Estante abierto inferior",
-      "Diseño clásico atemporal",
-      "Terminación melamínica resistente",
-      "Múltiples colores disponibles",
+      "1 cajón con guía telescópica",
+      "Estante abierto",
+      "Diseño minimalista",
+      "Canto PVC en terminaciones",
+      "Patitas de 2cm",
+      "Color a elección",
     ],
     specs: [
-      { title: "MDF 18mm", description: "Estructura completa en MDF" },
-      { title: "Guía Telescópica", description: "Cajón con apertura suave" },
-      { title: "Melamina", description: "Terminación resistente a golpes" },
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto PVC", description: "Terminación resistente en todos los bordes" },
+      { title: "Guía Telescópica", description: "Cajón con apertura suave y total" },
+      { title: "Patitas 2cm", description: "Elevación del piso para ventilación y limpieza" },
     ],
     stats: [
-      { value: "45cm", label: "Ancho" },
+      { value: "66cm", label: "Alto" },
+      { value: "36cm", label: "Ancho / Prof." },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
@@ -444,13 +452,16 @@ export const products: Product[] = [
       { src: "/products/mesa-de-luz-clasica/IMG_2554.jpeg", alt: "Mesa de Luz Clásica lateral" },
       { src: "/products/mesa-de-luz-clasica/IMG_2555.jpeg", alt: "Mesa de Luz Clásica en ambiente" },
       { src: "/products/mesa-de-luz-clasica/IMG_8461.jpeg", alt: "Mesa de Luz Clásica showroom" },
+      { src: "/products/mesa-de-luz-clasica/IMG_8932.jpeg", alt: "Mesa de Luz Clásica en dormitorio" },
       { src: "/products/mesa-de-luz-clasica/clasica.png", alt: "Mesa de Luz Clásica producto" },
       { src: "/products/mesa-de-luz-clasica/clasica-2.jpeg", alt: "Mesa de Luz Clásica detalle acabado" },
+      { src: "/products/mesa-de-luz-clasica/clasica-3.jpeg", alt: "Mesa de Luz Clásica vista general" },
     ],
-    relatedSlugs: ["mesita-de-luz-desayunadora", "mesa-de-luz-flotante", "mesa-de-luz-grecia"],
+    sizes: ["66 x 36 x 36cm"],
+    relatedSlugs: ["mesita-de-luz-desayunadora", "mesa-de-luz-grecia", "mesa-de-luz-moscu"],
     seo: {
       title: "Mesa de Luz Clásica | Diseñar Muebles",
-      description: "Mesa de luz clásica con cajón y estante. MDF premium, fabricación propia.",
+      description: "Mesa de luz clásica con cajón y estante. MDF 18mm, canto PVC, fabricación propia.",
     },
   },
   {
@@ -460,39 +471,46 @@ export const products: Product[] = [
     category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
-      "Mesa de luz flotante con cajón y estante. Se fija a la pared, ideal para espacios reducidos.",
+      "Mesa de luz flotante con 2 cajones y estante. Laqueada con poliuretano, se fija a la pared con escuadras.",
     longDescription:
-      "La Mesa de Luz Flotante combina diseño minimalista con funcionalidad. Con un cajón con guía telescópica y un estante inferior abierto, ofrece almacenamiento sin ocupar espacio en el piso. Fabricada en MDF de 18mm, se fija a la pared con sistema de fijación oculto.",
+      "La Mesa de Luz Flotante combina diseño minimalista con funcionalidad. Con 2 cajones con guía telescópica y un estante abierto, ofrece almacenamiento sin ocupar espacio en el piso. Fabricada en MDF de 18mm, laqueada con poliuretano. Cuenta con 2 escuadras para tomar a la pared. Color a elección.",
     features: [
-      "Diseño flotante fijado a pared",
-      "1 cajón con guía telescópica",
-      "Estante inferior abierto",
-      "Terminación en MDF laminado",
-      "Sistema de fijación oculto incluido",
+      "2 cajones con guía telescópica",
+      "Estante abierto",
+      "Laqueado con poliuretano",
+      "2 escuadras para fijar a la pared",
+      "Diseño minimalista",
+      "Color a elección",
     ],
     specs: [
-      { title: "MDF 18mm", description: "Estructura sólida con terminación laminada" },
-      { title: "Guía Telescópica", description: "Cajón con apertura suave y total" },
-      { title: "Fijación Oculta", description: "Sistema de anclaje invisible a la pared" },
+      { title: "MDF 18mm", description: "Estructura sólida en MDF de primera calidad" },
+      { title: "Laqueado", description: "Terminación con poliuretano de alta calidad" },
+      { title: "Guías Telescópicas", description: "Apertura suave y total en ambos cajones" },
+      { title: "Escuadras", description: "2 escuadras incluidas para fijación a pared" },
     ],
     stats: [
-      { value: "45cm", label: "Ancho" },
+      { value: "2", label: "Cajones" },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
       { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
-      { title: "Fijación Incluida", description: "Kit de instalación y tacos incluidos" },
+      { title: "Fijación Incluida", description: "2 escuadras para tomar a la pared incluidas" },
     ],
     images: [
       { src: "/products/mesa-de-luz-flotante/IMG_1045.jpeg", alt: "Mesa de Luz Flotante con cajón abierto" },
       { src: "/products/mesa-de-luz-flotante/IMG_1046.jpeg", alt: "Mesa de Luz Flotante montada en pared" },
+      { src: "/products/mesa-de-luz-flotante/IMG_8936.jpeg", alt: "Mesa de Luz Flotante en dormitorio" },
+      { src: "/products/mesa-de-luz-flotante/IMG_8937.jpeg", alt: "Mesa de Luz Flotante detalle acabado" },
+      { src: "/products/mesa-de-luz-flotante/IMG_8938.jpeg", alt: "Mesa de Luz Flotante vista lateral" },
       { src: "/products/mesa-de-luz-flotante/flotante-3.jpeg", alt: "Mesa de Luz Flotante con cajón y estante" },
       { src: "/products/mesa-de-luz-flotante/flotante-4.jpeg", alt: "Mesa de Luz Flotante detalles de construcción" },
+      { src: "/products/mesa-de-luz-flotante/flotante-wa-d83000.jpeg", alt: "Mesa de Luz Flotante en ambiente" },
+      { src: "/products/mesa-de-luz-flotante/flotante-wa-0a8ea8.jpeg", alt: "Mesa de Luz Flotante vista general" },
     ],
-    relatedSlugs: ["mesa-de-luz-grecia", "mesita-de-luz-desayunadora", "base-box-genesis"],
+    relatedSlugs: ["mesa-de-luz-laqueada", "mesita-de-luz-desayunadora", "mesa-de-luz-grecia"],
     seo: {
       title: "Mesa de Luz Flotante | Diseñar Muebles",
-      description: "Mesa de luz flotante con cajón y estante. Diseño minimalista, MDF premium.",
+      description: "Mesa de luz flotante laqueada con 2 cajones y estante. Fijación a pared, MDF premium.",
     },
   },
   {
@@ -502,24 +520,26 @@ export const products: Product[] = [
     category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
-      "Mesa de luz línea Grecia con cajón deslizante y estante. Diseño moderno en múltiples colores.",
+      "Mesa de luz con 1 cajón con guía telescópica y estante. Diseño minimalista en MDF de 18mm con canto PVC.",
     longDescription:
-      "La Mesa de Luz Grecia presenta un diseño moderno y funcional con cajón deslizante y estante abierto. Fabricada en MDF de 18mm con terminación melamínica de alta calidad, combina perfectamente con la Cómoda Grecia para un dormitorio coordinado.",
+      "La Mesa de Luz Grecia presenta un diseño minimalista y funcional con 1 cajón con guía telescópica y un estante abierto. Fabricada en MDF de 18mm con canto PVC para las terminaciones y patitas de 2cm. Combina perfectamente con la Cómoda Grecia para un dormitorio coordinado. Color a elección.",
     features: [
-      "Cajón deslizante con guía telescópica",
+      "1 cajón con guía telescópica",
       "Estante abierto",
       "Línea Grecia — combina con Cómoda Grecia",
-      "Terminación melamínica premium",
-      "Múltiples colores disponibles",
+      "Canto PVC en terminaciones",
+      "Patitas de 2cm",
+      "Color a elección",
     ],
     specs: [
       { title: "MDF 18mm", description: "Estructura en MDF de primera calidad" },
-      { title: "Guía Telescópica", description: "Cajón con apertura suave" },
-      { title: "Melamina", description: "Terminación resistente y duradera" },
+      { title: "Canto PVC", description: "Terminación resistente en todos los bordes" },
+      { title: "Guía Telescópica", description: "Cajón con apertura suave y total" },
+      { title: "Patitas 2cm", description: "Elevación del piso para ventilación y limpieza" },
     ],
     stats: [
-      { value: "66cm", label: "Ancho" },
-      { value: "40cm", label: "Profundidad" },
+      { value: "66cm", label: "Alto" },
+      { value: "36cm", label: "Ancho / Prof." },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
@@ -531,40 +551,48 @@ export const products: Product[] = [
       { src: "/products/mesa-de-luz-grecia/IMG_4688.jpeg", alt: "Mesa de Luz Grecia lateral" },
       { src: "/products/mesa-de-luz-grecia/IMG_4689.jpeg", alt: "Mesa de Luz Grecia detalle" },
       { src: "/products/mesa-de-luz-grecia/IMG_5677.jpeg", alt: "Mesa de Luz Grecia en ambiente" },
+      { src: "/products/mesa-de-luz-grecia/IMG_5678.jpeg", alt: "Mesa de Luz Grecia vista superior" },
       { src: "/products/mesa-de-luz-grecia/IMG_8929.jpeg", alt: "Mesa de Luz Grecia en dormitorio" },
-      { src: "/products/mesa-de-luz-grecia/IMG_8933.jpeg", alt: "Mesa de Luz Grecia acabado" },
+      { src: "/products/mesa-de-luz-grecia/IMG_8930.jpeg", alt: "Mesa de Luz Grecia detalle cajón" },
+      { src: "/products/mesa-de-luz-grecia/IMG_8931.jpeg", alt: "Mesa de Luz Grecia acabado" },
+      { src: "/products/mesa-de-luz-grecia/IMG_8933.jpeg", alt: "Mesa de Luz Grecia showroom" },
+      { src: "/products/mesa-de-luz-grecia/IMG_8934.jpeg", alt: "Mesa de Luz Grecia par en dormitorio" },
+      { src: "/products/mesa-de-luz-grecia/IMG_8935.jpeg", alt: "Mesa de Luz Grecia vista general" },
     ],
-    sizes: ["66 x 40 x 38cm"],
+    sizes: ["66 x 36 x 36cm"],
     relatedSlugs: ["mesa-de-luz-clasica", "comoda-grecia", "mesita-de-luz-desayunadora"],
     seo: {
       title: "Mesa de Luz Grecia | Diseñar Muebles",
-      description: "Mesa de luz línea Grecia. Cajón deslizante y estante, MDF premium, múltiples colores.",
+      description: "Mesa de luz Grecia con cajón y estante. MDF 18mm, canto PVC, fabricación propia.",
     },
   },
   {
     slug: "mesa-de-luz-moscu",
     name: "Mesa de Luz Moscú",
-    subtitle: "Compacta y funcional con pasacables",
+    subtitle: "Compacta y funcional",
     category: "mesitas-de-luz",
     isHero: false,
     shortDescription:
-      "Mesa de luz compacta con nicho abierto superior con pasacables y 2 cajones sin tiradores. Ideal para espacios reducidos.",
+      "Mesa de luz con 2 cajones con guías telescópicas. Diseño minimalista en MDF de 18mm con canto PVC.",
     longDescription:
-      "La Mesa de Luz Moscú ofrece un diseño compacto y funcional con un nicho abierto superior con pasacables integrado para cargar dispositivos, y 2 cajones amplios sin tiradores con apertura push. Montada sobre rueditas para fácil desplazamiento. Fabricada en MDF de 18mm con terminación en melamina de alta calidad.",
+      "La Mesa de Luz Moscú ofrece un diseño minimalista y compacto con 2 cajones con guías telescópicas y un nicho abierto. Fabricada en MDF de 18mm con canto PVC para las terminaciones y patitas de 2cm. Color a elección.",
     features: [
-      "Nicho abierto con pasacables integrado",
-      "2 cajones sin tiradores (apertura push)",
-      "Rueditas para fácil desplazamiento",
-      "Diseño compacto ideal para espacios reducidos",
-      "Fabricada en MDF 18mm",
+      "2 cajones con guías telescópicas",
+      "Nicho abierto",
+      "Diseño minimalista",
+      "Canto PVC en terminaciones",
+      "Patitas de 2cm",
+      "Color a elección",
     ],
     specs: [
-      { title: "MDF 18mm", description: "Estructura completa en MDF laminado" },
-      { title: "Pasacables", description: "Orificio integrado para carga de dispositivos" },
-      { title: "Ruedas", description: "Rueditas de desplazamiento suave" },
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto PVC", description: "Terminación resistente en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Apertura total y suave en ambos cajones" },
+      { title: "Patitas 2cm", description: "Elevación del piso para ventilación y limpieza" },
     ],
     stats: [
-      { value: "2", label: "Cajones" },
+      { value: "66cm", label: "Alto" },
+      { value: "36cm", label: "Ancho / Prof." },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
@@ -574,11 +602,14 @@ export const products: Product[] = [
     images: [
       { src: "/products/mesa-de-luz-moscu/moscu-1.jpeg", alt: "Mesa de Luz Moscú junto a cama" },
       { src: "/products/mesa-de-luz-moscu/moscu-2.jpeg", alt: "Mesa de Luz Moscú par vista frontal" },
+      { src: "/products/mesa-de-luz-moscu/moscu-3.jpeg", alt: "Mesa de Luz Moscú en ambiente" },
+      { src: "/products/mesa-de-luz-moscu/moscu-4.jpeg", alt: "Mesa de Luz Moscú detalle acabado" },
     ],
-    relatedSlugs: ["mesa-de-luz-flotante", "mesa-de-luz-grecia", "base-box-genesis"],
+    sizes: ["66 x 36 x 36cm"],
+    relatedSlugs: ["mesita-de-luz-desayunadora", "mesa-de-luz-clasica", "mesa-de-luz-grecia"],
     seo: {
       title: "Mesa de Luz Moscú | Diseñar Muebles",
-      description: "Mesa de luz Moscú compacta con pasacables y 2 cajones. Diseño funcional, MDF premium.",
+      description: "Mesa de luz Moscú con 2 cajones y guías telescópicas. MDF 18mm, canto PVC, fabricación propia.",
     },
   },
 
@@ -1192,26 +1223,29 @@ export const products: Product[] = [
   {
     slug: "mesa-de-luz-laqueada",
     name: "Mesa de Luz Laqueada",
-    subtitle: "Compacta y elegante en laqueado",
+    subtitle: "Elegante con terminación laqueada",
     category: "productos-laqueados",
     isHero: false,
     shortDescription:
-      "Mesa de luz con terminación laqueada. Cajón deslizante y estante, diseño compacto y elegante.",
+      "Mesa de luz con 3 cajones con guías telescópicas. Laqueada con poliuretano, diseño minimalista en MDF de 18mm.",
     longDescription:
-      "La Mesa de Luz Laqueada ofrece funcionalidad en un acabado laqueado refinado. Con cajón deslizante y estante abierto, es el complemento perfecto para la Cómoda Laqueada y otros muebles de la línea laqueada.",
+      "La Mesa de Luz Laqueada ofrece un diseño minimalista con 3 cajones con guías telescópicas. Fabricada en MDF de 18mm y laqueada con poliuretano de alta calidad. Cuenta con 2 escuadras para tomar a la pared. Combina con la Cómoda Laqueada y otros muebles de la línea laqueada. Color a elección.",
     features: [
-      "Terminación laqueada premium",
-      "Cajón deslizante",
-      "Estante abierto",
-      "Diseño compacto",
+      "3 cajones con guías telescópicas",
+      "Laqueado con poliuretano",
+      "2 escuadras para fijar a la pared",
+      "Diseño minimalista",
       "Combina con la línea laqueada",
+      "Color a elección",
     ],
     specs: [
-      { title: "Laqueado", description: "Terminación de alta calidad" },
-      { title: "Cajón", description: "Deslizante con guía" },
-      { title: "Medidas", description: "66 x 40 x 38cm" },
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Laqueado", description: "Terminación con poliuretano de alta calidad" },
+      { title: "Guías Telescópicas", description: "Apertura suave y total en los 3 cajones" },
+      { title: "Escuadras", description: "2 escuadras incluidas para fijación a pared" },
     ],
     stats: [
+      { value: "3", label: "Cajones" },
       { value: "12", label: "Meses de garantía" },
     ],
     delivery: [
@@ -1225,10 +1259,10 @@ export const products: Product[] = [
       { src: "/products/mesa-de-luz-laqueada/IMG_5623.jpeg", alt: "Mesa de Luz Laqueada en ambiente" },
       { src: "/products/mesa-de-luz-laqueada/IMG_5624.jpeg", alt: "Mesa de Luz Laqueada showroom" },
     ],
-    relatedSlugs: ["comoda-laqueada", "rack-laqueado", "cama-vigo"],
+    relatedSlugs: ["mesa-de-luz-flotante", "comoda-laqueada", "rack-laqueado"],
     seo: {
       title: "Mesa de Luz Laqueada | Diseñar Muebles",
-      description: "Mesa de luz laqueada con cajón y estante. Acabado premium, fabricación propia.",
+      description: "Mesa de luz laqueada con 3 cajones y guías telescópicas. Laqueado con poliuretano, fabricación propia.",
     },
   },
   {
@@ -1373,9 +1407,302 @@ export const products: Product[] = [
   ...generateSillonesPlaceholders(),
 
   // ═══════════════════════════════════════════════════════════════
-  // COLCHONES — por marca (Taurus, Elegante, Deseo, Canon) y tipo (Espuma, Resorte)
+  // COLCHONES — genéricos (Taurus, Elegante, Deseo) + Canon detallados
   // ═══════════════════════════════════════════════════════════════
   ...generateColchonesProducts(),
+
+  // ═══════════════════════════════════════════════════════════════
+  // COLCHONES CANON — 6 modelos con datos reales
+  // ═══════════════════════════════════════════════════════════════
+  {
+    slug: "colchon-canon-exclusive",
+    name: "Colchón Canon Exclusive",
+    subtitle: "Canon — Espuma de alta densidad",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano flexible de alta calidad. 30kg de densidad, soporta 100kg por plaza. Sistema Flip, tela Jacquard matelaseada con tratamiento antiacaros e ignífugo.",
+    longDescription:
+      "El Colchón Canon Exclusive ofrece espuma de poliuretano flexible de alta calidad con 30kg de densidad y capacidad de soporte de 100kg por plaza. Su sistema Flip permite rotarlo y utilizarlo de ambos lados para mayor vida útil. Confeccionado en Jacquard totalmente matelaseado, con tratamiento antiacaros e ignífugo. 25cm de altura para un descanso confortable y duradero. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "30kg de densidad",
+      "Soporta 100kg por plaza",
+      "Espuma de poliuretano flexible de alta calidad",
+      "Sistema Flip — uso de ambos lados",
+      "Tela Jacquard totalmente matelaseada",
+      "Tratamiento antiacaros e ignífugo",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano flexible" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "100 kg por plaza" },
+      { title: "Altura", description: "25 cm" },
+      { title: "Tela", description: "Jacquard matelaseada" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+    ],
+    stats: [
+      { value: "30kg", label: "Densidad" },
+      { value: "100kg", label: "Soporte por plaza" },
+      { value: "25cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-exclusive/showcase.png", alt: "Colchón Canon Exclusive vista completa" },
+      { src: "/products/colchon-canon-exclusive/info.png", alt: "Colchón Canon Exclusive especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-canon-exclusive-pillow", "colchon-canon-renovation", "colchon-canon-princess"],
+    seo: {
+      title: "Colchón Canon Exclusive | Diseñar Muebles",
+      description: "Colchón Canon Exclusive de espuma 30kg de densidad. Sistema Flip, tela Jacquard antiacaros. 5 años de garantía. Todas las medidas disponibles.",
+    },
+  },
+  {
+    slug: "colchon-canon-exclusive-pillow",
+    name: "Colchón Canon Exclusive con Pillow",
+    subtitle: "Canon — Espuma con Pillow Top",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano flexible de alta calidad con Pillow Top. 30kg de densidad, soporta 100kg por plaza. Previene contracturas musculares.",
+    longDescription:
+      "El Colchón Canon Exclusive con Pillow combina espuma de poliuretano flexible de alta calidad con un Pillow Top que previene contracturas musculares. Con 30kg de densidad y capacidad de 100kg por plaza, ofrece un descanso superior. Sistema Flip para mayor vida útil, confeccionado en Jacquard belga totalmente matelaseado con tratamiento antiacaros e ignífugo. 29cm de altura. 5 años de garantía.",
+    features: [
+      "30kg de densidad",
+      "Soporta 100kg por plaza",
+      "Pillow Top — previene contracturas musculares",
+      "Espuma de poliuretano flexible de alta calidad",
+      "Sistema Flip — uso de ambos lados",
+      "Tela Jacquard belga totalmente matelaseada",
+      "Tratamiento antiacaros e ignífugo",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano flexible con Pillow Top" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "100 kg por plaza" },
+      { title: "Altura", description: "29 cm" },
+      { title: "Tela", description: "Jacquard belga matelaseada" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+    ],
+    stats: [
+      { value: "30kg", label: "Densidad" },
+      { value: "100kg", label: "Soporte por plaza" },
+      { value: "29cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-exclusive-pillow/showcase.png", alt: "Colchón Canon Exclusive con Pillow vista completa" },
+      { src: "/products/colchon-canon-exclusive-pillow/info.png", alt: "Colchón Canon Exclusive con Pillow especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-canon-exclusive", "colchon-canon-renovation", "colchon-canon-doral"],
+    seo: {
+      title: "Colchón Canon Exclusive con Pillow | Diseñar Muebles",
+      description: "Colchón Canon Exclusive con Pillow Top. 30kg densidad, previene contracturas musculares. Jacquard belga, 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-canon-renovation",
+    name: "Colchón Canon Renovation",
+    subtitle: "Canon — Alta densidad para soporte postural",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano flexible de alta densidad. 35kg de densidad, soporta 120kg por plaza. Ideal para mantener la columna alineada y mejorar problemas posturales.",
+    longDescription:
+      "El Colchón Canon Renovation ofrece espuma de poliuretano flexible de alta densidad con 35kg de densidad y capacidad de soporte de 120kg por plaza. Ideal para mantener la columna alineada y mejorar problemas posturales. Sistema Flip para mayor vida útil. Tejido de punto suave al tacto con tratamiento ignífugo y proceso antiacaros. 26cm de altura. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "35kg de densidad",
+      "Soporta 120kg por plaza",
+      "Ideal para problemas posturales",
+      "Mantiene la columna alineada",
+      "Sistema Flip — uso de ambos lados",
+      "Tejido de punto suave al tacto",
+      "Tratamiento ignífugo y antiacaros",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano flexible de alta densidad" },
+      { title: "Densidad", description: "35 kg" },
+      { title: "Soporte", description: "120 kg por plaza" },
+      { title: "Altura", description: "26 cm" },
+      { title: "Tela", description: "Tejido de punto suave al tacto" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+    ],
+    stats: [
+      { value: "35kg", label: "Densidad" },
+      { value: "120kg", label: "Soporte por plaza" },
+      { value: "26cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-renovation/showcase.png", alt: "Colchón Canon Renovation vista completa" },
+      { src: "/products/colchon-canon-renovation/info.png", alt: "Colchón Canon Renovation especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-canon-exclusive", "colchon-canon-exclusive-pillow", "colchon-canon-doral"],
+    seo: {
+      title: "Colchón Canon Renovation | Diseñar Muebles",
+      description: "Colchón Canon Renovation 35kg densidad, 120kg soporte. Ideal para columna y postura. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-canon-princess",
+    name: "Colchón Canon Princess",
+    subtitle: "Canon — Confort accesible",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano flexible de alta densidad. 24kg de densidad, soporta 80kg por plaza. Placa entera con tela Jacquard matelaseada.",
+    longDescription:
+      "El Colchón Canon Princess cuenta con una placa entera de espuma de poliuretano flexible de alta densidad con 24kg de densidad y soporte de 80kg por plaza. Sistema Flip que permite rotarlo y utilizarlo de ambos lados para mayor vida útil. Tela Jacquard totalmente matelaseada con tratamiento antiacaros. Altura de 20 a 23cm. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "24kg de densidad",
+      "Soporta 80kg por plaza",
+      "Placa entera de espuma de poliuretano flexible",
+      "Sistema Flip — uso de ambos lados",
+      "Tela Jacquard totalmente matelaseada",
+      "Tratamiento antiacaros",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano flexible" },
+      { title: "Densidad", description: "24 kg" },
+      { title: "Soporte", description: "80 kg por plaza" },
+      { title: "Altura", description: "20–23 cm" },
+      { title: "Tela", description: "Jacquard matelaseada" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+    ],
+    stats: [
+      { value: "24kg", label: "Densidad" },
+      { value: "80kg", label: "Soporte por plaza" },
+      { value: "23cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-princess/showcase.png", alt: "Colchón Canon Princess vista completa" },
+      { src: "/products/colchon-canon-princess/info.png", alt: "Colchón Canon Princess especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-canon-tropical", "colchon-canon-exclusive", "colchon-canon-renovation"],
+    seo: {
+      title: "Colchón Canon Princess | Diseñar Muebles",
+      description: "Colchón Canon Princess 24kg densidad, 80kg soporte. Tela Jacquard matelaseada, 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-canon-tropical",
+    name: "Colchón Canon Tropical",
+    subtitle: "Canon — Soporte equilibrado",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano flexible con soporte equilibrado. 22kg de densidad, soporta 70kg por plaza. Tela de algodón matelaseada.",
+    longDescription:
+      "El Colchón Canon Tropical cuenta con una estructura de espuma de poliuretano flexible que brinda un soporte equilibrado y se adapta al cuerpo. Con 22kg de densidad y soporte de 70kg por plaza. Su superficie está revestida con tela de algodón totalmente matelaseada. Altura de 18cm. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "22kg de densidad",
+      "Soporta 70kg por plaza",
+      "Soporte equilibrado — se adapta al cuerpo",
+      "Tela de algodón totalmente matelaseada",
+      "Tela antialérgica y antiacaros",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano flexible" },
+      { title: "Densidad", description: "22 kg" },
+      { title: "Soporte", description: "70 kg por plaza" },
+      { title: "Altura", description: "18 cm" },
+      { title: "Tela", description: "Algodón matelaseada" },
+    ],
+    stats: [
+      { value: "22kg", label: "Densidad" },
+      { value: "70kg", label: "Soporte por plaza" },
+      { value: "18cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-tropical/showcase.png", alt: "Colchón Canon Tropical vista completa" },
+      { src: "/products/colchon-canon-tropical/info.png", alt: "Colchón Canon Tropical especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-canon-princess", "colchon-canon-exclusive", "colchon-canon-renovation"],
+    seo: {
+      title: "Colchón Canon Tropical | Diseñar Muebles",
+      description: "Colchón Canon Tropical 22kg densidad, soporte equilibrado. Tela de algodón matelaseada, 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-canon-doral",
+    name: "Colchón Canon Doral con Pillow Top",
+    subtitle: "Canon — Resortes Bonnell con Pillow Top",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Bonnell con Pillow Top incorporado. Soporta 100kg por plaza. Sistema Flip, tapizado en tejido de punto matelaseado de gran calidad.",
+    longDescription:
+      "El Colchón Canon Doral con Pillow Top cuenta con un sistema de resortes Bonnell que brinda soporte firme y estable para el descanso diario. Soporta hasta 100kg por plaza, ofreciendo buena resistencia y durabilidad. El Pillow Top incorporado aporta una capa extra de confort mullido para un descanso más placentero. Sistema Flip que permite rotarlo y utilizarlo de ambos lados, prolongando su vida útil. Tapizado en tela de tejido de punto totalmente matelaseado, suave al tacto y de gran calidad. 33cm de altura. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Sistema de resortes Bonnell",
+      "Pillow Top incorporado — confort mullido extra",
+      "Soporta 100kg por plaza",
+      "Sistema Flip — uso de ambos lados",
+      "Tapizado en tejido de punto matelaseado",
+      "Suave al tacto y de gran calidad",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell con Pillow Top" },
+      { title: "Soporte", description: "100 kg por plaza" },
+      { title: "Altura", description: "33 cm" },
+      { title: "Tela", description: "Tejido de punto matelaseado" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+    ],
+    stats: [
+      { value: "Resorte", label: "Tipo" },
+      { value: "100kg", label: "Soporte por plaza" },
+      { value: "33cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-doral/info.png", alt: "Colchón Canon Doral con Pillow Top especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-canon-exclusive-pillow", "colchon-canon-renovation", "colchon-canon-exclusive"],
+    seo: {
+      title: "Colchón Canon Doral con Pillow Top | Diseñar Muebles",
+      description: "Colchón Canon Doral de resortes Bonnell con Pillow Top. 100kg soporte, 33cm altura. 5 años garantía. Todas las medidas.",
+    },
+  },
 ];
 
 // ─── Helper: Generate sillones placeholder products ───────────────
@@ -1431,7 +1758,6 @@ function generateColchonesProducts(): Product[] {
     { key: "taurus", name: "Taurus" },
     { key: "elegante", name: "Elegante" },
     { key: "deseo", name: "Deseo" },
-    { key: "canon", name: "Canon" },
   ];
   const types = [
     { key: "espuma", name: "Espuma" },
