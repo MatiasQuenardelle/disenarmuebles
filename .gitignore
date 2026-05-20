@@ -36,11 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
-# drive downloads & loose photos
+# drive downloads, loose photos & client PDFs
 drive-download-*/
 photo_*.jpeg
 r[0-9].png
 public/product[0-9]/
+pdfs/
 
 # typescript
 *.tsbuildinfo

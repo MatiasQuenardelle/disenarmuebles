@@ -237,6 +237,118 @@ export const products: Product[] = [
         "Base box con 2 cajones y baulera lateral. MDF premium, 500kg de capacidad. Entrega a domicilio.",
     },
   },
+  {
+    slug: "base-box-estandar",
+    name: "Base Box Funcional Estándar",
+    subtitle: "El clásico funcional — Máximo almacenamiento en madera",
+    category: "base-box",
+    isHero: true,
+    shortDescription:
+      "Base box sommier funcional con cajones, zapatero y baulera. Fabricada en MDF 18mm con guías telescópicas y pistón neumático. La opción ideal para organizar tu dormitorio.",
+    longDescription:
+      "La Base Box Funcional Estándar es nuestra base más versátil: combina cajones laterales, zapatero con pistón neumático y baulera central en una sola pieza. Fabricada íntegramente en MDF de 18mm con canto ABS, guías telescópicas reforzadas, herrajes metálicos y patitas de 2cm. Soporta hasta 600kg y se entrega en módulos listos que solo se apoyan entre sí. Opciones adicionales: cajones blancos extra, fondo de baulera y puertos USB.",
+    features: [
+      "Cajones laterales con guías telescópicas",
+      "Zapatero con pistón neumático",
+      "Baulera central sin fondo (opcional: se puede agregar fondo)",
+      "Soporta 600kg",
+      "Modular — los módulos llegan listos, solo se apoyan entre sí",
+      "Opciones: cajones blancos extra, fondo de baulera, USB x1 o x2",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Canto ABS", description: "Terminación resistente en todos los bordes" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en todos los cajones" },
+      { title: "Pistón Neumático", description: "Con suspensión para apertura asistida del zapatero" },
+      { title: "Herrajes Metálicos", description: "Refuerzos de acero en puntos de estrés" },
+      { title: "Patitas 2cm", description: "Elevación del piso para ventilación y limpieza" },
+    ],
+    stats: [
+      { value: "600kg", label: "Capacidad de carga" },
+      { value: "12", label: "Meses de garantía" },
+      { value: "3", label: "Módulos" },
+    ],
+    delivery: [
+      { title: "Módulos Listos", description: "Los módulos llegan listos para colocar" },
+      { title: "3 Módulos", description: "Ingreso fácil por cualquier puerta o ascensor" },
+    ],
+    images: [
+      { src: "/products/base-box-estandar/hero.jpeg", alt: "Base Box Estándar con todos los compartimentos abiertos" },
+      { src: "/products/base-box-estandar/full-1.jpeg", alt: "Base Box Estándar vista completa en madera clara" },
+      { src: "/products/base-box-estandar/full-2.jpeg", alt: "Base Box Estándar en showroom con cajones abiertos" },
+      { src: "/products/base-box-estandar/IMG_2164.jpeg", alt: "Base Box Estándar con respaldo y decoración" },
+      { src: "/products/base-box-estandar/IMG_7756.jpeg", alt: "Base Box Estándar estilizada con manta y respaldo" },
+      { src: "/products/base-box-estandar/detail-foot.jpeg", alt: "Detalle del zapatero con pistón neumático" },
+      { src: "/products/base-box-estandar/detail-drawers.jpeg", alt: "Detalle de cajones laterales con guías telescópicas" },
+      { src: "/products/base-box-estandar/detail-open.jpeg", alt: "Estructura interna con todos los compartimentos visibles" },
+      { src: "/products/base-box-estandar/room-1.jpeg", alt: "Base Box Estándar instalada en dormitorio" },
+      { src: "/products/base-box-estandar/room-2.jpeg", alt: "Base Box Estándar en habitación de cliente" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "1 Plaza y media (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["base-box-guillermina", "base-box-genesis", "base-box-luxury"],
+    seo: {
+      title: "Base Box Funcional Estándar | Diseñar Muebles",
+      description:
+        "Base box funcional con cajones, zapatero y baulera. MDF 18mm, guías telescópicas, 600kg de capacidad, garantía 12 meses. Fabricación propia.",
+    },
+  },
+  {
+    slug: "base-box-guillermina",
+    name: "Base Box Funcional Guillermina",
+    subtitle: "Elegancia tapizada — Funcionalidad con terminación premium",
+    category: "base-box",
+    isHero: true,
+    shortDescription:
+      "Base box funcional con terminación tapizada en tela o velvet. Misma funcionalidad que la Estándar con un look más sofisticado. Cajones, zapatero y baulera.",
+    longDescription:
+      "La Base Box Funcional Guillermina combina toda la funcionalidad de nuestras bases box con una terminación tapizada que eleva la estética de tu dormitorio. Con cajones laterales, zapatero con pistón neumático y baulera central, ofrece el mismo almacenamiento que la línea Estándar pero con un acabado en tela o velvet. Fabricada en MDF de 18mm con canto ABS, guías telescópicas reforzadas, herrajes metálicos y patitas de 2cm. Soporta hasta 600kg. Disponible con distintos estilos de respaldo.",
+    features: [
+      "Terminación tapizada en tela o velvet",
+      "Cajones laterales con guías telescópicas",
+      "Zapatero con pistón neumático",
+      "Baulera central sin fondo (opcional: se puede agregar fondo)",
+      "Soporta 600kg",
+      "Modular — los módulos llegan listos, solo se apoyan entre sí",
+      "Opciones: cajones blancos extra, fondo de baulera, USB x1 o x2",
+      "Disponible con distintos estilos de respaldo",
+    ],
+    specs: [
+      { title: "MDF 18mm", description: "Estructura completa en MDF de primera calidad" },
+      { title: "Tapizado Premium", description: "Terminación en tela o velvet de alta durabilidad" },
+      { title: "Canto ABS", description: "Terminación resistente en todos los bordes internos" },
+      { title: "Guías Telescópicas", description: "Reforzadas, apertura total y suave en todos los cajones" },
+      { title: "Pistón Neumático", description: "Con suspensión para apertura asistida del zapatero" },
+      { title: "Herrajes Metálicos", description: "Refuerzos de acero en puntos de estrés" },
+    ],
+    stats: [
+      { value: "600kg", label: "Capacidad de carga" },
+      { value: "12", label: "Meses de garantía" },
+      { value: "3", label: "Módulos" },
+    ],
+    delivery: [
+      { title: "Módulos Listos", description: "Los módulos llegan listos para colocar" },
+      { title: "3 Módulos", description: "Ingreso fácil por cualquier puerta o ascensor" },
+    ],
+    images: [
+      { src: "/products/base-box-guillermina/hero.jpeg", alt: "Base Box Guillermina con cajones y zapatero abiertos" },
+      { src: "/products/base-box-guillermina/IMG_7429.jpeg", alt: "Base Box Guillermina con respaldo rosa en showroom" },
+      { src: "/products/base-box-guillermina/IMG_7016.jpeg", alt: "Base Box Guillermina con respaldo beige estilizada" },
+      { src: "/products/base-box-guillermina/IMG_8321.jpeg", alt: "Base Box Guillermina vista frontal con respaldo" },
+      { src: "/products/base-box-guillermina/IMG_7909.jpeg", alt: "Base Box Guillermina en gris con decoración macramé" },
+      { src: "/products/base-box-guillermina/IMG_8311.jpeg", alt: "Base Box Guillermina detalle lateral cajones abiertos" },
+      { src: "/products/base-box-guillermina/IMG_0773.jpeg", alt: "Base Box Guillermina estructura interna vista superior" },
+      { src: "/products/base-box-guillermina/IMG_0140.jpeg", alt: "Base Box Guillermina estructura con cajones y zapatero abiertos" },
+      { src: "/products/base-box-guillermina/IMG_8899.jpeg", alt: "Base Box Guillermina entregada en dormitorio de cliente" },
+      { src: "/products/base-box-guillermina/IMG_8903.jpeg", alt: "Base Box Guillermina en tono roble con zapatero abierto" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "1 Plaza y media (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["base-box-estandar", "base-box-genesis", "base-box-luxury"],
+    seo: {
+      title: "Base Box Funcional Guillermina | Diseñar Muebles",
+      description:
+        "Base box funcional tapizada en tela o velvet. Cajones, zapatero y baulera. MDF 18mm, 600kg de capacidad. Fabricación propia.",
+    },
+  },
 
   // ═══════════════════════════════════════════════════════════════
   // RESPALDOS MADERA — 3 diseños (pendiente fotos)
@@ -599,6 +711,12 @@ export const products: Product[] = [
       { src: "/products/mesa-de-luz-moscu/moscu-2.jpeg", alt: "Mesa de Luz Moscú par vista frontal" },
       { src: "/products/mesa-de-luz-moscu/moscu-3.jpeg", alt: "Mesa de Luz Moscú en ambiente" },
       { src: "/products/mesa-de-luz-moscu/moscu-4.jpeg", alt: "Mesa de Luz Moscú detalle acabado" },
+      { src: "/products/mesa-de-luz-moscu/IMG_8922.jpeg", alt: "Mesa de Luz Moscú detalle USB" },
+      { src: "/products/mesa-de-luz-moscu/IMG_8923.jpeg", alt: "Mesa de Luz Moscú vista frontal" },
+      { src: "/products/mesa-de-luz-moscu/IMG_8924.jpeg", alt: "Mesa de Luz Moscú detalle con lámpara" },
+      { src: "/products/mesa-de-luz-moscu/IMG_8925.jpeg", alt: "Mesa de Luz Moscú vista superior" },
+      { src: "/products/mesa-de-luz-moscu/pair.jpeg", alt: "Mesa de Luz Moscú par completo" },
+      { src: "/products/mesa-de-luz-moscu/styled.jpeg", alt: "Mesa de Luz Moscú en ambiente" },
     ],
     sizes: ["66 x 36 x 36cm"],
     relatedSlugs: ["mesita-de-luz-desayunadora", "mesa-de-luz-clasica", "mesa-de-luz-grecia"],
@@ -899,6 +1017,110 @@ export const products: Product[] = [
     seo: {
       title: "Respaldo Tapizado Curvo | Diseñar Muebles",
       description: "Respaldo tapizado curvo envolvente. Espuma D33, tela premium.",
+    },
+  },
+
+  {
+    slug: "respaldo-jazmin",
+    name: "Respaldo Tapizado Jazmín",
+    subtitle: "Canales verticales con presencia",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo tapizado con diseño de canales verticales. Disponible en múltiples telas y colores, con opción de tachas decorativas.",
+    longDescription:
+      "El Respaldo Tapizado Jazmín presenta un elegante diseño de canales verticales que aporta textura y profundidad visual a tu dormitorio. Tapizado en tela premium antimancha con espuma de alta densidad, está disponible en múltiples colores y telas. Opción de agregar tachas decorativas para un look más sofisticado.",
+    features: [
+      "Diseño de canales verticales",
+      "Tela premium antimancha",
+      "Espuma de alta densidad",
+      "Disponible en múltiples telas y colores",
+      "Opción de tachas decorativas",
+      "Estructura de MDF reforzado",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "Canales Verticales", description: "Diseño jazmín con canales profundos y simétricos" },
+      { title: "Espuma D28", description: "Alta densidad para confort y durabilidad" },
+      { title: "Tela Antimancha", description: "Tratamiento especial repelente de líquidos" },
+      { title: "Tachas Opcionales", description: "Terminación con tachas decorativas disponible" },
+    ],
+    stats: [
+      { value: "1.25m", label: "Altura" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [
+      { src: "/products/respaldo-jazmin/hero.jpeg", alt: "Respaldo Jazmín beige con canales verticales" },
+      { src: "/products/respaldo-jazmin/IMG_8543.jpeg", alt: "Respaldo Jazmín en gris oscuro" },
+      { src: "/products/respaldo-jazmin/dark-variant.jpeg", alt: "Respaldo Jazmín variante carbón" },
+      { src: "/products/respaldo-jazmin/IMG_6967.jpeg", alt: "Respaldo Jazmín en teal con tachas" },
+      { src: "/products/respaldo-jazmin/IMG_6969.jpeg", alt: "Detalle de tachas y tapizado del Respaldo Jazmín" },
+      { src: "/products/respaldo-jazmin/detail-studs.jpeg", alt: "Detalle de tachas en variante oscura" },
+      { src: "/products/respaldo-jazmin/detail-texture.jpeg", alt: "Detalle de textura del tapizado" },
+      { src: "/products/respaldo-jazmin/IMG_9307.jpeg", alt: "Respaldo Jazmín en contexto con cama completa" },
+    ],
+    sizes: ["1m x 1.25m", "1.50m x 1.25m", "1.70m x 1.25m", "1.90m x 1.25m", "2.10m x 1.25m"],
+    relatedSlugs: ["respaldo-liso", "respaldo-tapizado-capitone", "respaldo-tapizado-isola"],
+    seo: {
+      title: "Respaldo Tapizado Jazmín | Diseñar Muebles",
+      description:
+        "Respaldo tapizado con canales verticales. Tela premium antimancha, múltiples colores, opción de tachas. Fabricación propia.",
+    },
+  },
+  {
+    slug: "respaldo-liso",
+    name: "Respaldo Tapizado Liso",
+    subtitle: "Minimalismo y elegancia en línea pura",
+    category: "respaldos-tapizados",
+    isHero: false,
+    shortDescription:
+      "Respaldo tapizado liso con diseño minimalista y costura horizontal sutil. Disponible en múltiples telas y colores.",
+    longDescription:
+      "El Respaldo Tapizado Liso es la opción perfecta para quienes buscan un diseño limpio y minimalista. Su superficie lisa con una sutil costura horizontal que divide los paneles superior e inferior le da un toque moderno sin recargar. Tapizado en tela premium antimancha con espuma de alta densidad, disponible en múltiples colores.",
+    features: [
+      "Diseño liso minimalista",
+      "Costura horizontal decorativa",
+      "Tela premium antimancha",
+      "Espuma de alta densidad",
+      "Disponible en múltiples telas y colores",
+      "Estructura de MDF reforzado",
+      "Fijación a pared incluida",
+    ],
+    specs: [
+      { title: "Diseño Liso", description: "Superficie limpia con costura horizontal sutil" },
+      { title: "Espuma D28", description: "Alta densidad para confort y durabilidad" },
+      { title: "Tela Antimancha", description: "Tratamiento especial repelente de líquidos" },
+    ],
+    stats: [
+      { value: "1.25m", label: "Altura" },
+      { value: "12", label: "Meses de garantía" },
+    ],
+    delivery: [
+      { title: "Entrega a Domicilio", description: "Envío hasta la puerta de tu hogar" },
+      { title: "Fijación Simple", description: "Se fija a la pared con tacos incluidos" },
+    ],
+    images: [
+      { src: "/products/respaldo-liso/hero.jpeg", alt: "Respaldo Liso beige frontal" },
+      { src: "/products/respaldo-liso/render.jpeg", alt: "Respaldo Liso en render de dormitorio" },
+      { src: "/products/respaldo-liso/styled.jpeg", alt: "Respaldo Liso en contexto con cama y base box" },
+      { src: "/products/respaldo-liso/IMG_7960.jpeg", alt: "Respaldo Liso vista frontal" },
+      { src: "/products/respaldo-liso/IMG_7963.jpeg", alt: "Respaldo Liso vista angular" },
+      { src: "/products/respaldo-liso/IMG_7962.jpeg", alt: "Respaldo Liso ángulo lateral" },
+      { src: "/products/respaldo-liso/IMG_2127.jpeg", alt: "Respaldo Liso con cama completa en showroom" },
+      { src: "/products/respaldo-liso/IMG_2142.jpeg", alt: "Respaldo Liso en showroom con decoración" },
+      { src: "/products/respaldo-liso/IMG_2126.jpeg", alt: "Respaldo Liso en ambiente showroom" },
+      { src: "/products/respaldo-liso/IMG_5564.jpeg", alt: "Respaldo Liso con cama estilizada y manta" },
+    ],
+    sizes: ["1m x 1.25m", "1.50m x 1.25m", "1.70m x 1.25m", "1.90m x 1.25m", "2.10m x 1.25m"],
+    relatedSlugs: ["respaldo-jazmin", "respaldo-tapizado-capitone", "respaldo-tapizado-luxury"],
+    seo: {
+      title: "Respaldo Tapizado Liso | Diseñar Muebles",
+      description:
+        "Respaldo tapizado liso con diseño minimalista. Tela premium antimancha, múltiples colores. Fabricación propia.",
     },
   },
 
@@ -1402,9 +1624,1145 @@ export const products: Product[] = [
   ...generateSillonesPlaceholders(),
 
   // ═══════════════════════════════════════════════════════════════
-  // COLCHONES — genéricos (Taurus, Elegante, Deseo) + Canon detallados
+  // COLCHONES — genéricos (Taurus, Deseo) + Elegante y Canon detallados
   // ═══════════════════════════════════════════════════════════════
   ...generateColchonesProducts(),
+
+  // ═══════════════════════════════════════════════════════════════
+  // COLCHONES ELEGANTE — 23 modelos con datos reales
+  // ═══════════════════════════════════════════════════════════════
+
+  // ─── Espuma ────────────────────────────────────────────────────
+  {
+    slug: "colchon-elegante-confort-special",
+    name: "Colchón Elegante Confort Special",
+    subtitle: "Elegante — Espuma de entrada, confort accesible",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 18cm de altura. Densidad 21kg, soporta 70kg por plaza. Tela de sábana, firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Confort Special es la opción de entrada de la línea Elegante, ideal para quienes buscan confort accesible. Con espuma de poliuretano de 21kg de densidad y soporte de 70kg por plaza, ofrece firmeza intermedia para un descanso equilibrado. Su tela de sábana brinda suavidad al tacto. 18cm de altura. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "21kg de densidad",
+      "Soporta 70kg por plaza",
+      "Espuma de poliuretano",
+      "Firmeza intermedia",
+      "Tela de sábana",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano" },
+      { title: "Densidad", description: "21 kg" },
+      { title: "Soporte", description: "70 kg por plaza" },
+      { title: "Altura", description: "18 cm" },
+      { title: "Tela", description: "Sábana" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "21kg", label: "Densidad" },
+      { value: "70kg", label: "Soporte por plaza" },
+      { value: "18cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-confort-special/info.jpeg", alt: "Colchón Elegante Confort Special especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-mistral", "colchon-elegante-super-confort"],
+    seo: {
+      title: "Colchón Elegante Confort Special | Diseñar Muebles",
+      description: "Colchón Elegante Confort Special de espuma 21kg densidad. 70kg soporte, firmeza intermedia. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-mistral",
+    name: "Colchón Elegante Mistral",
+    subtitle: "Elegante — Espuma con soporte equilibrado",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 20cm de altura. Densidad 23kg, soporta 75kg por plaza. Tela de sábana, firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Mistral ofrece espuma de poliuretano con 23kg de densidad y soporte de 75kg por plaza. Con 20cm de altura y firmeza intermedia, brinda un descanso equilibrado y confortable. Tela de sábana suave al tacto. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "23kg de densidad",
+      "Soporta 75kg por plaza",
+      "Espuma de poliuretano",
+      "Firmeza intermedia",
+      "Tela de sábana",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano" },
+      { title: "Densidad", description: "23 kg" },
+      { title: "Soporte", description: "75 kg por plaza" },
+      { title: "Altura", description: "20 cm" },
+      { title: "Tela", description: "Sábana" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "23kg", label: "Densidad" },
+      { value: "75kg", label: "Soporte por plaza" },
+      { value: "20cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-mistral/info.jpeg", alt: "Colchón Elegante Mistral especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-confort-special", "colchon-elegante-mistral-jackard", "colchon-elegante-super-confort"],
+    seo: {
+      title: "Colchón Elegante Mistral | Diseñar Muebles",
+      description: "Colchón Elegante Mistral de espuma 23kg densidad. 75kg soporte, firmeza intermedia. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-mistral-jackard",
+    name: "Colchón Elegante Mistral Jackard",
+    subtitle: "Elegante — Espuma con euro pillow top y tela jackard",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 23cm con euro pillow top. Densidad 23kg, soporta 75kg por plaza. Tela jackard, firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Mistral Jackard es la versión premium del Mistral, con tela jackard de alta calidad y euro pillow top para mayor confort superficial. Espuma de poliuretano con 23kg de densidad y soporte de 75kg por plaza. 23cm de altura con firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "23kg de densidad",
+      "Soporta 75kg por plaza",
+      "Espuma de poliuretano",
+      "Euro pillow top",
+      "Firmeza intermedia",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con euro pillow top" },
+      { title: "Densidad", description: "23 kg" },
+      { title: "Soporte", description: "75 kg por plaza" },
+      { title: "Altura", description: "23 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "23kg", label: "Densidad" },
+      { value: "75kg", label: "Soporte por plaza" },
+      { value: "23cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-mistral-jackard/info.jpeg", alt: "Colchón Elegante Mistral Jackard especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-mistral", "colchon-elegante-balance", "colchon-elegante-super-confort"],
+    seo: {
+      title: "Colchón Elegante Mistral Jackard | Diseñar Muebles",
+      description: "Colchón Elegante Mistral Jackard con euro pillow top. 23kg densidad, tela jackard. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-super-confort",
+    name: "Colchón Elegante Super Confort",
+    subtitle: "Elegante — Espuma de alta densidad",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 25cm de altura. Densidad 25kg, soporta 80kg por plaza. Tela de sábana, firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Super Confort ofrece espuma de poliuretano con 25kg de densidad y soporte de 80kg por plaza. Con 25cm de altura y firmeza intermedia, brinda un descanso superior a los modelos de entrada. Tela de sábana suave y resistente. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "25kg de densidad",
+      "Soporta 80kg por plaza",
+      "Espuma de poliuretano",
+      "Firmeza intermedia",
+      "Tela de sábana",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano" },
+      { title: "Densidad", description: "25 kg" },
+      { title: "Soporte", description: "80 kg por plaza" },
+      { title: "Altura", description: "25 cm" },
+      { title: "Tela", description: "Sábana" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "25kg", label: "Densidad" },
+      { value: "80kg", label: "Soporte por plaza" },
+      { value: "25cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-super-confort/info.jpeg", alt: "Colchón Elegante Super Confort especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-mistral", "colchon-elegante-balance", "colchon-elegante-imperial"],
+    seo: {
+      title: "Colchón Elegante Super Confort | Diseñar Muebles",
+      description: "Colchón Elegante Super Confort de espuma 25kg densidad. 80kg soporte, 25cm altura. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-balance",
+    name: "Colchón Elegante Balance",
+    subtitle: "Elegante — Espuma con euro pillow top",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 26cm con euro pillow top. Soporta 75kg por plaza. Tela jackard, firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Balance combina espuma de poliuretano con un euro pillow top para máximo confort superficial. Con 26cm de altura y soporte de 75kg por plaza, ofrece firmeza intermedia ideal para un descanso equilibrado. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Soporta 75kg por plaza",
+      "Espuma de poliuretano",
+      "Euro pillow top",
+      "Firmeza intermedia",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con euro pillow top" },
+      { title: "Soporte", description: "75 kg por plaza" },
+      { title: "Altura", description: "26 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "75kg", label: "Soporte por plaza" },
+      { value: "26cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-balance/info.jpeg", alt: "Colchón Elegante Balance especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-mistral-jackard", "colchon-elegante-imperial", "colchon-elegante-super-confort"],
+    seo: {
+      title: "Colchón Elegante Balance | Diseñar Muebles",
+      description: "Colchón Elegante Balance con euro pillow top. 75kg soporte, 26cm altura, tela jackard. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-imperial",
+    name: "Colchón Elegante Imperial",
+    subtitle: "Elegante — Espuma de alta densidad, firmeza intermedia-firme",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 26cm. Densidad 27kg, soporta 90kg por plaza. Tela jackard, firmeza intermedia-firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Imperial ofrece espuma de poliuretano con 27kg de densidad y soporte de 90kg por plaza. Con 26cm de altura y firmeza intermedia-firme, es ideal para quienes buscan un soporte más robusto sin perder confort. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "27kg de densidad",
+      "Soporta 90kg por plaza",
+      "Espuma de poliuretano",
+      "Firmeza intermedia-firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano" },
+      { title: "Densidad", description: "27 kg" },
+      { title: "Soporte", description: "90 kg por plaza" },
+      { title: "Altura", description: "26 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Intermedia-firme" },
+    ],
+    stats: [
+      { value: "27kg", label: "Densidad" },
+      { value: "90kg", label: "Soporte por plaza" },
+      { value: "26cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-imperial/info.jpeg", alt: "Colchón Elegante Imperial especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-super-imperial", "colchon-elegante-senorial", "colchon-elegante-balance"],
+    seo: {
+      title: "Colchón Elegante Imperial | Diseñar Muebles",
+      description: "Colchón Elegante Imperial de espuma 27kg densidad. 90kg soporte, firmeza intermedia-firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-super-imperial",
+    name: "Colchón Elegante Super Imperial",
+    subtitle: "Elegante — Espuma firme con doble euro pillow top",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 30cm con doble euro pillow top. Densidad 28kg, soporta 100kg por plaza. Tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Super Imperial combina espuma de poliuretano de 28kg de densidad con doble euro pillow top para un balance ideal entre firmeza y confort superficial. Soporta 100kg por plaza con 30cm de altura. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "28kg de densidad",
+      "Soporta 100kg por plaza",
+      "Espuma de poliuretano",
+      "Doble euro pillow top",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con doble euro pillow top" },
+      { title: "Densidad", description: "28 kg" },
+      { title: "Soporte", description: "100 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "28kg", label: "Densidad" },
+      { value: "100kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-super-imperial/info.jpeg", alt: "Colchón Elegante Super Imperial especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-imperial", "colchon-elegante-senorial", "colchon-elegante-senorial-euro"],
+    seo: {
+      title: "Colchón Elegante Super Imperial | Diseñar Muebles",
+      description: "Colchón Elegante Super Imperial con doble euro pillow top. 28kg densidad, 100kg soporte. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-senorial",
+    name: "Colchón Elegante Señorial",
+    subtitle: "Elegante — Espuma de alta densidad firme con pillow top",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 26cm con pillow top. Densidad 30kg, soporta 110kg por plaza. Tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Señorial ofrece espuma de poliuretano con 30kg de densidad y soporte de 110kg por plaza. Su pillow top brinda una capa extra de confort sobre una base firme. 26cm de altura con tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "30kg de densidad",
+      "Soporta 110kg por plaza",
+      "Espuma de poliuretano",
+      "Pillow top",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con pillow top" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "110 kg por plaza" },
+      { title: "Altura", description: "26 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "30kg", label: "Densidad" },
+      { value: "110kg", label: "Soporte por plaza" },
+      { value: "26cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-senorial/info.jpeg", alt: "Colchón Elegante Señorial especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-senorial-euro", "colchon-elegante-imperial", "colchon-elegante-super-imperial"],
+    seo: {
+      title: "Colchón Elegante Señorial | Diseñar Muebles",
+      description: "Colchón Elegante Señorial de espuma 30kg densidad. 110kg soporte, pillow top, firmeza firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-senorial-euro",
+    name: "Colchón Elegante Señorial Euro",
+    subtitle: "Elegante — Espuma firme con doble euro pillow y tela algodón",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 30cm con doble euro pillow. Densidad 30kg, soporta 120kg por plaza. Tela jackard con lateral de algodón, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Señorial Euro es la versión premium del Señorial, con doble euro pillow para máximo confort y 30cm de altura. Espuma de poliuretano de 30kg de densidad con soporte de 120kg por plaza. Tela jackard en la superficie con lateral de algodón. Firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "30kg de densidad",
+      "Soporta 120kg por plaza",
+      "Espuma de poliuretano",
+      "Doble euro pillow",
+      "Firmeza firme",
+      "Tela jackard + algodón en lateral",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con doble euro pillow" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "120 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "Jackard + algodón (lateral)" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "30kg", label: "Densidad" },
+      { value: "120kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-senorial-euro/info.jpeg", alt: "Colchón Elegante Señorial Euro especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-senorial", "colchon-elegante-only", "colchon-elegante-super-imperial"],
+    seo: {
+      title: "Colchón Elegante Señorial Euro | Diseñar Muebles",
+      description: "Colchón Elegante Señorial Euro con doble euro pillow. 30kg densidad, 120kg soporte, tela jackard y algodón. 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-elegante-only",
+    name: "Colchón Elegante Only",
+    subtitle: "Elegante — Espuma de alta densidad firme con doble euro pillow",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 30cm con doble euro pillow. Densidad 35kg, soporta 120kg por plaza. Tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Only ofrece espuma de poliuretano de 35kg de densidad con doble euro pillow top para un confort superior. Soporta 120kg por plaza con 30cm de altura y firmeza firme. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "35kg de densidad",
+      "Soporta 120kg por plaza",
+      "Espuma de poliuretano",
+      "Doble euro pillow",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con doble euro pillow" },
+      { title: "Densidad", description: "35 kg" },
+      { title: "Soporte", description: "120 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "35kg", label: "Densidad" },
+      { value: "120kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-only/info.jpeg", alt: "Colchón Elegante Only especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-alone", "colchon-elegante-senorial-euro", "colchon-elegante-genius"],
+    seo: {
+      title: "Colchón Elegante Only | Diseñar Muebles",
+      description: "Colchón Elegante Only de espuma 35kg densidad con doble euro pillow. 120kg soporte, firmeza firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-alone",
+    name: "Colchón Elegante Alone",
+    subtitle: "Elegante — Espuma de alta densidad firme",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colchón de espuma de poliuretano de 30cm. Densidad 35kg, soporta 120kg por plaza. Tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Alone ofrece espuma de poliuretano de 35kg de densidad con soporte de 120kg por plaza. Con 30cm de altura y firmeza firme, brinda un descanso robusto y duradero. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "35kg de densidad",
+      "Soporta 120kg por plaza",
+      "Espuma de poliuretano",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano" },
+      { title: "Densidad", description: "35 kg" },
+      { title: "Soporte", description: "120 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "35kg", label: "Densidad" },
+      { value: "120kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-alone/info.jpeg", alt: "Colchón Elegante Alone especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-only", "colchon-elegante-genius", "colchon-elegante-senorial-euro"],
+    seo: {
+      title: "Colchón Elegante Alone | Diseñar Muebles",
+      description: "Colchón Elegante Alone de espuma 35kg densidad. 120kg soporte, firmeza firme, tela jackard. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-genius",
+    name: "Colchón Elegante Genius",
+    subtitle: "Elegante — Premium, espuma de ultra alta densidad",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón premium de espuma de poliuretano de 28cm. Densidad 50kg, soporta 150kg por plaza. Tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Genius es uno de los modelos premium de la línea Elegante. Espuma de poliuretano de ultra alta densidad con 50kg de densidad y soporte de 150kg por plaza, ideal para personas de mayor peso o quienes buscan máxima firmeza. 28cm de altura con tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "50kg de densidad — ultra alta",
+      "Soporta 150kg por plaza",
+      "Espuma de poliuretano premium",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano de ultra alta densidad" },
+      { title: "Densidad", description: "50 kg" },
+      { title: "Soporte", description: "150 kg por plaza" },
+      { title: "Altura", description: "28 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "50kg", label: "Densidad" },
+      { value: "150kg", label: "Soporte por plaza" },
+      { value: "28cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-genius/info.jpeg", alt: "Colchón Elegante Genius especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-genius-max", "colchon-elegante-only", "colchon-elegante-alone"],
+    seo: {
+      title: "Colchón Elegante Genius | Diseñar Muebles",
+      description: "Colchón Elegante Genius premium, espuma 50kg densidad. 150kg soporte, firmeza firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-genius-max",
+    name: "Colchón Elegante Genius Max",
+    subtitle: "Elegante — Premium, ultra alta densidad con doble euro pillow",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón premium de espuma de poliuretano de 30cm con doble euro pillow top. Densidad 50kg, soporta 150kg por plaza. Tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Genius Max es el tope de línea en espuma de la marca Elegante. Con 50kg de densidad y doble euro pillow top, combina soporte de ultra alta densidad con máximo confort superficial. Soporta 150kg por plaza, 30cm de altura, tela jackard premium. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "50kg de densidad — ultra alta",
+      "Soporta 150kg por plaza",
+      "Espuma de poliuretano premium",
+      "Doble euro pillow top",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con doble euro pillow top" },
+      { title: "Densidad", description: "50 kg" },
+      { title: "Soporte", description: "150 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "50kg", label: "Densidad" },
+      { value: "150kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-genius-max/info.jpeg", alt: "Colchón Elegante Genius Max especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-genius", "colchon-elegante-only", "colchon-elegante-cloud"],
+    seo: {
+      title: "Colchón Elegante Genius Max | Diseñar Muebles",
+      description: "Colchón Elegante Genius Max premium con doble euro pillow. 50kg densidad, 150kg soporte. 5 años garantía. Todas las medidas.",
+    },
+  },
+
+  // ─── Resorte Bonnell ───────────────────────────────────────────
+  {
+    slug: "colchon-elegante-body",
+    name: "Colchón Elegante Body",
+    subtitle: "Elegante — Resortes Bonnell con marco de acero",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: false,
+    shortDescription:
+      "Colchón de resortes Bonnell de 25cm. Densidad 25kg, soporta 80kg por plaza. Marco perimetral de acero, tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Body cuenta con sistema de resortes Bonnell y marco perimetral de acero para máxima estabilidad. Con espuma de 25kg de densidad y soporte de 80kg por plaza, ofrece firmeza firme con 25cm de altura. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes Bonnell",
+      "25kg de densidad",
+      "Soporta 80kg por plaza",
+      "Marco perimetral de acero",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell" },
+      { title: "Densidad", description: "25 kg" },
+      { title: "Soporte", description: "80 kg por plaza" },
+      { title: "Altura", description: "25 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Marco", description: "Perimetral de acero" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "Bonnell", label: "Tipo de resorte" },
+      { value: "80kg", label: "Soporte por plaza" },
+      { value: "25cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-body/info.jpeg", alt: "Colchón Elegante Body especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-euro-body", "colchon-elegante-sleep", "colchon-elegante-prince"],
+    seo: {
+      title: "Colchón Elegante Body | Diseñar Muebles",
+      description: "Colchón Elegante Body de resortes Bonnell con marco de acero. 80kg soporte, firmeza firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-euro-body",
+    name: "Colchón Elegante Euro Body",
+    subtitle: "Elegante — Resortes Bonnell premium con doble euro pillow",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Bonnell de 33cm con doble euro pillow top. Densidad 25kg, soporta 110kg por plaza. Marco perimetral de acero, tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Euro Body es la versión premium del Body, con doble euro pillow top para máximo confort y 33cm de altura. Resortes Bonnell con marco perimetral de acero, espuma de 25kg de densidad y soporte de 110kg por plaza. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes Bonnell",
+      "25kg de densidad",
+      "Soporta 110kg por plaza",
+      "Doble euro pillow top",
+      "Marco perimetral de acero",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell con doble euro pillow top" },
+      { title: "Densidad", description: "25 kg" },
+      { title: "Soporte", description: "110 kg por plaza" },
+      { title: "Altura", description: "33 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Marco", description: "Perimetral de acero" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "Bonnell", label: "Tipo de resorte" },
+      { value: "110kg", label: "Soporte por plaza" },
+      { value: "33cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-euro-body/info.jpeg", alt: "Colchón Elegante Euro Body especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-body", "colchon-elegante-olympus", "colchon-elegante-adapt"],
+    seo: {
+      title: "Colchón Elegante Euro Body | Diseñar Muebles",
+      description: "Colchón Elegante Euro Body de resortes Bonnell con doble euro pillow. 110kg soporte, 33cm altura. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-sleep",
+    name: "Colchón Elegante Sleep",
+    subtitle: "Elegante — Resortes Bonnell con marco de espuma",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: false,
+    shortDescription:
+      "Colchón de resortes Bonnell de 26cm. Densidad 30kg, soporta 85kg por plaza. Marco perimetral de espuma, tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Sleep cuenta con sistema de resortes Bonnell y marco perimetral de espuma para un soporte estable y uniforme. Con 30kg de densidad y soporte de 85kg por plaza, ofrece firmeza firme con 26cm de altura. Tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes Bonnell",
+      "30kg de densidad",
+      "Soporta 85kg por plaza",
+      "Marco perimetral de espuma",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "85 kg por plaza" },
+      { title: "Altura", description: "26 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "Bonnell", label: "Tipo de resorte" },
+      { value: "85kg", label: "Soporte por plaza" },
+      { value: "26cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-sleep/info.jpeg", alt: "Colchón Elegante Sleep especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-body", "colchon-elegante-prince", "colchon-elegante-olympus"],
+    seo: {
+      title: "Colchón Elegante Sleep | Diseñar Muebles",
+      description: "Colchón Elegante Sleep de resortes Bonnell con marco de espuma. 85kg soporte, firmeza firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-prince",
+    name: "Colchón Elegante Prince",
+    subtitle: "Elegante — Resortes Bonnell con pillow top",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Bonnell de 28cm con pillow top. Densidad 30kg, soporta 100kg por plaza. Marco perimetral de espuma, tela jackard, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Prince combina resortes Bonnell con pillow top para un descanso firme con confort superficial. Marco perimetral de espuma, espuma de 30kg de densidad y soporte de 100kg por plaza. 28cm de altura con tela jackard de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes Bonnell",
+      "30kg de densidad",
+      "Soporta 100kg por plaza",
+      "Pillow top",
+      "Marco perimetral de espuma",
+      "Firmeza firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell con pillow top" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "100 kg por plaza" },
+      { title: "Altura", description: "28 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "Bonnell", label: "Tipo de resorte" },
+      { value: "100kg", label: "Soporte por plaza" },
+      { value: "28cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-prince/info.jpeg", alt: "Colchón Elegante Prince especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-sleep", "colchon-elegante-olympus", "colchon-elegante-adapt"],
+    seo: {
+      title: "Colchón Elegante Prince | Diseñar Muebles",
+      description: "Colchón Elegante Prince de resortes Bonnell con pillow top. 100kg soporte, 28cm altura. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-olympus",
+    name: "Colchón Elegante Olympus",
+    subtitle: "Elegante — Resortes Bonnell con doble euro pillow, manijas y aireadores",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Bonnell de 30cm con doble euro pillow top. Densidad 30kg, soporta 110kg por plaza. Marco de espuma, tela de punto, manijas y aireadores. Firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Olympus es uno de los modelos más completos de la línea de resortes Bonnell. Con doble euro pillow top, marco perimetral de espuma, manijas laterales y aireadores para ventilación. Espuma de 30kg de densidad y soporte de 110kg por plaza. 30cm de altura con tela de punto de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes Bonnell",
+      "30kg de densidad",
+      "Soporta 110kg por plaza",
+      "Doble euro pillow top",
+      "Marco perimetral de espuma",
+      "Manijas laterales",
+      "Aireadores para ventilación",
+      "Firmeza firme",
+      "Tela de punto",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell con doble euro pillow top" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "110 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "De punto" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Extras", description: "Manijas y aireadores" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "Bonnell", label: "Tipo de resorte" },
+      { value: "110kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-olympus/info.jpeg", alt: "Colchón Elegante Olympus especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-adapt", "colchon-elegante-prince", "colchon-elegante-euro-body"],
+    seo: {
+      title: "Colchón Elegante Olympus | Diseñar Muebles",
+      description: "Colchón Elegante Olympus de resortes Bonnell con doble euro pillow, manijas y aireadores. 110kg soporte. 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-elegante-adapt",
+    name: "Colchón Elegante Adapt",
+    subtitle: "Elegante — Resortes Bonnell con pillow top y marco de acero",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Bonnell de 30cm con pillow top. Densidad 30kg, soporta 110kg por plaza. Marco perimetral de acero, tela de punto, firmeza firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Adapt combina resortes Bonnell con pillow top y marco perimetral de acero para máxima estabilidad y soporte. Con 30kg de densidad y soporte de 110kg por plaza, ofrece firmeza firme con 30cm de altura. Tela de punto de alta calidad. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes Bonnell",
+      "30kg de densidad",
+      "Soporta 110kg por plaza",
+      "Pillow top",
+      "Marco perimetral de acero",
+      "Firmeza firme",
+      "Tela de punto",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell con pillow top" },
+      { title: "Densidad", description: "30 kg" },
+      { title: "Soporte", description: "110 kg por plaza" },
+      { title: "Altura", description: "30 cm" },
+      { title: "Tela", description: "De punto" },
+      { title: "Marco", description: "Perimetral de acero" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "Bonnell", label: "Tipo de resorte" },
+      { value: "110kg", label: "Soporte por plaza" },
+      { value: "30cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-adapt/info.jpeg", alt: "Colchón Elegante Adapt especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-olympus", "colchon-elegante-euro-body", "colchon-elegante-flex"],
+    seo: {
+      title: "Colchón Elegante Adapt | Diseñar Muebles",
+      description: "Colchón Elegante Adapt de resortes Bonnell con pillow top y marco de acero. 110kg soporte. 5 años garantía. Todas las medidas.",
+    },
+  },
+
+  // ─── Resorte Pocket ────────────────────────────────────────────
+  {
+    slug: "colchon-elegante-flex",
+    name: "Colchón Elegante Flex",
+    subtitle: "Elegante — Resortes Pocket con pillow top y manijas",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes pocket de 32cm con pillow top. Densidad 35kg, soporta 120kg por plaza. Marco de espuma, tela jackard, manijas. Firmeza intermedia-firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Flex cuenta con sistema de resortes pocket que se adaptan de forma independiente al cuerpo. Con pillow top, marco perimetral de espuma y manijas laterales. Espuma de 35kg de densidad y soporte de 120kg por plaza. 32cm de altura con tela jackard y firmeza intermedia-firme. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes pocket — adaptación independiente",
+      "35kg de densidad",
+      "Soporta 120kg por plaza",
+      "Pillow top",
+      "Marco perimetral de espuma",
+      "Manijas laterales",
+      "Firmeza intermedia-firme",
+      "Tela jackard",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes pocket con pillow top" },
+      { title: "Densidad", description: "35 kg" },
+      { title: "Soporte", description: "120 kg por plaza" },
+      { title: "Altura", description: "32 cm" },
+      { title: "Tela", description: "Jackard" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Extras", description: "Manijas laterales" },
+      { title: "Firmeza", description: "Intermedia-firme" },
+    ],
+    stats: [
+      { value: "Pocket", label: "Tipo de resorte" },
+      { value: "120kg", label: "Soporte por plaza" },
+      { value: "32cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-flex/info.jpeg", alt: "Colchón Elegante Flex especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-sweet", "colchon-elegante-nice", "colchon-elegante-adapt"],
+    seo: {
+      title: "Colchón Elegante Flex | Diseñar Muebles",
+      description: "Colchón Elegante Flex de resortes pocket con pillow top. 120kg soporte, firmeza intermedia-firme. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-sweet",
+    name: "Colchón Elegante Sweet",
+    subtitle: "Elegante — Resortes Pocket soft-side con pillow top",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes pocket soft-side de 32cm con pillow top. Densidad 50kg, soporta 135kg por plaza. Marco de espuma, tela algodón, manijas. Firmeza intermedia. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Sweet es un modelo soft-side con resortes pocket que brindan adaptación independiente al cuerpo. Con 50kg de densidad y soporte de 135kg por plaza, ofrece una firmeza intermedia ideal para quienes prefieren un descanso suave. Pillow top, marco perimetral de espuma y manijas. 32cm de altura con tela de algodón. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes pocket — adaptación independiente",
+      "50kg de densidad",
+      "Soporta 135kg por plaza",
+      "Pillow top",
+      "Soft-side — firmeza intermedia",
+      "Marco perimetral de espuma",
+      "Manijas laterales",
+      "Tela de algodón",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes pocket soft-side con pillow top" },
+      { title: "Densidad", description: "50 kg" },
+      { title: "Soporte", description: "135 kg por plaza" },
+      { title: "Altura", description: "32 cm" },
+      { title: "Tela", description: "Algodón" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Extras", description: "Manijas laterales" },
+      { title: "Firmeza", description: "Intermedia (soft-side)" },
+    ],
+    stats: [
+      { value: "Pocket", label: "Tipo de resorte" },
+      { value: "135kg", label: "Soporte por plaza" },
+      { value: "32cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-sweet/info.jpeg", alt: "Colchón Elegante Sweet especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-flex", "colchon-elegante-nice", "colchon-elegante-cloud"],
+    seo: {
+      title: "Colchón Elegante Sweet | Diseñar Muebles",
+      description: "Colchón Elegante Sweet de resortes pocket soft-side. 50kg densidad, 135kg soporte. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-nice",
+    name: "Colchón Elegante Nice",
+    subtitle: "Elegante — Resortes Pocket con súper pillow top V.M.F.",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes pocket de 32cm con súper pillow top de espuma V.M.F. Densidad 50kg, soporta 130kg por plaza. Marco de espuma, tela algodón, manijas. Firmeza extra soft. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Nice cuenta con resortes pocket y un súper pillow top de espuma viscoelástica V.M.F. para un confort extra suave. Con 50kg de densidad y soporte de 130kg por plaza, ofrece firmeza extra soft. Marco perimetral de espuma y manijas laterales. 32cm de altura con tela de algodón. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes pocket — adaptación independiente",
+      "50kg de densidad",
+      "Soporta 130kg por plaza",
+      "Súper pillow top de espuma V.M.F.",
+      "Firmeza extra soft",
+      "Marco perimetral de espuma",
+      "Manijas laterales",
+      "Tela de algodón",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes pocket con súper pillow top V.M.F." },
+      { title: "Densidad", description: "50 kg" },
+      { title: "Soporte", description: "130 kg por plaza" },
+      { title: "Altura", description: "32 cm" },
+      { title: "Tela", description: "Algodón" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Extras", description: "Manijas laterales" },
+      { title: "Firmeza", description: "Extra soft" },
+    ],
+    stats: [
+      { value: "Pocket", label: "Tipo de resorte" },
+      { value: "130kg", label: "Soporte por plaza" },
+      { value: "32cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-nice/info.jpeg", alt: "Colchón Elegante Nice especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-sweet", "colchon-elegante-cloud", "colchon-elegante-flex"],
+    seo: {
+      title: "Colchón Elegante Nice | Diseñar Muebles",
+      description: "Colchón Elegante Nice de resortes pocket con súper pillow top V.M.F. 130kg soporte, extra soft. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-elegante-cloud",
+    name: "Colchón Elegante Cloud",
+    subtitle: "Elegante — Premium, resortes Pocket tope de línea",
+    category: "colchones",
+    brand: "Elegante",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón premium de resortes pocket de 37-42cm con doble euro pillow top. Densidad 50kg, soporta 150kg por plaza. Marco de espuma, tela algodón, manijas y aireadores. Firmeza intermedia. Tope de línea Elegante. 5 años de garantía, tela antialérgica y antiacaros.",
+    longDescription:
+      "El Colchón Elegante Cloud es el tope de línea de Elegante. Con resortes pocket, doble euro pillow top, marco perimetral de espuma, manijas laterales y aireadores para ventilación. Espuma de 50kg de densidad y soporte de 150kg por plaza. Su altura varía de 37 a 42cm según la medida. Tela de algodón premium. Firmeza intermedia para un descanso envolvente. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Resortes pocket — adaptación independiente",
+      "50kg de densidad",
+      "Soporta 150kg por plaza",
+      "Doble euro pillow top",
+      "Marco perimetral de espuma",
+      "Manijas laterales",
+      "Aireadores para ventilación",
+      "Firmeza intermedia",
+      "Tela de algodón premium",
+      "Tope de línea Elegante",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes pocket con doble euro pillow top" },
+      { title: "Densidad", description: "50 kg" },
+      { title: "Soporte", description: "150 kg por plaza" },
+      { title: "Altura", description: "37-42 cm (según medida)" },
+      { title: "Tela", description: "Algodón premium" },
+      { title: "Marco", description: "Perimetral de espuma" },
+      { title: "Extras", description: "Manijas y aireadores" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "Pocket", label: "Tipo de resorte" },
+      { value: "150kg", label: "Soporte por plaza" },
+      { value: "37-42cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-elegante-cloud/info.jpeg", alt: "Colchón Elegante Cloud especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (090x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-elegante-nice", "colchon-elegante-sweet", "colchon-elegante-genius-max"],
+    seo: {
+      title: "Colchón Elegante Cloud | Diseñar Muebles",
+      description: "Colchón Elegante Cloud, tope de línea. Resortes pocket, doble euro pillow, 150kg soporte. 5 años garantía. Todas las medidas.",
+    },
+  },
 
   // ═══════════════════════════════════════════════════════════════
   // COLCHONES CANON — 6 modelos con datos reales
@@ -1450,6 +2808,7 @@ export const products: Product[] = [
     images: [
       { src: "/products/colchon-canon-exclusive/showcase.jpeg", alt: "Colchón Canon Exclusive vista completa" },
       { src: "/products/colchon-canon-exclusive/info.jpeg", alt: "Colchón Canon Exclusive especificaciones" },
+      { src: "/products/colchon-canon-exclusive/flyer.jpeg", alt: "Colchón Canon Exclusive ficha técnica" },
     ],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
     relatedSlugs: ["colchon-canon-exclusive-pillow", "colchon-canon-renovation", "colchon-canon-princess"],
@@ -1499,6 +2858,7 @@ export const products: Product[] = [
     images: [
       { src: "/products/colchon-canon-exclusive-pillow/showcase.jpeg", alt: "Colchón Canon Exclusive con Pillow vista completa" },
       { src: "/products/colchon-canon-exclusive-pillow/info.jpeg", alt: "Colchón Canon Exclusive con Pillow especificaciones" },
+      { src: "/products/colchon-canon-exclusive-pillow/flyer.jpeg", alt: "Colchón Canon Exclusive con Pillow ficha técnica" },
     ],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
     relatedSlugs: ["colchon-canon-exclusive", "colchon-canon-renovation", "colchon-canon-doral"],
@@ -1548,6 +2908,7 @@ export const products: Product[] = [
     images: [
       { src: "/products/colchon-canon-renovation/showcase.jpeg", alt: "Colchón Canon Renovation vista completa" },
       { src: "/products/colchon-canon-renovation/info.jpeg", alt: "Colchón Canon Renovation especificaciones" },
+      { src: "/products/colchon-canon-renovation/flyer.jpeg", alt: "Colchón Canon Renovation ficha técnica" },
     ],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
     relatedSlugs: ["colchon-canon-exclusive", "colchon-canon-exclusive-pillow", "colchon-canon-doral"],
@@ -1597,6 +2958,7 @@ export const products: Product[] = [
     images: [
       { src: "/products/colchon-canon-princess/showcase.jpeg", alt: "Colchón Canon Princess vista completa" },
       { src: "/products/colchon-canon-princess/info.jpeg", alt: "Colchón Canon Princess especificaciones" },
+      { src: "/products/colchon-canon-princess/flyer.jpeg", alt: "Colchón Canon Princess ficha técnica" },
     ],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
     relatedSlugs: ["colchon-canon-tropical", "colchon-canon-exclusive", "colchon-canon-renovation"],
@@ -1690,12 +3052,257 @@ export const products: Product[] = [
     ],
     images: [
       { src: "/products/colchon-canon-doral/info.jpeg", alt: "Colchón Canon Doral con Pillow Top especificaciones" },
+      { src: "/products/colchon-canon-doral/flyer.jpeg", alt: "Colchón Canon Doral con Pillow Top ficha técnica" },
     ],
     sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
     relatedSlugs: ["colchon-canon-exclusive-pillow", "colchon-canon-renovation", "colchon-canon-exclusive"],
     seo: {
       title: "Colchón Canon Doral con Pillow Top | Diseñar Muebles",
       description: "Colchón Canon Doral de resortes Bonnell con Pillow Top. 100kg soporte, 33cm altura. 5 años garantía. Todas las medidas.",
+    },
+  },
+  {
+    slug: "colchon-canon-platino",
+    name: "Colchón Canon Platino",
+    subtitle: "Canon — Resortes Bonnell de alta resistencia",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Resorte",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Bonnell con 28kg de densidad y soporte de 90kg por plaza. Tela Jackard totalmente matelaseada, suave al tacto y resistente. Sistema Flip, firmeza media-alta.",
+    longDescription:
+      "El Colchón Canon Platino cuenta con un sistema de resortes Bonnell de alta resistencia con 28kg de densidad y capacidad de soporte de 90kg por plaza. Su tela Jackard totalmente matelaseada es suave al tacto y resistente al uso diario. Con firmeza media-alta y sistema Flip que permite utilizarlo de ambos lados para prolongar su vida útil. 27cm de altura. 5 años de garantía, tela antialérgica y antiacaros.",
+    features: [
+      "Sistema de resortes Bonnell",
+      "28kg de densidad",
+      "Soporta 90kg por plaza",
+      "Tela Jackard totalmente matelaseada",
+      "Suave al tacto y resistente",
+      "Sistema Flip — uso de ambos lados",
+      "Firmeza media-alta",
+      "5 años de garantía",
+      "Tela antialérgica y antiacaros",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Bonnell" },
+      { title: "Densidad", description: "28 kg" },
+      { title: "Soporte", description: "90 kg por plaza" },
+      { title: "Altura", description: "27 cm" },
+      { title: "Tela", description: "Jackard matelaseada" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+      { title: "Firmeza", description: "Media-alta" },
+    ],
+    stats: [
+      { value: "28kg", label: "Densidad" },
+      { value: "90kg", label: "Soporte por plaza" },
+      { value: "27cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-platino/info.jpeg", alt: "Colchón Canon Platino especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-canon-doral", "colchon-canon-sublime", "colchon-canon-renovation"],
+    seo: {
+      title: "Colchón Canon Platino | Diseñar Muebles",
+      description: "Colchón Canon Platino de resortes Bonnell, 28kg densidad, 90kg soporte. Tela Jackard matelaseada, firmeza media-alta. 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-canon-sublime",
+    name: "Colchón Canon Sublime Euro Pillow Pocket",
+    subtitle: "Canon — Resortes Pocket con Euro Pillow Top",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Resorte Pocket",
+    isHero: true,
+    shortDescription:
+      "Colchón de resortes Pocket enfundados individualmente con Euro Pillow Top. Soporta 120kg por plaza. Tela tejido de punto matelaseada, firmeza intermedia.",
+    longDescription:
+      "El Colchón Canon Sublime Euro Pillow Pocket cuenta con resortes Pocket enfundados individualmente que se adaptan de forma independiente al cuerpo, brindando un soporte personalizado y eliminando la transferencia de movimiento. Con Euro Pillow Top y tela de tejido de punto matelaseada para máximo confort. Soporta 120kg por plaza con firmeza intermedia. Sistema Flip para mayor vida útil. 33-35cm de altura. 5 años de garantía.",
+    features: [
+      "Resortes Pocket — enfundados individualmente",
+      "Soporta 120kg por plaza",
+      "Euro Pillow Top",
+      "Tela tejido de punto matelaseada",
+      "Sistema Flip — uso de ambos lados",
+      "Firmeza intermedia",
+      "Elimina transferencia de movimiento",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Resortes Pocket (enfundados individualmente)" },
+      { title: "Soporte", description: "120 kg por plaza" },
+      { title: "Altura", description: "33–35 cm" },
+      { title: "Tela", description: "Tejido de punto matelaseada" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+      { title: "Firmeza", description: "Intermedia" },
+    ],
+    stats: [
+      { value: "Pocket", label: "Tipo de resorte" },
+      { value: "120kg", label: "Soporte por plaza" },
+      { value: "35cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-sublime/info.jpeg", alt: "Colchón Canon Sublime especificaciones" },
+    ],
+    sizes: ["2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-canon-doral", "colchon-canon-platino", "colchon-canon-renovation-euro"],
+    seo: {
+      title: "Colchón Canon Sublime Euro Pillow Pocket | Diseñar Muebles",
+      description: "Colchón Canon Sublime de resortes Pocket con Euro Pillow Top. 120kg soporte, firmeza intermedia. 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-canon-renovation-euro",
+    name: "Colchón Canon Renovation Euro Pillow",
+    subtitle: "Canon — Espuma alta densidad con Doble Pillow",
+    category: "colchones",
+    brand: "Canon",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma de poliuretano con 35kg de densidad y Euro Pillow Top en ambas caras. Soporta 130kg por plaza. Firmeza firme, tela tejido de punto matelaseada.",
+    longDescription:
+      "El Colchón Canon Renovation Euro Pillow ofrece espuma de poliuretano de 35kg de densidad con Euro Pillow Top en ambas caras (Doble Pillow) para un confort superior en cualquier posición. Soporta 130kg por plaza con firmeza firme, ideal para quienes buscan un soporte sólido sin resignar suavidad en la superficie. Tela de tejido de punto matelaseada. Sistema Flip para mayor vida útil. 33cm de altura. 5 años de garantía.",
+    features: [
+      "35kg de densidad",
+      "Soporta 130kg por plaza",
+      "Euro Pillow Top en ambas caras (Doble Pillow)",
+      "Espuma de poliuretano de alta densidad",
+      "Sistema Flip — uso de ambos lados",
+      "Tela tejido de punto matelaseada",
+      "Firmeza firme",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de poliuretano con Doble Euro Pillow" },
+      { title: "Densidad", description: "35 kg" },
+      { title: "Soporte", description: "130 kg por plaza" },
+      { title: "Altura", description: "33 cm" },
+      { title: "Tela", description: "Tejido de punto matelaseada" },
+      { title: "Sistema", description: "Flip — rotable y reversible" },
+      { title: "Firmeza", description: "Firme" },
+    ],
+    stats: [
+      { value: "35kg", label: "Densidad" },
+      { value: "130kg", label: "Soporte por plaza" },
+      { value: "33cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-canon-renovation-euro/info.jpeg", alt: "Colchón Canon Renovation Euro Pillow especificaciones" },
+    ],
+    sizes: ["2 Plazas (140x190)", "Queen (160x200)", "King (180x200)", "2mx2m"],
+    relatedSlugs: ["colchon-canon-renovation", "colchon-canon-exclusive-pillow", "colchon-canon-sublime"],
+    seo: {
+      title: "Colchón Canon Renovation Euro Pillow | Diseñar Muebles",
+      description: "Colchón Canon Renovation Euro Pillow, espuma 35kg con Doble Pillow. 130kg soporte, firmeza firme. 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-ilusion",
+    name: "Colchón Ilusión",
+    subtitle: "Ilusión by Luxara — Espuma Exofoam con Memory Foam",
+    category: "colchones",
+    brand: "Ilusión by Luxara",
+    variant: "Espuma",
+    isHero: true,
+    shortDescription:
+      "Colchón de espuma Exofoam firme de 37kg de densidad con placa superior viscoelástica (memory foam). Soporta 130kg por plaza. Sistema Non Turn, tela antialérgica y antidesgarro.",
+    longDescription:
+      "El Colchón Ilusión de Luxara combina una base de espuma Exofoam firme de 37kg de densidad con una placa superior viscoelástica (memory foam) de 76kg que se adapta a la forma del cuerpo aliviando puntos de presión. Soporta 130kg por plaza. Su sistema Non Turn no requiere dar vuelta el colchón. Confeccionado con tela antialérgica y antidesgarro para mayor durabilidad. 28cm de altura. 5 años de garantía.",
+    features: [
+      "Espuma Exofoam firme — 37kg de densidad",
+      "Placa superior viscoelástica (memory foam) 76kg",
+      "Soporta 130kg por plaza",
+      "Sistema Non Turn — no requiere dar vuelta",
+      "Tela antialérgica y antidesgarro",
+      "Se adapta a la forma del cuerpo",
+      "Alivia puntos de presión",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma Exofoam firme + viscoelástica (memory foam)" },
+      { title: "Densidad", description: "37 kg (base) / 76 kg (viscoelástica)" },
+      { title: "Soporte", description: "130 kg por plaza" },
+      { title: "Altura", description: "28 cm" },
+      { title: "Tela", description: "Antialérgica y antidesgarro" },
+      { title: "Sistema", description: "Non Turn — no requiere dar vuelta" },
+    ],
+    stats: [
+      { value: "37kg", label: "Densidad" },
+      { value: "130kg", label: "Soporte por plaza" },
+      { value: "28cm", label: "Altura" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-ilusion/info.jpeg", alt: "Colchón Ilusión especificaciones" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-elegante-genius-max", "colchon-canon-renovation-euro", "colchon-elegante-nice"],
+    seo: {
+      title: "Colchón Ilusión by Luxara | Diseñar Muebles",
+      description: "Colchón Ilusión by Luxara con espuma Exofoam 37kg y memory foam. 130kg soporte, sistema Non Turn. 5 años garantía.",
+    },
+  },
+  {
+    slug: "colchon-taurus",
+    name: "Colchón Taurus — Colección Liquidación",
+    subtitle: "Taurus — Espuma alta densidad en liquidación",
+    category: "colchones",
+    brand: "Taurus",
+    variant: "Espuma",
+    isHero: false,
+    shortDescription:
+      "Colección de colchones Taurus en liquidación: Super Lujo Plus, Gold Jackard, Gold Jackard Euro Pillow y Palace. Espuma de alta densidad (30-33kg), tela Jackard matelaseada.",
+    longDescription:
+      "La Colección Taurus ofrece múltiples modelos en liquidación con excelente relación precio-calidad: Super Lujo Plus, Gold Jackard, Gold Jackard Euro Pillow y Palace. Todos fabricados con espuma de alta densidad (30-33kg de densidad) y tela Jackard matelaseada con tratamiento antiacaros. Ideal para quienes buscan un colchón de calidad a precio promocional. 5 años de garantía.",
+    features: [
+      "Múltiples modelos: Super Lujo Plus, Gold Jackard, Gold Jackard Euro Pillow, Palace",
+      "Espuma de alta densidad (30-33kg)",
+      "Tela Jackard matelaseada",
+      "Tratamiento antiacaros",
+      "Precios de liquidación",
+      "5 años de garantía",
+    ],
+    specs: [
+      { title: "Tipo", description: "Espuma de alta densidad" },
+      { title: "Densidad", description: "30–33 kg" },
+      { title: "Tela", description: "Jackard matelaseada" },
+      { title: "Tratamiento", description: "Antiacaros" },
+    ],
+    stats: [
+      { value: "33kg", label: "Densidad máx." },
+      { value: "5", label: "Años de garantía" },
+      { value: "4", label: "Modelos disponibles" },
+    ],
+    delivery: [
+      { title: "Envío a Domicilio", description: "Entrega en packaging original de fábrica" },
+    ],
+    images: [
+      { src: "/products/colchon-taurus/01.jpeg", alt: "Colchón Taurus Super Lujo Plus" },
+      { src: "/products/colchon-taurus/02.jpeg", alt: "Colchón Taurus Gold Jackard" },
+      { src: "/products/colchon-taurus/03.jpeg", alt: "Colchón Taurus Gold Jackard Euro Pillow" },
+      { src: "/products/colchon-taurus/04.jpeg", alt: "Colchón Taurus especificaciones" },
+      { src: "/products/colchon-taurus/05.jpeg", alt: "Colchón Taurus promoción" },
+      { src: "/products/colchon-taurus/06.jpeg", alt: "Colchón Taurus en ambiente" },
+    ],
+    sizes: ["1 Plaza (080x190)", "1½ Plaza (100x190)", "2 Plazas (140x190)", "Queen (160x200)", "King (180x200)"],
+    relatedSlugs: ["colchon-elegante-imperial", "colchon-canon-princess", "colchon-elegante-super-confort"],
+    seo: {
+      title: "Colchón Taurus Liquidación | Diseñar Muebles",
+      description: "Colchones Taurus en liquidación: Super Lujo Plus, Gold Jackard y más. Espuma alta densidad, tela Jackard. 5 años garantía.",
     },
   },
 ];
@@ -1751,7 +3358,6 @@ function generateSillonesPlaceholders(): Product[] {
 function generateColchonesProducts(): Product[] {
   const brands = [
     { key: "taurus", name: "Taurus" },
-    { key: "elegante", name: "Elegante" },
     { key: "deseo", name: "Deseo" },
   ];
   const types = [
