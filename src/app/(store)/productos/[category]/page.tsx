@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getCategoryBySlug } from "@/data/categories";
-import { getProductsByCategorySlugs } from "@/data/helpers";
+import { getProductsByCategorySlugs } from "@/lib/queries";
 import { HeroProductCard, CompactProductCard } from "@/app/components/ProductCard";
 import Breadcrumbs from "@/app/components/Breadcrumbs";
 
@@ -33,7 +33,7 @@ export default async function CategoryPage({
   const cat = getCategoryBySlug(category);
   if (!cat) notFound();
 
-  const categoryProducts = getProductsByCategorySlugs(category);
+  const categoryProducts = await getProductsByCategorySlugs(category);
 
   return (
     <>

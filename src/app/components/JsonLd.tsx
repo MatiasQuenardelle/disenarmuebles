@@ -1,8 +1,14 @@
 import type { Product } from "@/data/types";
 import type { FAQ } from "@/data/types";
-import { siteInfo, SITE_URL } from "@/data/site";
+import { SITE_URL } from "@/data/site";
+import { getSiteInfo } from "@/lib/queries";
 
-export function LocalBusinessJsonLd() {
+function absoluteImageUrl(src: string): string {
+  return src.startsWith("/") ? `${SITE_URL}${src}` : src;
+}
+
+export async function LocalBusinessJsonLd() {
+  const siteInfo = await getSiteInfo();
   const schema = {
     "@context": "https://schema.org",
     "@type": "FurnitureStore",
@@ -30,13 +36,14 @@ export function LocalBusinessJsonLd() {
   );
 }
 
-export function ProductJsonLd({ product }: { product: Product }) {
+export async function ProductJsonLd({ product }: { product: Product }) {
+  const siteInfo = await getSiteInfo();
   const schema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
     description: product.shortDescription,
-    image: product.images.map((img) => `${SITE_URL}${img.src}`),
+    image: product.images.map((img) => absoluteImageUrl(img.src)),
     brand: {
       "@type": "Brand",
       name: siteInfo.name,

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { valueProps, siteInfo } from "@/data/site";
-import { getHeroProducts, getComplementaryProducts } from "@/data/helpers";
+import { valueProps } from "@/data/site";
+import { getHeroProducts, getComplementaryProducts, getSiteInfo } from "@/lib/queries";
 import { googleReviews, googleReviewsStats } from "@/data/reviews";
 import { faqs } from "@/data/faq";
 import { HeroProductCard, CompactProductCard } from "@/app/components/ProductCard";
@@ -31,9 +31,10 @@ const valuePropIcons: Record<string, React.ReactNode> = {
   ),
 };
 
-export default function Home() {
-  const heroProducts = getHeroProducts();
-  const complementaryProducts = getComplementaryProducts();
+export default async function Home() {
+  const siteInfo = await getSiteInfo();
+  const heroProducts = await getHeroProducts();
+  const complementaryProducts = await getComplementaryProducts();
 
   return (
     <>

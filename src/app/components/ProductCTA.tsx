@@ -1,10 +1,14 @@
-import { siteInfo } from "@/data/site";
-
-export default function ProductCTA({ productName }: { productName: string }) {
+export default function ProductCTA({
+  productName,
+  whatsapp,
+}: {
+  productName: string;
+  whatsapp: string;
+}) {
   const message = encodeURIComponent(
     `Hola! Me interesa consultar por: ${productName}`
   );
-  const url = `https://wa.me/${siteInfo.whatsapp}?text=${message}`;
+  const url = `https://wa.me/${whatsapp}?text=${message}`;
 
   return (
     <section className="px-6 py-20">

@@ -1,9 +1,7 @@
 "use client";
 
-import { siteInfo } from "@/data/site";
-
-export default function WhatsAppButton() {
-  const url = `https://wa.me/${siteInfo.whatsapp}?text=${encodeURIComponent("Hola! Me interesa consultar por sus productos.")}`;
+export default function WhatsAppButton({ whatsapp }: { whatsapp: string }) {
+  const url = `https://wa.me/${whatsapp}?text=${encodeURIComponent("Hola! Me interesa consultar por sus productos.")}`;
 
   return (
     <a

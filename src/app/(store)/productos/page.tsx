@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { products } from "@/data/products";
+import { getAllProducts } from "@/lib/queries";
 import CatalogFilter from "@/app/components/CatalogFilter";
 import CatalogGrid from "@/app/components/CatalogGrid";
 
@@ -10,7 +10,9 @@ export const metadata: Metadata = {
     "Explorá nuestro catálogo completo: bases box, respaldos, mesitas de luz, cómodas, sillones, colchones y productos laqueados. Fabricación propia, materiales premium.",
 };
 
-export default function ProductosPage() {
+export default async function ProductosPage() {
+  const products = await getAllProducts();
+
   return (
     <section className="px-6 py-16">
       <div className="mx-auto max-w-7xl">

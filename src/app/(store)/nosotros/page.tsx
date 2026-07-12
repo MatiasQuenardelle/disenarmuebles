@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { siteInfo, valueProps } from "@/data/site";
+import { valueProps } from "@/data/site";
+import { getSiteInfo } from "@/lib/queries";
 
 export const metadata: Metadata = {
   title: "Nosotros | Diseñar Muebles",
@@ -7,7 +8,9 @@ export const metadata: Metadata = {
     "Conocé Diseñar Muebles. Fábrica argentina de camas y muebles de alta calidad en Córdoba Capital.",
 };
 
-export default function NosotrosPage() {
+export default async function NosotrosPage() {
+  const siteInfo = await getSiteInfo();
+
   return (
     <>
       <section className="px-6 py-24">

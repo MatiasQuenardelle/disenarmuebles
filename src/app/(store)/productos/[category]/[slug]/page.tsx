@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllProductSlugs, getProductBySlug, getRelatedProducts, getComplementaryProducts } from "@/data/helpers";
+import { getAllProductSlugs, getProductBySlug, getRelatedProducts, getComplementaryProducts, getSiteInfo } from "@/lib/queries";
 import { getCategoryBySlug } from "@/data/categories";
-import { siteInfo, SITE_URL } from "@/data/site";
+import { SITE_URL } from "@/data/site";
 import ProductGallery from "@/app/components/ProductGallery";
 import Breadcrumbs from "@/app/components/Breadcrumbs";
 import StatBar from "@/app/components/StatBar";
@@ -11,7 +11,7 @@ import ProductCTA from "@/app/components/ProductCTA";
 import RelatedProducts from "@/app/components/RelatedProducts";
 import { ProductJsonLd } from "@/app/components/JsonLd";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return getAllProductSlugs();
 }
 
@@ -21,16 +21,24 @@ export async function generateMetadata({
   params: Promise<{ category: string; slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = await getProductBySlug(slug);
   if (!product) return {};
+  const firstImage = product.images[0];
   return {
     title: product.seo.title,
     description: product.seo.description,
     openGraph: {
       title: product.seo.title,
       description: product.seo.description,
-      images: product.images[0]
-        ? [{ url: `${SITE_URL}${product.images[0].src}`, alt: product.images[0].alt }]
+      images: firstImage
+        ? [
+            {
+              url: firstImage.src.startsWith("/")
+                ? `${SITE_URL}${firstImage.src}`
+                : firstImage.src,
+              alt: firstImage.alt,
+            },
+          ]
         : [],
       type: "website",
       url: `${SITE_URL}/productos/${product.category}/${product.slug}`,
@@ -44,12 +52,13 @@ export default async function ProductPage({
   params: Promise<{ category: string; slug: string }>;
 }) {
   const { category, slug } = await params;
-  const product = getProductBySlug(slug);
+  const product = await getProductBySlug(slug);
   if (!product || product.category !== category) notFound();
 
+  const siteInfo = await getSiteInfo();
   const cat = getCategoryBySlug(category);
-  const related = getRelatedProducts(product);
-  const complementary = product.isHero ? getComplementaryProducts(product) : [];
+  const related = await getRelatedProducts(product);
+  const complementary = product.isHero ? await getComplementaryProducts(product) : [];
 
   return (
     <>
@@ -195,7 +204,7 @@ export default async function ProductPage({
       )}
 
       {/* Bottom CTA */}
-      <ProductCTA productName={product.name} />
+      <ProductCTA productName={product.name} whatsapp={siteInfo.whatsapp} />
 
       {/* Related Products */}
       <RelatedProducts title="Productos Relacionados" products={related} />

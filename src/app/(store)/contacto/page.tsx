@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { siteInfo } from "@/data/site";
+import { getSiteInfo } from "@/lib/queries";
 
 export const metadata: Metadata = {
   title: "Contacto | Diseñar Muebles",
@@ -7,7 +7,8 @@ export const metadata: Metadata = {
     "Contactá a Diseñar Muebles por WhatsApp. Consultá precios, disponibilidad y formas de pago.",
 };
 
-export default function ContactoPage() {
+export default async function ContactoPage() {
+  const siteInfo = await getSiteInfo();
   const whatsappUrl = `https://wa.me/${siteInfo.whatsapp}?text=${encodeURIComponent("Hola! Me interesa consultar por sus productos.")}`;
 
   return (

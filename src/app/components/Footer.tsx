@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import { siteInfo } from "@/data/site";
 import { categories } from "@/data/categories";
+import type { SiteInfo } from "@/data/types";
 
-export default function Footer() {
+export default function Footer({ siteInfo }: { siteInfo: SiteInfo }) {
   return (
     <footer className="border-t border-brand-light/15 bg-warm-brown px-6 py-14">
       <div className="mx-auto max-w-7xl">
