@@ -115,7 +115,7 @@ export default function ProductForm({
               className={inputCls}
             />
             <p className="mt-1 text-xs text-text-muted">
-              disenarmuebles.com.ar/productos/{form.category}/{form.slug || "..."}
+              disenarmuebles.com/productos/{form.category}/{form.slug || "..."}
             </p>
           </div>
           <div>

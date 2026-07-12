@@ -1,6 +1,6 @@
 import type { ValueProp } from "./types";
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://disenarmuebles.com.ar";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://disenarmuebles.com";
 
 export const valueProps: ValueProp[] = [
   {
