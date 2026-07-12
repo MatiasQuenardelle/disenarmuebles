@@ -94,7 +94,7 @@ export default function ImageManager({
                 onClick={() => move(i, -1)}
                 disabled={i === 0}
                 aria-label="Subir imagen"
-                className="rounded border border-brand-light/40 px-2 py-1 text-xs text-text-muted hover:border-brand disabled:opacity-30"
+                className="rounded border border-brand-light/40 px-2.5 py-1.5 text-xs text-text-muted hover:border-brand disabled:opacity-30"
               >
                 ↑
               </button>
@@ -103,7 +103,7 @@ export default function ImageManager({
                 onClick={() => move(i, 1)}
                 disabled={i === images.length - 1}
                 aria-label="Bajar imagen"
-                className="rounded border border-brand-light/40 px-2 py-1 text-xs text-text-muted hover:border-brand disabled:opacity-30"
+                className="rounded border border-brand-light/40 px-2.5 py-1.5 text-xs text-text-muted hover:border-brand disabled:opacity-30"
               >
                 ↓
               </button>
@@ -111,7 +111,7 @@ export default function ImageManager({
                 type="button"
                 onClick={() => onChange(images.filter((_, j) => j !== i))}
                 aria-label="Quitar imagen"
-                className="rounded border border-red-200 px-2 py-1 text-xs text-red-500 hover:border-red-400"
+                className="rounded border border-red-200 px-2.5 py-1.5 text-xs text-red-500 hover:border-red-400"
               >
                 ✕
               </button>

@@ -51,9 +51,9 @@ export default async function Home() {
             <p className="mb-6 text-sm font-medium uppercase tracking-[0.25em] text-brand">
               {siteInfo.tagline}
             </p>
-            <h2 className="max-w-xl font-heading text-4xl font-semibold leading-[1.1] text-warm-brown sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-xl font-heading text-4xl font-semibold leading-[1.1] text-warm-brown sm:text-5xl lg:text-6xl">
               {siteInfo.heroHeading}
-            </h2>
+            </h1>
             <p className="mt-8 max-w-lg text-lg leading-relaxed text-text-muted">
               {siteInfo.heroDescription}
             </p>

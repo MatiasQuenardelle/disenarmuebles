@@ -44,7 +44,7 @@ export default function ArrayField<T>({
                 onClick={() => move(i, -1)}
                 disabled={i === 0}
                 aria-label="Subir"
-                className="rounded border border-brand-light/40 px-2 py-1 text-xs text-text-muted hover:border-brand disabled:opacity-30"
+                className="rounded border border-brand-light/40 px-2.5 py-1.5 text-xs text-text-muted hover:border-brand disabled:opacity-30"
               >
                 ↑
               </button>
@@ -53,7 +53,7 @@ export default function ArrayField<T>({
                 onClick={() => move(i, 1)}
                 disabled={i === items.length - 1}
                 aria-label="Bajar"
-                className="rounded border border-brand-light/40 px-2 py-1 text-xs text-text-muted hover:border-brand disabled:opacity-30"
+                className="rounded border border-brand-light/40 px-2.5 py-1.5 text-xs text-text-muted hover:border-brand disabled:opacity-30"
               >
                 ↓
               </button>
@@ -61,7 +61,7 @@ export default function ArrayField<T>({
                 type="button"
                 onClick={() => onChange(items.filter((_, j) => j !== i))}
                 aria-label="Quitar"
-                className="rounded border border-red-200 px-2 py-1 text-xs text-red-500 hover:border-red-400"
+                className="rounded border border-red-200 px-2.5 py-1.5 text-xs text-red-500 hover:border-red-400"
               >
                 ✕
               </button>

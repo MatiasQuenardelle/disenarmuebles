@@ -86,8 +86,9 @@ export default function ProductForm({
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="sm:col-span-2">
-            <label className={labelCls}>Nombre *</label>
+            <label htmlFor="pf-name" className={labelCls}>Nombre *</label>
             <input
+              id="pf-name"
               type="text"
               required
               value={form.name}
@@ -103,8 +104,9 @@ export default function ProductForm({
             />
           </div>
           <div>
-            <label className={labelCls}>Slug (URL) *</label>
+            <label htmlFor="pf-slug" className={labelCls}>Slug (URL) *</label>
             <input
+              id="pf-slug"
               type="text"
               required
               value={form.slug}
@@ -119,8 +121,9 @@ export default function ProductForm({
             </p>
           </div>
           <div>
-            <label className={labelCls}>Categoría *</label>
+            <label htmlFor="pf-category" className={labelCls}>Categoría *</label>
             <select
+              id="pf-category"
               value={form.category}
               onChange={(e) => set("category", e.target.value)}
               className={inputCls}
@@ -133,8 +136,9 @@ export default function ProductForm({
             </select>
           </div>
           <div className="sm:col-span-2">
-            <label className={labelCls}>Subtítulo</label>
+            <label htmlFor="pf-subtitle" className={labelCls}>Subtítulo</label>
             <input
+              id="pf-subtitle"
               type="text"
               value={form.subtitle}
               onChange={(e) => set("subtitle", e.target.value)}
@@ -162,8 +166,9 @@ export default function ProductForm({
         <h2 className="mb-5 font-heading text-lg font-semibold text-warm-brown">Descripciones</h2>
         <div className="space-y-4">
           <div>
-            <label className={labelCls}>Descripción corta</label>
+            <label htmlFor="pf-short-desc" className={labelCls}>Descripción corta</label>
             <textarea
+              id="pf-short-desc"
               rows={2}
               value={form.shortDescription}
               onChange={(e) => set("shortDescription", e.target.value)}
@@ -171,8 +176,9 @@ export default function ProductForm({
             />
           </div>
           <div>
-            <label className={labelCls}>Descripción larga</label>
+            <label htmlFor="pf-long-desc" className={labelCls}>Descripción larga</label>
             <textarea
+              id="pf-long-desc"
               rows={5}
               value={form.longDescription}
               onChange={(e) => set("longDescription", e.target.value)}
@@ -313,8 +319,9 @@ export default function ProductForm({
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
-            <label className={labelCls}>Precio</label>
+            <label htmlFor="pf-price" className={labelCls}>Precio</label>
             <input
+              id="pf-price"
               type="text"
               value={form.price}
               onChange={(e) => set("price", e.target.value)}
@@ -323,8 +330,9 @@ export default function ProductForm({
             />
           </div>
           <div>
-            <label className={labelCls}>Marca</label>
+            <label htmlFor="pf-brand" className={labelCls}>Marca</label>
             <input
+              id="pf-brand"
               type="text"
               value={form.brand}
               onChange={(e) => set("brand", e.target.value)}
@@ -332,8 +340,9 @@ export default function ProductForm({
             />
           </div>
           <div>
-            <label className={labelCls}>Variante</label>
+            <label htmlFor="pf-variant" className={labelCls}>Variante</label>
             <input
+              id="pf-variant"
               type="text"
               value={form.variant}
               onChange={(e) => set("variant", e.target.value)}
@@ -341,8 +350,9 @@ export default function ProductForm({
             />
           </div>
           <div>
-            <label className={labelCls}>Subtipo</label>
+            <label htmlFor="pf-subtype" className={labelCls}>Subtipo</label>
             <input
+              id="pf-subtype"
               type="text"
               value={form.subtype}
               onChange={(e) => set("subtype", e.target.value)}
@@ -393,8 +403,9 @@ export default function ProductForm({
         </p>
         <div className="space-y-4">
           <div>
-            <label className={labelCls}>Título para Google</label>
+            <label htmlFor="pf-seo-title" className={labelCls}>Título para Google</label>
             <input
+              id="pf-seo-title"
               type="text"
               value={form.seoTitle}
               onChange={(e) => set("seoTitle", e.target.value)}
@@ -402,8 +413,9 @@ export default function ProductForm({
             />
           </div>
           <div>
-            <label className={labelCls}>Descripción para Google</label>
+            <label htmlFor="pf-seo-desc" className={labelCls}>Descripción para Google</label>
             <textarea
+              id="pf-seo-desc"
               rows={2}
               value={form.seoDescription}
               onChange={(e) => set("seoDescription", e.target.value)}
@@ -414,7 +426,7 @@ export default function ProductForm({
       </section>
 
       {error && (
-        <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+        <p role="alert" className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
           {error}
         </p>
       )}

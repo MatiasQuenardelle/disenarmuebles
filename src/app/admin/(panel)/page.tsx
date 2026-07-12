@@ -45,7 +45,8 @@ export default async function AdminProductsPage({
           name="q"
           defaultValue={q}
           placeholder="Buscar por nombre..."
-          className="w-64 rounded-full border border-brand-light/40 bg-white px-4 py-2 text-sm text-warm-brown outline-none focus:border-brand"
+          aria-label="Buscar productos"
+          className="w-full rounded-full border border-brand-light/40 bg-white px-4 py-2 text-sm text-warm-brown outline-none focus:border-brand sm:w-64"
         />
         <select
           name="cat"
@@ -75,8 +76,8 @@ export default async function AdminProductsPage({
         )}
       </form>
 
-      <div className="overflow-hidden rounded-2xl border border-brand-light/20 bg-white">
-        <table className="w-full text-left text-sm">
+      <div className="overflow-x-auto rounded-2xl border border-brand-light/20 bg-white">
+        <table className="w-full min-w-[700px] text-left text-sm">
           <thead className="border-b border-brand-light/20 bg-cream-dark text-xs uppercase tracking-wide text-text-muted">
             <tr>
               <th className="px-4 py-3 font-medium">Producto</th>
@@ -132,7 +133,7 @@ export default async function AdminProductsPage({
                         <button
                           type="submit"
                           aria-label="Subir en el orden"
-                          className="rounded border border-brand-light/40 px-2 py-1 text-xs text-text-muted hover:border-brand"
+                          className="rounded border border-brand-light/40 px-2.5 py-1.5 text-xs text-text-muted hover:border-brand"
                         >
                           ↑
                         </button>
@@ -141,7 +142,7 @@ export default async function AdminProductsPage({
                         <button
                           type="submit"
                           aria-label="Bajar en el orden"
-                          className="rounded border border-brand-light/40 px-2 py-1 text-xs text-text-muted hover:border-brand"
+                          className="rounded border border-brand-light/40 px-2.5 py-1.5 text-xs text-text-muted hover:border-brand"
                         >
                           ↓
                         </button>

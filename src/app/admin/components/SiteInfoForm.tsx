@@ -65,8 +65,8 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
         <div className="space-y-4">
           <div>
             <label className={labelCls}>Foto de portada</label>
-            <div className="flex items-center gap-4">
-              <div className="relative aspect-[4/3] w-48 overflow-hidden rounded-xl border border-brand-light/30 bg-white">
+            <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+              <div className="relative aspect-[4/3] w-full max-w-48 overflow-hidden rounded-xl border border-brand-light/30 bg-white">
                 {form.heroImage && (
                   <Image
                     src={form.heroImage}
@@ -100,8 +100,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             </div>
           </div>
           <div>
-            <label className={labelCls}>Título principal</label>
+            <label htmlFor="si-heading" className={labelCls}>Título principal</label>
             <input
+              id="si-heading"
               type="text"
               value={form.heroHeading}
               onChange={(e) => set("heroHeading", e.target.value)}
@@ -109,8 +110,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>Descripción</label>
+            <label htmlFor="si-description" className={labelCls}>Descripción</label>
             <textarea
+              id="si-description"
               rows={3}
               value={form.heroDescription}
               onChange={(e) => set("heroDescription", e.target.value)}
@@ -118,8 +120,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>Frase superior (tagline)</label>
+            <label htmlFor="si-tagline" className={labelCls}>Frase superior (tagline)</label>
             <input
+              id="si-tagline"
               type="text"
               value={form.tagline}
               onChange={(e) => set("tagline", e.target.value)}
@@ -136,8 +139,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
-            <label className={labelCls}>WhatsApp (solo números, con código de país)</label>
+            <label htmlFor="si-whatsapp" className={labelCls}>WhatsApp (solo números, con código de país)</label>
             <input
+              id="si-whatsapp"
               type="text"
               value={form.whatsapp}
               onChange={(e) => set("whatsapp", e.target.value)}
@@ -146,8 +150,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>WhatsApp (cómo se muestra)</label>
+            <label htmlFor="si-whatsapp-display" className={labelCls}>WhatsApp (cómo se muestra)</label>
             <input
+              id="si-whatsapp-display"
               type="text"
               value={form.whatsappDisplay}
               onChange={(e) => set("whatsappDisplay", e.target.value)}
@@ -156,8 +161,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>Teléfono</label>
+            <label htmlFor="si-phone" className={labelCls}>Teléfono</label>
             <input
+              id="si-phone"
               type="text"
               value={form.phone}
               onChange={(e) => set("phone", e.target.value)}
@@ -165,8 +171,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>Instagram (link completo)</label>
+            <label htmlFor="si-instagram" className={labelCls}>Instagram (link completo)</label>
             <input
+              id="si-instagram"
               type="text"
               value={form.socialMedia.instagram ?? ""}
               onChange={(e) => set("socialMedia", { instagram: e.target.value })}
@@ -175,8 +182,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div className="sm:col-span-2">
-            <label className={labelCls}>Dirección</label>
+            <label htmlFor="si-address" className={labelCls}>Dirección</label>
             <input
+              id="si-address"
               type="text"
               value={form.address}
               onChange={(e) => set("address", e.target.value)}
@@ -184,8 +192,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>Ciudad</label>
+            <label htmlFor="si-city" className={labelCls}>Ciudad</label>
             <input
+              id="si-city"
               type="text"
               value={form.city}
               onChange={(e) => set("city", e.target.value)}
@@ -193,8 +202,9 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
             />
           </div>
           <div>
-            <label className={labelCls}>Horarios</label>
+            <label htmlFor="si-hours" className={labelCls}>Horarios</label>
             <input
+              id="si-hours"
               type="text"
               value={form.hours}
               onChange={(e) => set("hours", e.target.value)}
@@ -225,12 +235,12 @@ export default function SiteInfoForm({ initial }: { initial: SiteInfo }) {
       </section>
 
       {error && (
-        <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+        <p role="alert" className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
           {error}
         </p>
       )}
       {saved && (
-        <p className="rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
+        <p role="status" className="rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
           Cambios guardados. Ya están visibles en el sitio.
         </p>
       )}
