@@ -5,11 +5,11 @@ export default function Logo() {
   return (
     <Link href="/" className="block">
       <Image
-        src="/logo.jpeg"
-        alt="Diseñar Muebles — Fábrica de Muebles"
-        width={140}
-        height={70}
-        className="h-auto w-[120px] sm:w-[140px]"
+        src="/logo.png"
+        alt="Diseñar Muebles — Fábrica de Muebles y Colchonería"
+        width={360}
+        height={360}
+        className="h-auto w-[72px] sm:w-[84px]"
         priority
       />
     </Link>

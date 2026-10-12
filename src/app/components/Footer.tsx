@@ -12,11 +12,11 @@ export default function Footer({ siteInfo }: { siteInfo: SiteInfo }) {
           <div>
             <div className="mb-5">
               <Image
-                src="/logo.jpeg"
-                alt="Diseñar Muebles — Fábrica de Muebles"
-                width={140}
-                height={70}
-                className="h-auto w-[130px] brightness-0 invert"
+                src="/logo.png"
+                alt="Diseñar Muebles — Fábrica de Muebles y Colchonería"
+                width={360}
+                height={360}
+                className="h-auto w-[110px]"
               />
             </div>
             <p className="text-sm leading-relaxed text-cream/50">

@@ -6,7 +6,7 @@ import CategoryDropdown from "./CategoryDropdown";
 export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-brand-light/15 bg-cream/90 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <Logo />
         <nav className="hidden items-center gap-10 text-sm font-medium text-text-muted md:flex">
           <CategoryDropdown />
