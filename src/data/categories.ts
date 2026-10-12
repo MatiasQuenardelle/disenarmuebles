@@ -82,11 +82,11 @@ export const categories: CategoryMeta[] = [
     slug: "colchones",
     name: "Colchones",
     description:
-      "Colchones de espuma y resorte de las mejores marcas: Taurus, Elegante, Deseo y Canon. Todas las medidas disponibles.",
+      "Colchones de espuma y resorte de las mejores marcas: Cannon, King Koil, Inducol, Elegante y Deseo. Todas las medidas disponibles.",
     seo: {
       title: "Colchones | Diseñar Muebles",
       description:
-        "Colchones de espuma y resorte. Marcas: Taurus, Elegante, Deseo, Canon. Todas las medidas, envío a domicilio.",
+        "Colchones de espuma y resorte. Marcas: Cannon, King Koil, Inducol, Elegante, Deseo. Todas las medidas, envío a domicilio.",
     },
   },
 ];

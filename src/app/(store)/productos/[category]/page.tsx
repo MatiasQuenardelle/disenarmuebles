@@ -5,6 +5,7 @@ import { categories, getCategoryBySlug } from "@/data/categories";
 import { getProductsByCategorySlugs } from "@/lib/queries";
 import { HeroProductCard, CompactProductCard } from "@/app/components/ProductCard";
 import Breadcrumbs from "@/app/components/Breadcrumbs";
+import MattressBrandSections from "@/app/components/MattressBrandSections";
 
 export function generateStaticParams() {
   return categories.map((c) => ({ category: c.slug }));
@@ -78,7 +79,9 @@ export default async function CategoryPage({
             ))}
           </div>
 
-          {categoryProducts.length > 0 ? (
+          {categoryProducts.length > 0 && category === "colchones" ? (
+            <MattressBrandSections products={categoryProducts} />
+          ) : categoryProducts.length > 0 ? (
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {categoryProducts.map((product) =>
                 product.isHero ? (
