@@ -1,5 +1,6 @@
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
+import { Analytics } from "@/app/components/Analytics";
 import WhatsAppButton from "@/app/components/WhatsAppButton";
 import { getSiteInfo } from "@/lib/queries";
 
@@ -16,6 +17,7 @@ export default async function StoreLayout({
       <main className="flex-1">{children}</main>
       <Footer siteInfo={siteInfo} />
       <WhatsAppButton whatsapp={siteInfo.whatsapp} />
+      <Analytics />
     </div>
   );
 }
